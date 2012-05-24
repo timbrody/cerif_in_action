@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CERIF xmlns='urn:xmlns:org:eurocris:cerif-1.4-0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' date='2012-05-24' release='1.4' xsi:schemaLocation='urn:xmlns:org:eurocris:cerif-1.4-0 http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd' sourceDatabase='http://eprints-devel.localdomain:8080'>
+  <cfResPubl>
+    <cfResPublId>20d908b0-9bce-5f16-9e9a-388903fccad6</cfResPublId>
+    <cfResPublDate>1999-11-01</cfResPublDate>
+    <cfURI>http://eprints-devel.localdomain:8080/id/eprint/23</cfURI>
+    <cfTitle cfLangCode='en_GB' cfTrans='o'>Observations on the Domestic Sheep</cfTitle>
+    <cfAbstr cfLangCode='en_GB' cfTrans='o'>This is where the abstract of this record would appear. This is only demonstration data.</cfAbstr>
+    <cfResPubl_Class>
+      <cfClassId>?conference_item?</cfClassId>
+      <cfClassSchemeId>class_scheme_cerif_publication_types</cfClassSchemeId>
+      <cfStartDate>1900-01-01T00:00:00Z</cfStartDate>
+      <cfEndDate>2099-12-31T00:00:00Z</cfEndDate>
+      <cfFraction>1.00</cfFraction>
+    </cfResPubl_Class>
+    <cfPers_ResPubl>
+      <cfPersId>c1cdff47-6578-5108-979f-ef4419573692</cfPersId>
+      <cfClassId>author_numbered</cfClassId>
+      <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+      <cfStartDate>1900-01-01T00:00:00Z</cfStartDate>
+      <cfEndDate>2099-12-31T00:00:00Z</cfEndDate>
+      <cfFraction>1</cfFraction>
+    </cfPers_ResPubl>
+    <cfPers_ResPubl>
+      <cfPersId>2e95fd5d-fec5-5f47-bf78-384239deaf91</cfPersId>
+      <cfClassId>author_numbered</cfClassId>
+      <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+      <cfStartDate>1900-01-01T00:00:00Z</cfStartDate>
+      <cfEndDate>2099-12-31T00:00:00Z</cfEndDate>
+      <cfFraction>2</cfFraction>
+    </cfPers_ResPubl>
+  </cfResPubl>
+  <cfPers>
+    <cfPersId>c1cdff47-6578-5108-979f-ef4419573692</cfPersId>
+    <cfPersName>
+      <cfFamilyNames>Draut</cfFamilyNames>
+      <cfFirstNames>Z.</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers>
+    <cfPersId>2e95fd5d-fec5-5f47-bf78-384239deaf91</cfPersId>
+    <cfPersName>
+      <cfFamilyNames>Calafat</cfFamilyNames>
+      <cfFirstNames>N.</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+</CERIF>
