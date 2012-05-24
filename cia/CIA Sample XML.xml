@@ -1,0 +1,1612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns="urn:xmlns:org:eurocris:cerif-1.4-0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.4-0 http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd"
+    release="1.4" date="2012-02-29" sourceDatabase="CiA">
+
+    <!-- Additional Notes for reference:
+        cfTrans:
+            "o" - Value in the original language
+            "m" - Machine-translated value
+            "h" - Human-translated value    -->
+
+
+    <!-- CLASSIFICATION SCHEMES< CLASSIFICATIONS AND RESPECTIVE TERMS -->
+    <!-- Class Scheme: CERIF Organisation Types -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_cerif_organisation_types</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o"/>
+        <cfDescr cfTrans="o" cfLangCode="en_GB">The CERIF Organisation Types - 1.4 scheme provides the list of organisation types according to the specification in the CERIF Semantics document. The organisation types are referred to from within the CERIF Link Entity cfOrgUnit_Class.</cfDescr>
+        <!-- Classification Scheme: CERIF Organisation Types -->
+        <cfClass>
+            <cfClassId>229d5b5c-841d-4a5e-870c-c6c809f3a81d</cfClassId>
+            <cfStartDate>2010-11-02T00:00:00</cfStartDate>
+            <cfURI>CERIF-1.4-cfOrganisationTypes#Academic_Institution</cfURI>
+            <cfTerm cfTrans="o" cfLangCode="en">Academic Institution</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en">Academic institution is an educational institution dedicated to education and research, which grants academic degrees.</cfDescr>
+        </cfClass>
+    </cfClassScheme>
+
+    <!-- Class Scheme: CiA Organisation Types -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_organisation_types</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfTrans="o" cfLangCode="en_GB"/>
+        <cfDescr cfTrans="o" cfLangCode="en_GB"/>
+        <!-- Embedded Classification Example: Funder -->
+        <cfClass>
+            <cfClassId>fee_funding_body</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en_GB">Fee Funding Body</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en_GB">Description of Fee Funding Body</cfDescr>
+        </cfClass>
+        <!-- Embedded Classification Example: Publisher -->
+        <cfClass>
+            <cfClassId>publisher</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en_GB">Publisher</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en_GB">a person or company whose business is the publishing  of books, periodicals, etc. </cfDescr>
+        </cfClass>
+    </cfClassScheme>
+
+    <!-- Class Scheme: Job Families -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_job_families</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o">Job Families</cfName>
+        <cfDescr cfTrans="o" cfLangCode="en_GB"/>
+        <cfClass>
+            <cfClassId>academic</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Academic</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>academic_research</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Academic - Research</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>academic_teaching</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Academic - Teaching</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>honorary</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Honorary</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>emeritus</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Emeritus</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+    </cfClassScheme>
+
+    <!-- Class Scheme: Project_Funding Link Entity -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_proj_fund</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o">Project_Funding</cfName>
+        <cfDescr cfTrans="o" cfLangCode="en">Project_Funding Link Entity</cfDescr>
+        <cfClass>
+            <cfClassId>amount_applied</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Amount Applied</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en">Amount Applied For</cfDescr>
+        </cfClass>
+        <cfClass>
+            <cfClassId>amount_awarded</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Amount Awarded</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+    </cfClassScheme>
+
+    <!-- Class Scheme: Organisation Unit linking -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_orgunit_orgunit</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o">OrganisationUnit_OrganisationUnit</cfName>
+        <cfDescr cfTrans="o" cfLangCode="en">OrganisationUnit_OrganisationUnit Link Entity</cfDescr>
+        <cfClass>
+            <cfClassId>is_part_of</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Is child of</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+    </cfClassScheme>
+
+    <!-- Class Scheme: Grant Stage Status -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_grant_stage_status</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o">Grant Stage Status</cfName>
+        <cfDescr cfTrans="o" cfLangCode="en"/>
+        <cfClass>
+            <cfClassId>awaiting_event_action</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Awaiting Event/Action</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+    </cfClassScheme>
+
+    <!-- Class Scheme: Result Publication linking -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_ResPubl_ResPubl</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o">ResultPublication_ResultPublication</cfName>
+        <cfDescr cfTrans="o" cfLangCode="en">ResultPublication_ResultPublication Link Entity</cfDescr>
+        <cfClass>
+            <cfClassId>child</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">child</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+    </cfClassScheme>
+
+    <!-- Class Scheme: Personal Titles -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_personname_personal_titles</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o">Personal Titles</cfName>
+        <cfDescr cfTrans="o" cfLangCode="en"/>
+        <cfClass>
+            <cfClassId>Mr</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Mr</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>Mrs</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Mrs</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>Ms</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Ms</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>Miss</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Miss</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>Dr</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Dr</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>Prof</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Professor</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+    </cfClassScheme>
+
+    <!--Class Scheme: Post-Nominals -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_post_nominals</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o">Post-Nominals</cfName>
+        <cfDescr cfTrans="o" cfLangCode="en">Post-nominal letters, also called post-nominal initials, post-nominal titles or designatory letters, are letters placed after the name of a person to indicate that the individual holds a position, educational degree, accreditation, office, or honour. An individual may use several different sets of post-nominal letters. The order in which these are listed after a name is based on the order of precedence and category of the order.</cfDescr>
+        <cfClass>
+            <cfClassId>mlitt</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">MLitt</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en">Master of Letters/Magister Litterarum</cfDescr>
+        </cfClass>
+        <cfClass>
+            <cfClassId>msc</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">MSc</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en">Master of Science</cfDescr>
+        </cfClass>
+        <cfClass>
+            <cfClassId>BSc</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">BSc</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en">Bachelor of Science</cfDescr>
+        </cfClass>
+        <cfClass>
+            <cfClassId>ma</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">MA</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en">Master of Arts</cfDescr>
+        </cfClass>
+        <cfClass>
+            <cfClassId>mphil</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">MPhil</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en">Master of Philosophy</cfDescr>
+        </cfClass>
+        <cfClass>
+            <cfClassId>mres</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">MRes</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en">Master of Research</cfDescr>
+        </cfClass>
+        <cfClass>
+            <cfClassId>phd</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">PhD</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en">Doctor of Philiosphy</cfDescr>
+        </cfClass>
+    </cfClassScheme>
+
+    <!--Class Scheme: Person Alternate Identifiers (HESA) [One created per person] -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_person_alternateids_hesa</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o">Alternate ID - HESA</cfName>
+        <cfDescr cfTrans="o" cfLangCode="en"/>
+        <cfClass>
+            <cfClassId>9711730075165</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en"/>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>9811730089147</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en"/>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+    </cfClassScheme>
+
+    <!--Class Scheme: Person Alternate Identifiers (Web of Science) [One created per person] -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_person_alternateids_wos</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o">Alternate ID - Web of Science</cfName>
+        <cfDescr cfTrans="o" cfLangCode="en"/>
+        <cfClass>
+            <cfClassId>123456</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en"/>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>123457</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI>http://apps.webofknowledge.com/summary.do?SID=Q1IkKn4AjBbe%40jg1nOL</cfURI>
+            <cfTerm cfTrans="o" cfLangCode="en"/>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+    </cfClassScheme>
+
+    <!--Class Scheme: Person Alternate Identifiers (Scopus) [One created per person] -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_person_alternateids_scopus</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o">Alternate ID - Scopus</cfName>
+        <cfDescr cfTrans="o" cfLangCode="en"/>
+        <cfClass>
+            <cfClassId>7003521440</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI>"http://www.scopus.com/authid/detail.url?origin=resultslist&amp;authorId=7003521440&amp;zone="</cfURI>
+            <cfTerm cfTrans="o" cfLangCode="en"/>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>54965287100</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI>"http://www.scopus.com/authid/detail.url?origin=resultslist&amp;authorId=54965287100&amp;zone="</cfURI>
+            <cfTerm cfTrans="o" cfLangCode="en"/>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+    </cfClassScheme>
+
+    <!--Class Scheme: Post Address Types -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_paddress_types</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o">Post Address Types</cfName>
+        <cfDescr cfTrans="o" cfLangCode="en"/>
+        <cfClass>
+            <cfClassId>work</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Work</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>home</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Home</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+    </cfClassScheme>
+
+    <!--Class Scheme: Electronic Address Types -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_eaddress_types</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o">Electronic Address Types</cfName>
+        <cfDescr cfTrans="o" cfLangCode="en"/>
+        <cfClass>
+            <cfClassId>email</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Email</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>skype</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Skype</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>phone</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Phone</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+    </cfClassScheme>
+
+    <!--Class Scheme: Publication Types -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o">Publication Types</cfName>
+        <cfDescr cfTrans="o" cfLangCode="en"/>
+        <cfClass>
+            <cfClassId>book</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Book</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>book_review</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Book Review</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+    </cfClassScheme>
+
+    <!--Class Scheme: Publication Alternate IDs (DOI) [One created per publication] -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o">DOI</cfName>
+        <cfDescr cfTrans="o" cfLangCode="en">The Digital Object Identifier System is for identifying content objects in the digital environment. DOI® names are assigned to any entity for use on digital networks. They are used to provide current information, including where they (or information about them) can be found on the Internet. Information about a digital object may change over time, including where to find it, but its DOI name will not change.</cfDescr>
+        <cfClass>
+            <cfClassId>10.1007/s11368-011-0423-7</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en"/>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>10.1111/j.1365-2486.2011.02531.x</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en"/>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+    </cfClassScheme>
+
+    <!--Class Scheme: Publication Alternate IDs (WoS) [One created per publication] -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_publication_alternateids_wos</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o">Web of Science</cfName>
+        <cfDescr cfTrans="o" cfLangCode="en">Web of Science is an online academic citation index provided by Thomson Reuters: It is designed for providing access to multiple databases, cross-disciplinary research, and in-depth exploration of specialized subfields within an academic or scientific discipline.</cfDescr>
+        <cfClass>
+            <cfClassId>000299769200019</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en"/>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>000298091200011</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en"/>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+    </cfClassScheme>
+
+    <!--Class Scheme: Publication Alternate IDs (Scopus) [One created per publication] -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_publication_alternateids_scopus</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o">Scopus</cfName>
+        <cfDescr cfTrans="o" cfLangCode="en">Scopus is a bibliographic database containing abstracts and citations for academic journal articles. It covers nearly 18,000 titles from over 5,000 international publishers, including coverage of 16,500 peer-reviewed journals in the scientific, technical, medical, and social sciences (including arts and humanities). It is owned by Elsevier and is available online by subscription. Searches in Scopus incorporate searches of scientific web pages through Scirus, another Elsevier product, as well as patent databases.</cfDescr>
+        <cfClass>
+            <cfClassId>123456</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en"/>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>123498</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en"/>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+    </cfClassScheme>
+
+    <!--Class Scheme: Publication Alternate IDs (PubMed) [One created per publication] -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o">PubMed</cfName>
+        <cfDescr cfTrans="o" cfLangCode="en">PubMed is a free database accessing primarily the MEDLINE database of references and abstracts on life sciences and biomedical topics.</cfDescr>
+        <cfClass>
+            <cfClassId>22379648</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI>http://www.ncbi.nlm.nih.gov/pubmed?term=22379648</cfURI>
+            <cfTerm cfTrans="o" cfLangCode="en"/>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>22378668</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI>http://www.ncbi.nlm.nih.gov/pubmed?term=22378668</cfURI>
+            <cfTerm cfTrans="o" cfLangCode="en"/>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+    </cfClassScheme>
+
+    <!--Class Scheme: Publication States -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_publication_state</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o">Publication State</cfName>
+        <cfDescr cfTrans="o" cfLangCode="en"/>
+        <cfClass>
+            <cfClassId>in_preparation</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">In Preparation</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>in_press</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">In Press</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>published</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Published</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>unpublished</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Unpublished</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+    </cfClassScheme>
+
+    <!--Class Scheme: Event Types -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_event_types</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o">Event Types</cfName>
+        <cfDescr cfTrans="o" cfLangCode="en"/>
+        <cfClass>
+            <cfClassId>conference</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Conference</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>workshop</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Workshop</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>seminar</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Seminar</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>exhibition</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Exhibition</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>other</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Other</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+    </cfClassScheme>
+
+    <!--Class Scheme: Event - Degree of Recognition -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_recognition_degrees</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o">Degrees of Recognition</cfName>
+        <cfDescr cfTrans="o" cfLangCode="en"/>
+        <cfClass>
+            <cfClassId>unknown</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Unknown/Not Stated</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>international</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">International</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>national</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">National</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>local</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Local</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+    </cfClassScheme>
+
+    <!--Class Scheme: Publication - Peer-reviewed -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_peer-reviewed</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o">Peer-Reviewed</cfName>
+        <cfDescr cfTrans="o" cfLangCode="en"/>
+        <cfClass>
+            <cfClassId>yes</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Yes</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>no</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">No</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>unknown</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Unknown</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+    </cfClassScheme>
+
+    <!--Class Scheme: Grant Amount -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_grant_amount</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o">Grant Amount</cfName>
+        <cfDescr cfTrans="o" cfLangCode="en"/>
+        <cfClass>
+            <cfClassId>requested</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Requested</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>awarded</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Awarded</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>spent</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Spent</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+    </cfClassScheme>
+
+    <!--Class Scheme: Grant Status -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_grant_status</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o">Grant Status</cfName>
+        <cfDescr cfTrans="o" cfLangCode="en"/>
+        <cfClass>
+            <cfClassId>applied</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Applied</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>awarded</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Awarded</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>refused</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Refused</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>withdrawn</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Withdrawn</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+    </cfClassScheme>
+
+    <!--Class Scheme: Person/Event Roles -->
+    <cfClassScheme>
+        <cfClassSchemeId>class_scheme_person_event_roles</cfClassSchemeId>
+        <cfURI/>
+        <cfName cfLangCode="en_GB" cfTrans="o">Person/Event Roles</cfName>
+        <cfDescr cfTrans="o" cfLangCode="en"/>
+        <cfClass>
+            <cfClassId>participant</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Participant</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>interviewee</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Interviewee</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>speaker</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Speaker</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>organiser</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Organiser</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>panel_participant</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Panel Participant</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+        <cfClass>
+            <cfClassId>contributor</cfClassId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfURI/>
+            <cfTerm cfTrans="o" cfLangCode="en">Contributor</cfTerm>
+            <cfDescr cfTrans="o" cfLangCode="en"/>
+        </cfClass>
+    </cfClassScheme>
+
+    <!-- ADDRESSES -->
+    <cfPAddr>
+        <cfPAddrId>2df23860-4d8a-11e1-b86c-0800200c9a66</cfPAddrId>
+        <cfCountryCode>GB</cfCountryCode>
+        <cfAddrline1>College Gate</cfAddrline1>
+        <cfAddrline2>North Street</cfAddrline2>
+        <cfAddrline3/>
+        <cfAddrline4/>
+        <cfAddrline5/>
+        <cfPostCode>KY16 9AJ</cfPostCode>
+        <cfCityTown>St Andrews</cfCityTown>
+        <cfStateOfCountry>Fife</cfStateOfCountry>
+        <cfURI/>
+    </cfPAddr>
+
+    <cfPAddr>
+        <cfPAddrId>a7569dd0-4d8b-11e1-b86c-0800200c9a66</cfPAddrId>
+        <cfCountryCode>GB</cfCountryCode>
+        <cfAddrline1>St Katharine's Lodge</cfAddrline1>
+        <cfAddrline2>The Scores</cfAddrline2>
+        <cfAddrline4/>
+        <cfAddrline5/>
+        <cfPostCode>KY16 9BA</cfPostCode>
+        <cfCityTown>St Andrews</cfCityTown>
+        <cfStateOfCountry>Fife</cfStateOfCountry>
+        <cfURI/>
+    </cfPAddr>
+
+    <cfPAddr>
+        <cfPAddrId>d9ae9047-aca4-4b66-a5db-0a1ba6088059</cfPAddrId>
+        <cfCountryCode>GB</cfCountryCode>
+        <cfAddrline1>Gibbs Building</cfAddrline1>
+        <cfAddrline2>215 Euston Road</cfAddrline2>
+        <cfAddrline3/>
+        <cfAddrline4/>
+        <cfAddrline5/>
+        <cfPostCode>NW1 2BE</cfPostCode>
+        <cfCityTown>London</cfCityTown>
+        <cfStateOfCountry/>
+        <cfURI/>
+    </cfPAddr>
+
+    <cfPAddr>
+        <cfPAddrId>725af61f-a303-46ba-8fcc-08f6abad046d</cfPAddrId>
+        <cfCountryCode>GB</cfCountryCode>
+        <cfAddrline1>Shaftesbury Road</cfAddrline1>
+        <cfAddrline2>215 Euston Road</cfAddrline2>
+        <cfAddrline3/>
+        <cfAddrline4/>
+        <cfAddrline5/>
+        <cfPostCode>CB2 8BS</cfPostCode>
+        <cfCityTown>Cambridge</cfCityTown>
+        <cfStateOfCountry/>
+        <cfURI/>
+    </cfPAddr>
+
+    <cfEAddr>
+        <cfEAddrId>1638d8d0-4d8c-11e1-b86c-0800200c9a66</cfEAddrId>
+        <cfPAddrId>a7569dd0-4d8b-11e1-b86c-0800200c9a66</cfPAddrId>
+        <cfURI>history@st-andrews.ac.uk</cfURI>
+    </cfEAddr>
+
+    <cfEAddr>
+        <cfEAddrId>8a0d455f-e20b-4603-b91d-34daeb980a76</cfEAddrId>
+        <cfPAddrId>725af61f-a303-46ba-8fcc-08f6abad046d</cfPAddrId>
+        <cfURI>information@cambridge.org</cfURI>
+    </cfEAddr>
+
+    <!-- BASE ENTITY: ORGANISATION UNIT -->
+
+    <cfOrgUnit>
+        <cfOrgUnitId>6718dc8a-84c6-4665-aaa0-99b22ca6a7e6</cfOrgUnitId>
+        <cfAcro/>
+        <cfHeadcount>0</cfHeadcount>
+        <cfTurn cfCurrCode="GBP">0.00</cfTurn>
+        <cfURI>http://www.st-andrews.ac.uk</cfURI>
+        <cfOrgUnit_Class>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfOrgUnit_Class>
+        <cfOrgUnit_OrgUnit>
+            <cfOrgUnitId2/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfOrgUnit_OrgUnit>
+        <cfOrgUnit_PAddr>
+            <cfPAddrId>2df23860-4d8a-11e1-b86c-0800200c9a66</cfPAddrId>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfOrgUnit_PAddr>
+        <cfOrgUnit_EAddr>
+            <cfEAddrId/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfOrgUnit_EAddr>
+        <cfOrgUnit_Fund>
+            <cfFundId/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+            <cfAmount cfCurrCode="GBP">0</cfAmount>
+        </cfOrgUnit_Fund>
+        <cfOrgUnit_ResPubl>
+            <cfResPublId/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+            <cfCopyright/>
+        </cfOrgUnit_ResPubl>
+        <!--  <cfOrgUnit_Event>
+            <cfEventId></cfEventId>
+            <cfClassId></cfClassId>
+            <cfClassSchemeId></cfClassSchemeId>
+        </cfOrgUnit_Event> -->
+        <cfName cfLangCode="en_GB" cfTrans="o">University of St Andrews</cfName>
+    </cfOrgUnit>
+
+    <cfOrgUnit>
+        <cfOrgUnitId>78741708-7c2a-4431-993e-9002933c6e57</cfOrgUnitId>
+        <cfAcro/>
+        <cfHeadcount>0</cfHeadcount>
+        <cfTurn cfCurrCode="GBP">0</cfTurn>
+        <cfURI>http://www.st-andrews.ac.uk/history/index.html</cfURI>
+        <cfOrgUnit_Class>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfOrgUnit_Class>
+        <cfOrgUnit_OrgUnit>
+            <cfOrgUnitId2>6718dc8a-84c6-4665-aaa0-99b22ca6a7e6</cfOrgUnitId2>
+            <cfClassId>child</cfClassId>
+            <cfClassSchemeId>class_scheme_orgunit_orgunit</cfClassSchemeId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfOrgUnit_OrgUnit>
+        <cfOrgUnit_PAddr>
+            <cfPAddrId>a7569dd0-4d8b-11e1-b86c-0800200c9a66</cfPAddrId>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfOrgUnit_PAddr>
+        <cfOrgUnit_EAddr>
+            <cfEAddrId>1638d8d0-4d8c-11e1-b86c-0800200c9a66</cfEAddrId>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfOrgUnit_EAddr>
+        <cfOrgUnit_Fund>
+            <cfFundId/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+            <cfAmount cfCurrCode="GBP">0.00</cfAmount>
+        </cfOrgUnit_Fund>
+        <cfOrgUnit_ResPubl>
+            <cfResPublId/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+            <cfCopyright/>
+        </cfOrgUnit_ResPubl>
+        <cfName cfLangCode="en_GB" cfTrans="o">School of History</cfName>
+    </cfOrgUnit>
+
+    <!-- Organisation Unit: Example of Funder -->
+    <cfOrgUnit>
+        <cfOrgUnitId>13df2ba7-af81-4b87-9cf4-b57ed7ab1dfb</cfOrgUnitId>
+        <cfAcro>WELLCOME</cfAcro>
+        <cfHeadcount>0</cfHeadcount>
+        <cfTurn cfCurrCode="GBP">0</cfTurn>
+        <cfURI>http://www.wellcome.ac.uk/</cfURI>
+        <cfOrgUnit_Class>
+            <cfClassId>fee_funding_body</cfClassId>
+            <cfClassSchemeId>class_scheme_organisation_types</cfClassSchemeId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfOrgUnit_Class>
+        <cfOrgUnit_OrgUnit>
+            <cfOrgUnitId2/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfOrgUnit_OrgUnit>
+        <cfOrgUnit_PAddr>
+            <cfPAddrId>d9ae9047-aca4-4b66-a5db-0a1ba6088059</cfPAddrId>
+            <cfClassId>work</cfClassId>
+            <cfClassSchemeId>class_scheme_paddress_types</cfClassSchemeId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfOrgUnit_PAddr>
+        <cfOrgUnit_EAddr>
+            <cfEAddrId/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfOrgUnit_EAddr>
+        <cfOrgUnit_Fund>
+            <cfFundId/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+            <cfAmount cfCurrCode="GBP">0.00</cfAmount>
+        </cfOrgUnit_Fund>
+        <cfOrgUnit_ResPubl>
+            <cfResPublId/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+            <cfCopyright/>
+        </cfOrgUnit_ResPubl>
+        <cfName cfLangCode="en_GB" cfTrans="o">The Wellcome Trust</cfName>
+    </cfOrgUnit>
+
+    <!-- Organisation Unit: Example of Publisher -->
+    <cfOrgUnit>
+        <cfOrgUnitId>2cbe3036-bab1-42cc-b249-6232b9dd48a5</cfOrgUnitId>
+        <cfAcro/>
+        <cfHeadcount>0</cfHeadcount>
+        <cfTurn cfCurrCode="GBP">0</cfTurn>
+        <cfURI>http://www.cambridge.org</cfURI>
+        <cfOrgUnit_Class>
+            <cfClassId>publisher</cfClassId>
+            <cfClassSchemeId>class_scheme_organisation_types</cfClassSchemeId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfOrgUnit_Class>
+        <cfOrgUnit_OrgUnit>
+            <cfOrgUnitId2/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfOrgUnit_OrgUnit>
+        <cfOrgUnit_PAddr>
+            <cfPAddrId>725af61f-a303-46ba-8fcc-08f6abad046d</cfPAddrId>
+            <cfClassId>???</cfClassId>
+            <cfClassSchemeId>class_scheme_paddress_types</cfClassSchemeId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfOrgUnit_PAddr>
+        <cfOrgUnit_EAddr>
+            <cfEAddrId>8a0d455f-e20b-4603-b91d-34daeb980a76</cfEAddrId>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfOrgUnit_EAddr>
+        <cfOrgUnit_Fund>
+            <cfFundId/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+            <cfAmount cfCurrCode="GBP">0.00</cfAmount>
+        </cfOrgUnit_Fund>
+        <cfOrgUnit_ResPubl>
+            <cfResPublId/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+            <cfCopyright/>
+        </cfOrgUnit_ResPubl>
+        <cfName cfLangCode="en_GB" cfTrans="o">Cambridge University Press</cfName>
+    </cfOrgUnit>
+
+    <!-- BASE ENTITY: PERSON -->
+
+    <cfPers>
+        <cfPersId>5d6f7b36-4d32-4301-96ce-521e327e0957</cfPersId>
+        <!-- This example based on simple UUID -->
+        <!-- Do we need to separate the Day, Month and Year elements of the dates? -->
+        <cfBirthdate>1980-10-12</cfBirthdate>
+        <cfGender>m</cfGender>
+        <cfURI/>
+        <cfPersName>
+            <cfFamilyNames>Brander</cfFamilyNames>
+            <cfMiddleNames>Richard</cfMiddleNames>
+            <cfFirstNames>Scott</cfFirstNames>
+            <cfOtherNames/>
+            <!--The PersName_Pers link won't be included as part of CERIF in Action as it doesn't specify the part of the name
+            <cfPersName_Pers>
+                <cfPersId1>5d6f7b36-4d32-4301-96ce-521e327e0957</cfPersId1>
+                <cfPersId2>87bbdd4b-9d5a-4c83-adcb-dbe1c716a60a</cfPersId2>
+                <cfClassId>previous_name</cfClassId>
+                <cfClassSchemeId>class_scheme_cerif_personname_person_roles</cfClassSchemeId>
+                <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+                <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+                <cfFraction>1.00</cfFraction>
+                <cfPersNamVar>S. Richard Brander</cfPersNamVar>
+            </cfPersName_Pers>-->
+        </cfPersName>
+        <cfPers_Class>
+            <cfClassId>hesa_staff_id</cfClassId>
+            <cfClassSchemeId>class_scheme_person_alternateids</cfClassSchemeId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfPers_Class>
+        <cfPers_OrgUnit>
+            <cfOrgUnitId>78741708-7c2a-4431-993e-9002933c6e57</cfOrgUnitId>
+            <cfClassId>employee_number</cfClassId>
+            <cfClassSchemeId>class_scheme_pers_orgunit_alternateids</cfClassSchemeId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfPers_OrgUnit>
+        <cfPers_EAddr>
+            <cfEAddrId/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfPers_EAddr>
+        <cfPers_PAddr>
+            <cfPAddrId/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfPers_PAddr>
+        <cfPers_Fund>
+            <cfFundId/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+            <cfAmount cfCurrCode="GBP">0.00</cfAmount>
+        </cfPers_Fund>
+        <cfPers_ResPubl>
+            <cfResPublId/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+            <cfCopyright/>
+        </cfPers_ResPubl>
+        <cfPers_Event>
+            <cfEventId>73c0a614-d87d-4dfc-8f32-e0962c28822a</cfEventId>
+            <cfClassId>organiser</cfClassId>
+            <cfClassSchemeId>class_scheme_person_event_roles</cfClassSchemeId>
+        </cfPers_Event>
+        <cfKeyw cfLangCode="en_GB" cfTrans="o"/>
+    </cfPers>
+
+    <cfPers>
+        <cfPersId>fb66c954-14ad-42c3-b9a5-525af64176d8</cfPersId>
+        <!-- Do we need to separate the Day, Month and Year elements of the dates? -->
+        <cfBirthdate>1963-05-14</cfBirthdate>
+        <cfGender>m</cfGender>
+        <cfURI>http://www.st-andrews.ac.uk/academic/history/scothist/staff/dallan.shtml</cfURI>
+        <cfPersName>
+            <cfFamilyNames>Allan</cfFamilyNames>
+            <cfMiddleNames/>
+            <cfFirstNames>David William</cfFirstNames>
+            <cfOtherNames/>
+            <!--The PersName_Pers link won't be included as part of CERIF in Action as it doesn't specify the part of the name
+            <cfPersName_Pers>
+                <cfPersId1>fb66c954-14ad-42c3-b9a5-525af64176d8</cfPersId1>
+                <cfPersId2>58ed8c14-37aa-4c15-ba79-19285213d123</cfPersId2>
+                <cfClassId/>
+                <cfClassSchemeId/>
+                <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+                <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+                <cfFraction>1.00</cfFraction>
+                <cfPersonNameVariant/>
+            </cfPersName_Pers>-->
+        </cfPersName>
+        <cfPers_Class>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfPers_Class>
+        <cfPers_OrgUnit>
+            <cfOrgUnitId>6718dc8a-84c6-4665-aaa0-99b22ca6a7e6</cfOrgUnitId>
+            <cfClassId>employee_number</cfClassId>
+            <cfClassSchemeId>class_scheme_pers_orgunit_alternateids</cfClassSchemeId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfPers_OrgUnit>
+        <cfPers_EAddr>
+            <cfEAddrId/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfPers_EAddr>
+        <cfPers_PAddr>
+            <cfPAddrId/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfPers_PAddr>
+        <cfPers_Fund>
+            <cfFundId/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+            <cfAmount cfCurrCode="GBP">0.00</cfAmount>
+        </cfPers_Fund>
+        <cfPers_ResPubl>
+            <cfResPublId>c51730fa-cf4c-4157-9ad3-16d3cb842f28</cfResPublId>
+            <cfClassId>author</cfClassId>
+            <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+            <cfCopyright/>
+        </cfPers_ResPubl>
+        <cfKeyw cfLangCode="en_GB" cfTrans="o"/>
+    </cfPers>
+
+
+    <!-- BASE ENTITY: PROJECT -->
+
+    <cfProj>
+        <cfProjId>e8bc8065-2fa9-4117-9b68-21f2e6c4ec82</cfProjId>
+        <cfStartDate>2011-12-07</cfStartDate>
+        <cfEndDate>2016-12-07</cfEndDate>
+        <cfAcro>Design Principles for new soft materials</cfAcro>
+        <cfURI/>
+        <cfProj_Class>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>2004-03-27T00:00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+        </cfProj_Class>
+        <cfProj_OrgUnit>
+            <cfOrgUnitId/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfProj_OrgUnit>
+        <cfProj_Fund>
+            <cfFundId>EP/J007404/1</cfFundId>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+            <cfAmount cfCurrCode="GBP">83137.00</cfAmount>
+        </cfProj_Fund>
+        <cfProj_Pers>
+            <cfPersId/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+        </cfProj_Pers>
+        <cfAbstr cfLangCode="en_GB" cfTrans="o"/>
+        <cfTitle cfLangCode="en_GB" cfTrans="o"/>
+    </cfProj>
+
+    <cfProj>
+        <cfProjId>ce21e0e4-6ba0-4836-a30e-ec0eb55e9a75</cfProjId>
+        <cfStartDate>2004-09-01</cfStartDate>
+        <cfEndDate>2005-08-31</cfEndDate>
+        <cfAcro>RESEARCH FELLOWSHIPRF/3/RFG/2004/0152</cfAcro>
+        <cfURI/>
+        <cfProj_Class>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+        </cfProj_Class>
+        <cfProj_OrgUnit>
+            <cfOrgUnitId/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfProj_OrgUnit>
+        <cfProj_Fund>
+            <cfFundId/>
+            <cfClassId>amount_applied</cfClassId>
+            <cfClassSchemeId>class_scheme_proj_fund</cfClassSchemeId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+            <cfAmount cfCurrCode="GBP">0.00</cfAmount>
+        </cfProj_Fund>
+        <cfProj_Fund>
+            <cfFundId/>
+            <cfClassId>amount_awarded</cfClassId>
+            <cfClassSchemeId>class_scheme_proj_fund</cfClassSchemeId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+            <cfAmount cfCurrCode="GBP">19646.00</cfAmount>
+        </cfProj_Fund>
+        <cfProj_Pers>
+            <cfPersId/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfProj_Pers>
+        <cfAbstr cfLangCode="en_GB" cfTrans="o"/>
+        <cfTitle cfLangCode="en_GB" cfTrans="o">England's readers and the scottish enlightenment</cfTitle>
+    </cfProj>
+
+
+
+
+    <!-- BASE ENTITY: RESULT PUBLICATION -->
+
+    <!-- Sample journal -->
+    <cfResPubl>
+        <cfResPublId>ef15c97c-5359-4dcc-b8db-9dfa23482f4f4</cfResPublId>
+        <cfResPublDate>2012-12-01</cfResPublDate>
+        <cfNum/>
+        <cfVol/>
+        <cfEdition/>
+        <cfSeries/>
+        <cfIssue/>
+        <cfStartPage/>
+        <cfEndPage/>
+        <cfTotalPages/>
+        <cfISBN/>
+        <cfISSN/>
+        <cfURI/>
+        <cfResPubl_Class>
+            <cfClassId>Journal</cfClassId>
+            <cfClassSchemeId>class_scheme_cerif_publication_types</cfClassSchemeId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfResPubl_Class>
+        <cfResPubl_ResPubl>
+            <cfResPublId2/>
+            <cfClassId></cfClassId>
+            <cfClassSchemeId></cfClassSchemeId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfResPubl_ResPubl>
+        <cfTitle cfLangCode="en_GB" cfTrans="o">Journal of General Virology</cfTitle>
+        <cfAbstr cfLangCode="en_GB" cfTrans="o"/>
+        <cfKeyw cfLangCode="en_GB" cfTrans="o"/>
+        <cfBiblNote cfLangCode="en_GB" cfTrans="o"/>
+        <cfNameAbbrev cfLangCode="en_GB" cfTrans="o"/>
+        <cfSubtitle cfLangCode="en_GB" cfTrans="o"/>
+        <cfVersInfo cfLangCode="en_GB" cfTrans="o"/>
+    </cfResPubl>
+
+
+    <!-- Sample article for journal above -->
+    <cfResPubl>
+        <cfResPublId>e79cd4b0-a39d-4bdf-8622-819e078ca654</cfResPublId>
+        <cfResPublDate>2011-12-01</cfResPublDate>
+        <cfNum>12</cfNum>
+        <cfVol>92</cfVol>
+        <cfEdition/>
+        <cfSeries/>
+        <cfIssue/>
+        <cfStartPage>2906</cfStartPage>
+        <cfEndPage>2913</cfEndPage>
+        <cfTotalPages/>
+        <cfISBN/>
+        <cfISSN>0022-1317</cfISSN>
+        <cfURI/>
+        <cfResPubl_Class>
+            <cfClassId>Article</cfClassId>
+            <cfClassSchemeId>class_scheme_cerif_publication_types</cfClassSchemeId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfResPubl_Class>
+        <cfResPubl_ResPubl>
+            <cfResPublId2>ef15c97c-5359-4dcc-b8db-9dfa23482f4f4</cfResPublId2>
+            <cfClassId>child</cfClassId>
+            <cfClassSchemeId>class_scheme_publication_publication</cfClassSchemeId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfResPubl_ResPubl>
+        <cfResPubl_Event>
+            <cfEventId>7ac47e8d-1398-41f5-b2fa-eb64a923e2c9</cfEventId>
+            <cfClassId/>
+            <cfClassSchemeId/>
+        </cfResPubl_Event>
+        <cfTitle cfLangCode="en_GB" cfTrans="o">Generation and characterization of a recombinant Rift Valley fever virus expressing a V5 epitope-tagged RNA-dependent RNA polymerase</cfTitle>
+        <cfAbstr cfLangCode="en_GB" cfTrans="o">The viral RNA-dependent RNA polymerase (RdRp; L protein) of Rift Valley fever virus (RVFV; family Bunyaviridae) is a 238 kDa protein that is crucial for the life cycle of the virus, as it catalyses both transcription of viral mRNAs and replication of the tripartite genome. Despite its importance, little is known about the intracellular distribution of the polymerase or its other roles during infection, primarily because of lack of specific antibodies that recognize L protein. To begin to address these questions we investigated whether the RVFV (MP12 strain) polymerase could tolerate insertion of the V5 epitope, as has been previously demonstrated for the Bunyamwera virus L protein. Insertion of the 14 aa epitope into the polymerase sequence at aa 1852 resulted in a polymerase that retained functionality in a minigenome assay, and we were able to rescue recombinant viruses that expressed the modified L protein by reverse genetics. The L protein could be detected in infected cells by Western blotting with anti-V5 antibodies. Examination of recombinant virus-infected cells by immunofluorescence revealed a punctate perinuclear or cytoplasmic distribution of the polymerase that co-localized with the nucleocapsid protein. The generation of RVFV expressing a tagged RdRp will allow detailed examination of the role of the viral polymerase in the virus life cycle.</cfAbstr>
+        <cfKeyw cfLangCode="en_GB" cfTrans="o">Viral-RNA</cfKeyw>
+        <cfKeyw cfLangCode="en_GB" cfTrans="o">L-protein</cfKeyw>
+        <cfKeyw cfLangCode="en_GB" cfTrans="o">Bunyamwera virus</cfKeyw>
+        <cfKeyw cfLangCode="en_GB" cfTrans="o">L-segment</cfKeyw>
+        <cfKeyw cfLangCode="en_GB" cfTrans="o">Replication</cfKeyw>
+        <cfKeyw cfLangCode="en_GB" cfTrans="o">Rescue</cfKeyw>
+        <cfKeyw cfLangCode="en_GB" cfTrans="o">Genome</cfKeyw>
+        <cfKeyw cfLangCode="en_GB" cfTrans="o">Transcription</cfKeyw>
+        <cfKeyw cfLangCode="en_GB" cfTrans="o">Sequence</cfKeyw>
+        <cfKeyw cfLangCode="en_GB" cfTrans="o">identification</cfKeyw>
+        <cfKeyw cfLangCode="en_GB" cfTrans="o">QR355 Virology</cfKeyw>
+        <cfBiblNote cfLangCode="en_GB" cfTrans="o"/>
+        <cfNameAbbrev cfLangCode="en_GB" cfTrans="o"/>
+        <cfSubtitle cfLangCode="en_GB" cfTrans="o"/>
+        <cfVersInfo cfLangCode="en_GB" cfTrans="o"/>
+    </cfResPubl>
+
+
+
+    <cfResPubl>
+        <cfResPublId>c51730fa-cf4c-4157-9ad3-16d3cb842f28</cfResPublId>
+        <cfResPublDate>2011-01-01</cfResPublDate>
+        <cfNum/>
+        <cfVol/>
+        <cfEdition>1st</cfEdition>
+        <cfSeries>Teach Yourself</cfSeries>
+        <cfIssue/>
+        <cfStartPage/>
+        <cfEndPage/>
+        <cfTotalPages>239</cfTotalPages>
+        <cfISBN>9781444112276</cfISBN>
+        <cfISSN/>
+        <cfURI/>
+        <cfResPubl_Class>
+            <cfClassId>Book</cfClassId>
+            <cfClassSchemeId>class_scheme_cerif_publication_types</cfClassSchemeId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfResPubl_Class>
+        <cfResPubl_ResPubl>
+            <cfResPublId2/>
+            <cfClassId>p</cfClassId>
+            <cfClassSchemeId>class_scheme_cerif_publication_publication_roles</cfClassSchemeId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfResPubl_ResPubl>
+        <cfTitle cfLangCode="en_GB" cfTrans="o">Understand Scottish History</cfTitle>
+        <cfAbstr cfLangCode="en_GB" cfTrans="o"/>
+        <cfKeyw cfLangCode="en_GB" cfTrans="o"/>
+        <cfBiblNote cfLangCode="en_GB" cfTrans="o"/>
+        <cfNameAbbrev cfLangCode="en_GB" cfTrans="o"/>
+        <cfSubtitle cfLangCode="en_GB" cfTrans="o"/>
+        <cfVersInfo cfLangCode="en_GB" cfTrans="o"/>
+    </cfResPubl>
+
+    <!-- Result Publication: Example of Book -->
+    <cfResPubl>
+        <cfResPublId>c50f57ef-e01d-4ce2-8331-80fc5ad403a8</cfResPublId>
+        <cfResPublDate>2012-01-01</cfResPublDate>
+        <cfNum/>
+        <cfVol/>
+        <cfEdition/>
+        <cfSeries/>
+        <cfIssue/>
+        <cfStartPage/>
+        <cfEndPage/>
+        <cfTotalPages/>
+        <cfISBN>9780230277885</cfISBN>
+        <cfISSN/>
+        <cfURI/>
+        <cfResPubl_Class>
+            <cfClassId>Book</cfClassId>
+            <cfClassSchemeId>class_scheme_cerif_publication_types</cfClassSchemeId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfResPubl_Class>
+        <cfResPubl_ResPubl>
+            <cfResPublId2/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfResPubl_ResPubl>
+        <cfTitle cfLangCode="en_GB" cfTrans="o">Fictions of Knowledge</cfTitle>
+        <cfAbstr cfLangCode="en_GB" cfTrans="o"/>
+        <cfKeyw cfLangCode="en_GB" cfTrans="o"/>
+        <cfBiblNote cfLangCode="en_GB" cfTrans="o"/>
+        <cfNameAbbrev cfLangCode="en_GB" cfTrans="o"/>
+        <cfSubtitle cfLangCode="en_GB" cfTrans="o">Fact, Evidence, Doubt</cfSubtitle>
+        <cfVersInfo cfLangCode="en_GB" cfTrans="o"/>
+    </cfResPubl>
+
+    <!-- Result Publication: Example of Chapter within book above -->
+    <cfResPubl>
+        <cfResPublId>dd7536b2-b843-4474-bb0f-121e62ba1d21</cfResPublId>
+        <cfResPublDate>2010-01-01</cfResPublDate>
+        <cfNum/>
+        <cfVol/>
+        <cfEdition/>
+        <cfSeries/>
+        <cfIssue/>
+        <cfStartPage>61</cfStartPage>
+        <cfEndPage>83</cfEndPage>
+        <cfTotalPages>22</cfTotalPages>
+        <cfISBN/>
+        <cfISSN/>
+        <cfURI/>
+        <cfResPubl_Class>
+            <cfClassId>Inbook</cfClassId>
+            <cfClassSchemeId>class_scheme_cerif_publication_types</cfClassSchemeId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfResPubl_Class>
+        <cfResPubl_ResPubl>
+            <cfResPublId2>c50f57ef-e01d-4ce2-8331-80fc5ad403a8</cfResPublId2>
+            <cfClassId>child</cfClassId>
+            <cfClassSchemeId>class_scheme_cerif_publication_types</cfClassSchemeId>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfResPubl_ResPubl>
+        <cfTitle cfLangCode="en_GB" cfTrans="o">Law, Probability and Character in Shakespeare</cfTitle>
+        <cfAbstr cfLangCode="en_GB" cfTrans="o"/>
+        <cfKeyw cfLangCode="en_GB" cfTrans="o"/>
+        <cfBiblNote cfLangCode="en_GB" cfTrans="o"/>
+        <cfNameAbbrev cfLangCode="en_GB" cfTrans="o"/>
+        <cfSubtitle cfLangCode="en_GB" cfTrans="o"/>
+        <cfVersInfo cfLangCode="en_GB" cfTrans="o"/>
+    </cfResPubl>
+
+
+    <!-- BASE ENTITY: FUNDING -->
+
+    <cfFund>
+        <cfFundId>73c0a614-d87d-4dfc-8f32-e0962c28822a</cfFundId>
+        <cfStartDate>2010-05-08</cfStartDate>
+        <cfEndDate>2012-05-07</cfEndDate>
+        <cfAcro>NE/A856487/1</cfAcro>
+        <cfAmount cfCurrCode="GBP">102985.00</cfAmount>
+        <cfURI/>
+        <cfFund_Class>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfFund_Class>
+        <cfName cfLangCode="en_GB" cfTrans="o"/>
+        <cfKeyw cfLangCode="en_GB" cfTrans="o"/>
+        <cfDescr cfLangCode="en_GB" cfTrans="o"/>
+        <cfFund_Fund>
+            <cfFundId2/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfFund_Fund>
+    </cfFund>
+
+    <!-- BASE ENTITY: FUNDING -->
+
+    <cfFund>
+        <cfFundId>73c0a614-d87d-4dfc-8f32-e0962c28822a</cfFundId>
+        <cfStartDate>2011-05-01</cfStartDate>
+        <cfEndDate>2016-04-30</cfEndDate>
+        <cfAcro>EP/I023186/1</cfAcro>
+        <cfAmount cfCurrCode="GBP">1057014.14</cfAmount>
+        <cfURI/>
+        <cfFund_Class>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfFund_Class>
+        <cfName cfLangCode="en_GB" cfTrans="o"/>
+        <cfKeyw cfLangCode="en_GB" cfTrans="o"/>
+        <cfDescr cfLangCode="en_GB" cfTrans="o"/>
+        <cfFund_Fund>
+            <cfFundId2/>
+            <cfClassId/>
+            <cfClassSchemeId/>
+            <cfStartDate>1901-01-01T00:00:00-00:00</cfStartDate>
+            <cfEndDate>2099-12-31T23:59:59-00:00</cfEndDate>
+            <cfFraction>1.00</cfFraction>
+        </cfFund_Fund>
+    </cfFund>
+
+    <!-- SECOND-LEVEL ENTITY: EVENT -->
+
+    <cfEvent>
+        <cfEventId>73c0a614-d87d-4dfc-8f32-e0962c28822a</cfEventId>
+        <cfCountryCode>GB</cfCountryCode>
+        <cfCityTown>Aberdeen</cfCityTown>
+        <cfFeeOrFree/>
+        <cfStartDate>2011-09-04</cfStartDate>
+        <cfEndDate>2011-09-09</cfEndDate>
+        <cfURI>http://www.abdn.ac.uk/science/public/2012/</cfURI>
+        <cfName cfLangCode="en_GB" cfTrans="o">British Science Festival 2012</cfName>
+        <cfKeyw cfLangCode="en_GB" cfTrans="o">Schools Programme</cfKeyw>
+        <cfDescr cfLangCode="en_GB" cfTrans="o">The British Science Festival will take place from 4 – 9 September 2012 with a programme of events for people of all ages and interests. A stimulating programme awaits, featuring leading academics, award-winning commentators, science communicators, authors and performers set against the backdrop of an international media presence. An exciting schools programme will complement the main festival, offering young people of all ages the chance to get involved in science, technology, engineering and maths.</cfDescr>
+        <cfEvent_Class>
+            <cfClassId>other</cfClassId>
+            <cfClassSchemeId>class_scheme_event_types</cfClassSchemeId>
+        </cfEvent_Class>
+    </cfEvent>
+
+
+</CERIF>
