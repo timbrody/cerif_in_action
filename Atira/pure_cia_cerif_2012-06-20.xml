@@ -1,0 +1,591 @@
+
+<cerif:CERIF xmlns:cerif="urn:xmlns:org:eurocris:cerif-1.4-0">
+  <cerif:cfResPubl>
+    <cerif:cfResPublId>ResearchOutput-undefined-8dce232f-b71a-4af3-ae54-0ab19c9226ae</cerif:cfResPublId>
+    <cerif:cfResPublDate>1976-01-01</cerif:cfResPublDate>
+    <cerif:cfVol>10</cerif:cfVol>
+    <cerif:cfEdition xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></cerif:cfEdition>
+    <cerif:cfStartPage>10</cerif:cfStartPage>
+    <cerif:cfEndPage>12</cerif:cfEndPage>
+    <cerif:cfTotalPages>42</cerif:cfTotalPages>
+    <cerif:cfISBN>ISBN</cerif:cfISBN>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>working_paper</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_types</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>published</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_state</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfTitle cfTrans="o" cfLangCode="en_GB">Working paper</cerif:cfTitle>
+    <cerif:cfSubtitle cfTrans="o" cfLangCode="en_GB">Subtitle of the contribution in original language</cerif:cfSubtitle>
+    <cerif:cfAbstr cfTrans="o" cfLangCode="en_GB">Abstract</cerif:cfAbstr>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>unknown</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_peer-reviewed</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfOrgUnit_ResPubl>
+      <cerif:cfOrgUnitId>Organisation-undefined-bb23104a-9d0f-4c16-b05f-849c6fadc9d4</cerif:cfOrgUnitId>
+      <cerif:cfClassId>author_institution</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_organisation_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+    </cerif:cfOrgUnit_ResPubl>
+    <cerif:cfOrgUnit_ResPubl>
+      <cerif:cfOrgUnitId>Publisher-undefined-1a52842e-a04b-4c59-948e-0a3e8de9d557</cerif:cfOrgUnitId>
+      <cerif:cfClassId>publisher_institution</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_organisation_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+    </cerif:cfOrgUnit_ResPubl>
+    <cerif:cfPers_ResPubl>
+      <cerif:cfPersId>Person-undefined-8dbd9fd9-4d8c-4a92-8f60-3b2e20c67d85</cerif:cfPersId>
+      <cerif:cfClassId>author</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_person_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+      <cerif:cfFraction>1.0</cerif:cfFraction>
+    </cerif:cfPers_ResPubl>
+  </cerif:cfResPubl>
+  <cerif:cfResPubl>
+    <cerif:cfResPublId>ResearchOutput-undefined-0775d388-c24b-40b6-8b1b-1829bf8652a6</cerif:cfResPublId>
+    <cerif:cfResPublDate>1976-10-26</cerif:cfResPublDate>
+    <cerif:cfVol>10</cerif:cfVol>
+    <cerif:cfEdition>Edition</cerif:cfEdition>
+    <cerif:cfStartPage>Pages</cerif:cfStartPage>
+    <cerif:cfTotalPages>42</cerif:cfTotalPages>
+    <cerif:cfISBN>ISBN print</cerif:cfISBN>
+    <cerif:cfURI>http://www.side9.dk</cerif:cfURI>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>inbook</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_types</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>published</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_state</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfTitle cfTrans="o" cfLangCode="en_GB">Chapter in Book/Report/Conference proceeding › Chapter</cerif:cfTitle>
+    <cerif:cfSubtitle cfTrans="o" cfLangCode="en_GB">Subtitle of the contribution in original language</cerif:cfSubtitle>
+    <cerif:cfAbstr cfTrans="o" cfLangCode="en_GB">Abstract</cerif:cfAbstr>
+    <cerif:cfKeyw cfTrans="o" cfLangCode="und">Keywords</cerif:cfKeyw>
+    <cerif:cfKeyw cfTrans="o" cfLangCode="und">/dk/atira/pure/core/keywords/A/AC:AC Collections. Series. Collected works</cerif:cfKeyw>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>12345</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_alternateids_doi</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>unknown</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_peer-reviewed</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfOrgUnit_ResPubl>
+      <cerif:cfOrgUnitId>Organisation-undefined-bb23104a-9d0f-4c16-b05f-849c6fadc9d4</cerif:cfOrgUnitId>
+      <cerif:cfClassId>author_institution</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_organisation_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+    </cerif:cfOrgUnit_ResPubl>
+    <cerif:cfOrgUnit_ResPubl>
+      <cerif:cfOrgUnitId>Publisher-undefined-cec5a775-c32d-4343-a9cf-09ee0b6ebb45</cerif:cfOrgUnitId>
+      <cerif:cfClassId>publisher_institution</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_organisation_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+    </cerif:cfOrgUnit_ResPubl>
+    <cerif:cfPers_ResPubl>
+      <cerif:cfPersId>Person-undefined-8dbd9fd9-4d8c-4a92-8f60-3b2e20c67d85</cerif:cfPersId>
+      <cerif:cfClassId>author</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_person_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+      <cerif:cfFraction>1.0</cerif:cfFraction>
+    </cerif:cfPers_ResPubl>
+    <cerif:cfResPubl_Event>
+      <cerif:cfEventId>Event-undefined-0f9c06b7-c7f3-4df4-9c45-519bf3aefb5a</cerif:cfEventId>
+      <cerif:cfClassId>publisher_institution</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_organisation_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>2011-12-08T00:00:00+01:00</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+    </cerif:cfResPubl_Event>
+    <cerif:cfResPubl_ResPubl>
+      <cerif:cfResPublId2>ResearchOutput-undefined-0775d388-c24b-40b6-8b1b-1829bf8652a6-HOSTPUB</cerif:cfResPublId2>
+      <cerif:cfResPublId1>ResearchOutput-undefined-0775d388-c24b-40b6-8b1b-1829bf8652a6</cerif:cfResPublId1>
+      <cerif:cfClassId>part</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_publication_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+    </cerif:cfResPubl_ResPubl>
+  </cerif:cfResPubl>
+  <cerif:cfResPubl>
+    <cerif:cfResPublId>ResearchOutput-undefined-0775d388-c24b-40b6-8b1b-1829bf8652a6-HOSTPUB</cerif:cfResPublId>
+    <cerif:cfResPublDate>1800-01-01</cerif:cfResPublDate>
+    <cerif:cfVol xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></cerif:cfVol>
+    <cerif:cfEdition xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></cerif:cfEdition>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>book</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_types</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfTitle cfTrans="o" cfLangCode="en_GB">Title of the host publication in original language</cerif:cfTitle>
+    <cerif:cfSubtitle cfTrans="o" cfLangCode="en_GB">Subtitle of the host publication in original language</cerif:cfSubtitle>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>unknown</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_peer-reviewed</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfPers_ResPubl>
+      <cerif:cfPersId>Person-undefined-0775d388-c24b-40b6-8b1b-1829bf8652a6-A1-HOSTPUB</cerif:cfPersId>
+      <cerif:cfClassId>editor</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_person_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+      <cerif:cfFraction>1.0</cerif:cfFraction>
+    </cerif:cfPers_ResPubl>
+  </cerif:cfResPubl>
+  <cerif:cfResPubl>
+    <cerif:cfResPublId>ResearchOutput-undefined-d2bee51f-3193-406a-9a83-61c3923d14be</cerif:cfResPublId>
+    <cerif:cfResPublDate>1976-01-01</cerif:cfResPublDate>
+    <cerif:cfVol xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></cerif:cfVol>
+    <cerif:cfEdition xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></cerif:cfEdition>
+    <cerif:cfTotalPages>42</cerif:cfTotalPages>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>other_book</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_types</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>published</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_state</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfTitle cfTrans="o" cfLangCode="en_GB">Other contribution</cerif:cfTitle>
+    <cerif:cfSubtitle cfTrans="o" cfLangCode="en_GB">Subtitle of the contribution in original language</cerif:cfSubtitle>
+    <cerif:cfAbstr cfTrans="o" cfLangCode="en_GB">Abstract</cerif:cfAbstr>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>unknown</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_peer-reviewed</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfOrgUnit_ResPubl>
+      <cerif:cfOrgUnitId>Organisation-undefined-bb23104a-9d0f-4c16-b05f-849c6fadc9d4</cerif:cfOrgUnitId>
+      <cerif:cfClassId>author_institution</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_organisation_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+    </cerif:cfOrgUnit_ResPubl>
+    <cerif:cfPers_ResPubl>
+      <cerif:cfPersId>Person-undefined-8dbd9fd9-4d8c-4a92-8f60-3b2e20c67d85</cerif:cfPersId>
+      <cerif:cfClassId>author</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_person_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+      <cerif:cfFraction>1.0</cerif:cfFraction>
+    </cerif:cfPers_ResPubl>
+  </cerif:cfResPubl>
+  <cerif:cfResPubl>
+    <cerif:cfResPublId>ResearchOutput-undefined-8b752d52-c7cb-4047-abd0-78c0a5d92e2b</cerif:cfResPublId>
+    <cerif:cfResPublDate>1976-01-01</cerif:cfResPublDate>
+    <cerif:cfVol xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></cerif:cfVol>
+    <cerif:cfEdition>Edition</cerif:cfEdition>
+    <cerif:cfTotalPages>42</cerif:cfTotalPages>
+    <cerif:cfISBN>ISBN</cerif:cfISBN>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>doctoral_thesis</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_types</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>published</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_state</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfTitle cfTrans="o" cfLangCode="en_GB">Thesis › Doctoral Thesis</cerif:cfTitle>
+    <cerif:cfSubtitle cfTrans="o" cfLangCode="en_GB">Subtitle of the contribution in original language</cerif:cfSubtitle>
+    <cerif:cfAbstr cfTrans="o" cfLangCode="en_GB">Abstract</cerif:cfAbstr>
+    <cerif:cfKeyw cfTrans="o" cfLangCode="und">Keywords</cerif:cfKeyw>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>unknown</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_peer-reviewed</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfOrgUnit_ResPubl>
+      <cerif:cfOrgUnitId>Organisation-undefined-bb23104a-9d0f-4c16-b05f-849c6fadc9d4</cerif:cfOrgUnitId>
+      <cerif:cfClassId>author_institution</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_organisation_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+    </cerif:cfOrgUnit_ResPubl>
+    <cerif:cfOrgUnit_ResPubl>
+      <cerif:cfOrgUnitId>Publisher-undefined-a34094dc-46e7-497e-a230-39c585896581</cerif:cfOrgUnitId>
+      <cerif:cfClassId>publisher_institution</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_organisation_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+    </cerif:cfOrgUnit_ResPubl>
+    <cerif:cfPers_ResPubl>
+      <cerif:cfPersId>Person-undefined-8dbd9fd9-4d8c-4a92-8f60-3b2e20c67d85</cerif:cfPersId>
+      <cerif:cfClassId>author</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_person_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+      <cerif:cfFraction>1.0</cerif:cfFraction>
+    </cerif:cfPers_ResPubl>
+  </cerif:cfResPubl>
+  <cerif:cfResPubl>
+    <cerif:cfResPublId>ResearchOutput-undefined-89d643d3-7574-4388-abc2-4d24022b7c46</cerif:cfResPublId>
+    <cerif:cfResPublDate>1976-01-01</cerif:cfResPublDate>
+    <cerif:cfVol xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></cerif:cfVol>
+    <cerif:cfStartPage>10</cerif:cfStartPage>
+    <cerif:cfEndPage>12</cerif:cfEndPage>
+    <cerif:cfTotalPages>42</cerif:cfTotalPages>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>poster</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_types</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>published</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_state</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfTitle cfTrans="o" cfLangCode="en_GB">Contribution to conference › Paper</cerif:cfTitle>
+    <cerif:cfSubtitle cfTrans="o" cfLangCode="en_GB">Subtitle of the contribution in original language</cerif:cfSubtitle>
+    <cerif:cfAbstr cfTrans="o" cfLangCode="en_GB">Abstract</cerif:cfAbstr>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>yes</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_peer-reviewed</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfOrgUnit_ResPubl>
+      <cerif:cfOrgUnitId>Organisation-undefined-bb23104a-9d0f-4c16-b05f-849c6fadc9d4</cerif:cfOrgUnitId>
+      <cerif:cfClassId>author_institution</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_organisation_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+    </cerif:cfOrgUnit_ResPubl>
+    <cerif:cfPers_ResPubl>
+      <cerif:cfPersId>Person-undefined-8dbd9fd9-4d8c-4a92-8f60-3b2e20c67d85</cerif:cfPersId>
+      <cerif:cfClassId>author</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_person_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+      <cerif:cfFraction>1.0</cerif:cfFraction>
+    </cerif:cfPers_ResPubl>
+    <cerif:cfResPubl_Event>
+      <cerif:cfEventId>Event-undefined-0f9c06b7-c7f3-4df4-9c45-519bf3aefb5a</cerif:cfEventId>
+      <cerif:cfClassId>publisher_institution</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_organisation_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>2011-12-08T00:00:00+01:00</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+    </cerif:cfResPubl_Event>
+  </cerif:cfResPubl>
+  <cerif:cfResPubl>
+    <cerif:cfResPublId>ResearchOutput-undefined-4d9e58ca-7ecb-4492-9034-2ac01f3d295c</cerif:cfResPublId>
+    <cerif:cfResPublDate>1976-10-26</cerif:cfResPublDate>
+    <cerif:cfNum>Article number</cerif:cfNum>
+    <cerif:cfVol xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></cerif:cfVol>
+    <cerif:cfIssue xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></cerif:cfIssue>
+    <cerif:cfStartPage>Pages</cerif:cfStartPage>
+    <cerif:cfTotalPages>42</cerif:cfTotalPages>
+    <cerif:cfURI>http://www.side9.dk</cerif:cfURI>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>journal_article</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_types</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>published</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_state</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfTitle cfTrans="o" cfLangCode="en_GB">Contribution to journal, Article</cerif:cfTitle>
+    <cerif:cfSubtitle cfTrans="o" cfLangCode="en_GB">Subtitle of the contribution in original language</cerif:cfSubtitle>
+    <cerif:cfAbstr cfTrans="o" cfLangCode="en_GB">Abstract</cerif:cfAbstr>
+    <cerif:cfKeyw cfTrans="o" cfLangCode="und">Keywords</cerif:cfKeyw>
+    <cerif:cfKeyw cfTrans="o" cfLangCode="und">/dk/atira/pure/core/keywords/A/AC:AC Collections. Series. Collected works</cerif:cfKeyw>
+    <cerif:cfKeyw cfTrans="o" cfLangCode="und">/dk/atira/pure/core/keywords/B/B1:B Philosophy (General)</cerif:cfKeyw>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>123456</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_alternateids_doi</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>yes</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_peer-reviewed</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfOrgUnit_ResPubl>
+      <cerif:cfOrgUnitId>Organisation-undefined-bb23104a-9d0f-4c16-b05f-849c6fadc9d4</cerif:cfOrgUnitId>
+      <cerif:cfClassId>author_institution</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_organisation_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+    </cerif:cfOrgUnit_ResPubl>
+    <cerif:cfPers_ResPubl>
+      <cerif:cfPersId>Person-undefined-8dbd9fd9-4d8c-4a92-8f60-3b2e20c67d85</cerif:cfPersId>
+      <cerif:cfClassId>author</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_person_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+      <cerif:cfFraction>1.0</cerif:cfFraction>
+    </cerif:cfPers_ResPubl>
+    <cerif:cfResPubl_ResPubl>
+      <cerif:cfResPublId2>Journal-undefined-a9164d0c-d436-4272-bf3c-8f21f44e829a</cerif:cfResPublId2>
+      <cerif:cfResPublId1>ResearchOutput-undefined-4d9e58ca-7ecb-4492-9034-2ac01f3d295c</cerif:cfResPublId1>
+      <cerif:cfClassId>part</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_publication_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+    </cerif:cfResPubl_ResPubl>
+    <cerif:cfResPubl_Event>
+      <cerif:cfEventId>Event-undefined-9f58aee0-0672-4ca6-9701-0a179de16446</cerif:cfEventId>
+      <cerif:cfClassId>publisher_institution</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_organisation_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>2011-12-14T00:00:00+01:00</cerif:cfStartDate>
+      <cerif:cfEndDate>2011-12-16T00:00:00+01:00</cerif:cfEndDate>
+    </cerif:cfResPubl_Event>
+  </cerif:cfResPubl>
+  <cerif:cfResPubl>
+    <cerif:cfResPublId>ResearchOutput-undefined-d698482d-95a4-4eaa-9052-0cd5f8210fd4</cerif:cfResPublId>
+    <cerif:cfResPublDate>1976-10-26</cerif:cfResPublDate>
+    <cerif:cfVol>10</cerif:cfVol>
+    <cerif:cfEdition>Edition</cerif:cfEdition>
+    <cerif:cfTotalPages>42</cerif:cfTotalPages>
+    <cerif:cfISBN>ISBN</cerif:cfISBN>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>book</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_types</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>published</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_state</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfTitle cfTrans="o" cfLangCode="en_GB">Book/Report › Book</cerif:cfTitle>
+    <cerif:cfSubtitle cfTrans="o" cfLangCode="en_GB">Subtitle of the contribution in original language</cerif:cfSubtitle>
+    <cerif:cfAbstr cfTrans="o" cfLangCode="en_GB">Abstract</cerif:cfAbstr>
+    <cerif:cfBiblNote cfTrans="o" cfLangCode="en_GB">Bibliographical note</cerif:cfBiblNote>    <cerif:cfKeyw cfTrans="o" cfLangCode="und">Keywords</cerif:cfKeyw>
+    <cerif:cfKeyw cfTrans="o" cfLangCode="und">/dk/atira/pure/core/keywords/A:A General Works</cerif:cfKeyw>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>unknown</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_peer-reviewed</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfOrgUnit_ResPubl>
+      <cerif:cfOrgUnitId>Organisation-undefined-bb23104a-9d0f-4c16-b05f-849c6fadc9d4</cerif:cfOrgUnitId>
+      <cerif:cfClassId>author_institution</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_organisation_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+    </cerif:cfOrgUnit_ResPubl>
+    <cerif:cfOrgUnit_ResPubl>
+      <cerif:cfOrgUnitId>Publisher-undefined-a34094dc-46e7-497e-a230-39c585896581</cerif:cfOrgUnitId>
+      <cerif:cfClassId>publisher_institution</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_organisation_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+    </cerif:cfOrgUnit_ResPubl>
+    <cerif:cfPers_ResPubl>
+      <cerif:cfPersId>Person-undefined-8dbd9fd9-4d8c-4a92-8f60-3b2e20c67d85</cerif:cfPersId>
+      <cerif:cfClassId>author</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_person_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+      <cerif:cfFraction>1.0</cerif:cfFraction>
+    </cerif:cfPers_ResPubl>
+  </cerif:cfResPubl>
+  <cerif:cfResPat>
+    <cerif:cfResPatId>ResearchOutput-undefined-495ade3d-503c-41fc-a017-75b08d7ff183</cerif:cfResPatId>
+    <cerif:cfCountryCode xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></cerif:cfCountryCode>
+    <cerif:cfRegistrDate>1976-01-01</cerif:cfRegistrDate>
+    <cerif:cfApprovDate>1976-01-01</cerif:cfApprovDate>
+    <cerif:cfPatentNum>Patent number</cerif:cfPatentNum>
+    <cerif:cfResPat_Class>
+      <cerif:cfClassId>technical_standard</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_types</cerif:cfClassSchemeId>
+    </cerif:cfResPat_Class>
+    <cerif:cfTitle cfTrans="o" cfLangCode="en_GB">Patent</cerif:cfTitle>
+    <cerif:cfAbstr cfTrans="o" cfLangCode="en_GB">Abstract</cerif:cfAbstr>
+    <cerif:cfResPat_Class>
+      <cerif:cfClassId>unknown</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_peer-reviewed</cerif:cfClassSchemeId>
+    </cerif:cfResPat_Class>
+    <cerif:cfOrgUnit_ResPat>
+      <cerif:cfOrgUnitId>Organisation-undefined-bb23104a-9d0f-4c16-b05f-849c6fadc9d4</cerif:cfOrgUnitId>
+      <cerif:cfClassId>author_institution</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_organisation_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+    </cerif:cfOrgUnit_ResPat>
+    <cerif:cfPers_ResPat>
+      <cerif:cfPersId>ClassifiedAuthorAssociation-undefined-62985222</cerif:cfPersId>
+      <cerif:cfClassId>creator</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_person_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+    </cerif:cfPers_ResPat>
+  </cerif:cfResPat>
+  <cerif:cfResPubl>
+    <cerif:cfResPublId>ResearchOutput-undefined-4c2ced16-748d-4e4e-8834-047560474d5b</cerif:cfResPublId>
+    <cerif:cfResPublDate>1976-10-26</cerif:cfResPublDate>
+    <cerif:cfVol xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></cerif:cfVol>
+    <cerif:cfEdition xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></cerif:cfEdition>
+    <cerif:cfStartPage>10</cerif:cfStartPage>
+    <cerif:cfEndPage>12</cerif:cfEndPage>
+    <cerif:cfTotalPages>42</cerif:cfTotalPages>
+    <cerif:cfISBN>ISSN</cerif:cfISBN>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>journal_article_abstract</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_types</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>published</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_state</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfTitle cfTrans="o" cfLangCode="en_GB">Contribution to specialist publication › Featured article</cerif:cfTitle>
+    <cerif:cfSubtitle cfTrans="o" cfLangCode="en_GB">Subtitle of the contribution in original language</cerif:cfSubtitle>
+    <cerif:cfAbstr cfTrans="o" cfLangCode="en_GB">Abstract</cerif:cfAbstr>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>unknown</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_peer-reviewed</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfOrgUnit_ResPubl>
+      <cerif:cfOrgUnitId>Organisation-undefined-bb23104a-9d0f-4c16-b05f-849c6fadc9d4</cerif:cfOrgUnitId>
+      <cerif:cfClassId>author_institution</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_organisation_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+    </cerif:cfOrgUnit_ResPubl>
+    <cerif:cfPers_ResPubl>
+      <cerif:cfPersId>Person-undefined-8dbd9fd9-4d8c-4a92-8f60-3b2e20c67d85</cerif:cfPersId>
+      <cerif:cfClassId>author</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_person_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+      <cerif:cfFraction>1.0</cerif:cfFraction>
+    </cerif:cfPers_ResPubl>
+    <cerif:cfResPubl_ResPubl>
+      <cerif:cfResPublId2>ResearchOutput-undefined-4c2ced16-748d-4e4e-8834-047560474d5b-HOSTPUB</cerif:cfResPublId2>
+      <cerif:cfResPublId1>ResearchOutput-undefined-4c2ced16-748d-4e4e-8834-047560474d5b</cerif:cfResPublId1>
+      <cerif:cfClassId>part</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_publication_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+    </cerif:cfResPubl_ResPubl>
+  </cerif:cfResPubl>
+  <cerif:cfResPubl>
+    <cerif:cfResPublId>ResearchOutput-undefined-4c2ced16-748d-4e4e-8834-047560474d5b-HOSTPUB</cerif:cfResPublId>
+    <cerif:cfResPublDate>1800-01-01</cerif:cfResPublDate>
+    <cerif:cfVol xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></cerif:cfVol>
+    <cerif:cfEdition xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></cerif:cfEdition>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>book</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_types</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfTitle cfTrans="o" cfLangCode="en_GB">Test Journal</cerif:cfTitle>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>unknown</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_peer-reviewed</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+  </cerif:cfResPubl>
+  <cerif:cfResPubl>
+    <cerif:cfResPublId>ResearchOutput-undefined-c70f9dd5-7f4f-4666-90c7-6f9d2614b1ad</cerif:cfResPublId>
+    <cerif:cfResPublDate>1976-01-01</cerif:cfResPublDate>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>other_book</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_types</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>published</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_state</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfTitle cfTrans="o" cfLangCode="en_GB">Non-textual form › Software</cerif:cfTitle>
+    <cerif:cfSubtitle cfTrans="o" cfLangCode="en_GB">Subtitle of the contribution in original language</cerif:cfSubtitle>
+    <cerif:cfAbstr cfTrans="o" cfLangCode="en_GB">Abstract</cerif:cfAbstr>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>unknown</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_peer-reviewed</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfOrgUnit_ResPubl>
+      <cerif:cfOrgUnitId>Organisation-undefined-bb23104a-9d0f-4c16-b05f-849c6fadc9d4</cerif:cfOrgUnitId>
+      <cerif:cfClassId>author_institution</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_organisation_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+    </cerif:cfOrgUnit_ResPubl>
+    <cerif:cfOrgUnit_ResPubl>
+      <cerif:cfOrgUnitId>Publisher-undefined-cec5a775-c32d-4343-a9cf-09ee0b6ebb45</cerif:cfOrgUnitId>
+      <cerif:cfClassId>publisher_institution</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_organisation_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+    </cerif:cfOrgUnit_ResPubl>
+    <cerif:cfPers_ResPubl>
+      <cerif:cfPersId>Person-undefined-8dbd9fd9-4d8c-4a92-8f60-3b2e20c67d85</cerif:cfPersId>
+      <cerif:cfClassId>creator</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_person_publication_roles</cerif:cfClassSchemeId>
+      <cerif:cfStartDate>1800-01-01</cerif:cfStartDate>
+      <cerif:cfEndDate>2099-12-31</cerif:cfEndDate>
+      <cerif:cfFraction>1.0</cerif:cfFraction>
+    </cerif:cfPers_ResPubl>
+  </cerif:cfResPubl>
+  <cerif:cfOrgUnit>
+    <cerif:cfOrgUnitId>Publisher-undefined-a34094dc-46e7-497e-a230-39c585896581</cerif:cfOrgUnitId>
+    <cerif:cfOrgUnit_Class>
+      <cerif:cfClassId>publisher</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_organisation_types</cerif:cfClassSchemeId>
+    </cerif:cfOrgUnit_Class>
+    <cerif:cfName cfTrans="o" cfLangCode="und">Oxford University Press</cerif:cfName>
+  </cerif:cfOrgUnit>
+  <cerif:cfOrgUnit>
+    <cerif:cfOrgUnitId>Publisher-undefined-cec5a775-c32d-4343-a9cf-09ee0b6ebb45</cerif:cfOrgUnitId>
+    <cerif:cfOrgUnit_Class>
+      <cerif:cfClassId>publisher</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_organisation_types</cerif:cfClassSchemeId>
+    </cerif:cfOrgUnit_Class>
+    <cerif:cfName cfTrans="o" cfLangCode="und">Routledge</cerif:cfName>
+  </cerif:cfOrgUnit>
+  <cerif:cfOrgUnit>
+    <cerif:cfOrgUnitId>Publisher-undefined-1a52842e-a04b-4c59-948e-0a3e8de9d557</cerif:cfOrgUnitId>
+    <cerif:cfOrgUnit_Class>
+      <cerif:cfClassId>publisher</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_organisation_types</cerif:cfClassSchemeId>
+    </cerif:cfOrgUnit_Class>
+    <cerif:cfName cfTrans="o" cfLangCode="und">Sage</cerif:cfName>
+  </cerif:cfOrgUnit>
+  <cerif:cfOrgUnit>
+    <cerif:cfOrgUnitId>Organisation-undefined-bb23104a-9d0f-4c16-b05f-849c6fadc9d4</cerif:cfOrgUnitId>
+    <cerif:cfAcro>University of Bath</cerif:cfAcro>
+    <cerif:cfURI xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></cerif:cfURI>
+    <cerif:cfOrgUnit_Class>
+      <cerif:cfClassId>university</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme class_scheme_cerif_organisation_types</cerif:cfClassSchemeId>
+    </cerif:cfOrgUnit_Class>
+    <cerif:cfName cfTrans="o" cfLangCode="en_GB">University of Bath</cerif:cfName>
+  </cerif:cfOrgUnit>
+  <cerif:cfEvent>
+    <cerif:cfEventId>Event-undefined-9f58aee0-0672-4ca6-9701-0a179de16446</cerif:cfEventId>
+    <cerif:cfCountryCode xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></cerif:cfCountryCode>
+    <cerif:cfCityTown>Royal Welsh College of Music and Drama, Cardiff</cerif:cfCityTown>
+    <cerif:cfStartDate>2011-12-14+01:00</cerif:cfStartDate>
+    <cerif:cfEndDate>2011-12-16+01:00</cerif:cfEndDate>
+    <cerif:cfEvent_Class>
+      <cerif:cfClassId>other</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_event_types</cerif:cfClassSchemeId>
+    </cerif:cfEvent_Class>
+    <cerif:cfName cfTrans="o" cfLangCode="en_GB">DCC Roadshow</cerif:cfName>
+  </cerif:cfEvent>
+  <cerif:cfEvent>
+    <cerif:cfEventId>Event-undefined-0f9c06b7-c7f3-4df4-9c45-519bf3aefb5a</cerif:cfEventId>
+    <cerif:cfCountryCode xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></cerif:cfCountryCode>
+    <cerif:cfCityTown>Marriott Royal Hotel, Bristol</cerif:cfCityTown>
+    <cerif:cfStartDate>2011-12-08+01:00</cerif:cfStartDate>
+    <cerif:cfEndDate xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></cerif:cfEndDate>
+    <cerif:cfEvent_Class>
+      <cerif:cfClassId>other</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_cerif_event_types</cerif:cfClassSchemeId>
+    </cerif:cfEvent_Class>
+    <cerif:cfName cfTrans="o" cfLangCode="en_GB">On the importance of linking: Planning, provenance and citation</cerif:cfName>
+  </cerif:cfEvent>
+  <cerif:cfPers>
+    <cerif:cfPersId>Person-undefined-8dbd9fd9-4d8c-4a92-8f60-3b2e20c67d85</cerif:cfPersId>
+    <cerif:cfBirthdate xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></cerif:cfBirthdate>
+    <cerif:cfURI xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></cerif:cfURI>
+    <cerif:cfPersName>
+      <cerif:cfFamilyNames>Person</cerif:cfFamilyNames>
+      <cerif:cfFirstNames>Test</cerif:cfFirstNames>
+    </cerif:cfPersName>
+  </cerif:cfPers>
+  <cerif:cfResPubl>
+    <cerif:cfResPublId>Journal-undefined-a9164d0c-d436-4272-bf3c-8f21f44e829a</cerif:cfResPublId>
+    <cerif:cfResPublDate>1800-01-01</cerif:cfResPublDate>
+    <cerif:cfISSN>ISSN</cerif:cfISSN>
+    <cerif:cfResPubl_Class>
+      <cerif:cfClassId>journal</cerif:cfClassId>
+      <cerif:cfClassSchemeId>class_scheme_publication_types</cerif:cfClassSchemeId>
+    </cerif:cfResPubl_Class>
+    <cerif:cfTitle cfTrans="o" cfLangCode="und">Test Journal</cerif:cfTitle>
+  </cerif:cfResPubl>
+</cerif:CERIF>
