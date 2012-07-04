@@ -1,0 +1,2375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CERIF xmlns="urn:xmlns:org:eurocris:cerif-1.4-0" date="2012-06-12" release="1.4" sourceDatabase="Symplectic Elements at Organisation">
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_personname_personal_titles</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+    <cfClass>
+      <cfClassId>mr</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Mr</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>mrs</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Mrs</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>miss</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Miss</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>ms</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Ms</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>dr</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Dr</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>prof</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Professor</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>rev</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Reverend</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_personname_post_nominals</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+    <cfClass>
+      <cfClassId>mlitt</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">MLitt</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>msc</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">MSc</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>bsc</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">BSc</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>ma</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Ma</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>mphil</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">MPhil</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>mres</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">MRes</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>phd</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">PhD</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>meng</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">MEng</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>mphys</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">MPhys</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>mmath</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">MMath</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>beng</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">BEng</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>ba</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">BA</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>pgdip</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">PGDip</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    <cfURI>http://www.symplectic.co.uk</cfURI>
+    <cfClass>
+      <cfClassId>bib</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Bibliographic</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>hr</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Human Resources</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+    <cfClass>
+      <cfClassId>book</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Book</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>book_review</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Book Review</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>book_chapter_abstract</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Book Chapter Abstract</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>inbook</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Inbook</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>anthology</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Anthology</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>monograph</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Monograph</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>reference_book</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Reference Book</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>textbook</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Textbook</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>encyclopedia</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Encyclopedia</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>manual</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Manual</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>other_book</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Other Book</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>journal</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Journal</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>journal_article</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Journal Article</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>journal_article_abstract</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Journal Article Abstract</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>journal_article_review</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Journal Article Review</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>conference_proceedings</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Conference Proceedings</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>conference_proceedings_article</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Conference Proceedings Article</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>letter</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Letter</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>letter_to_editor</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Letter to Editor</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>phd_thesis</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">PhD Thesis</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>short_communication</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Short Communication</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>poster</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Poster</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>presentation</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Presentation</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>news_clipping</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Newsclipping</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>commentary</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Commentary</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>annotation</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Annotation</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>critical_edition</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Critical Edition</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>technical_report</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Technical Report</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>consultancy_report</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Consultancy Report</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>technical_standard</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Technical Standard</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>working_paper</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Working Paper</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_publication_state</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+    <cfClass>
+      <cfClassId>in_preparation</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">In Preparation</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>in_press</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">In Press</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>published</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Published</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>unpublished</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Unpublished</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_publication_peer_reviewed</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+    <cfClass>
+      <cfClassId>yes</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Yes</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>no</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">No</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>unknown</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Unknown</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_eaddress_types</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+    <cfClass>
+      <cfClassId>email</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Email Address</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>fax</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Fax</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>phone</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Phone</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>skype</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Skype Address</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>twitter</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Twitter ID</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>facebook</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Facebook ID</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>linkedin</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">LinkedIn ID</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+    <cfClass>
+      <cfClassId>contributor</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Contributor</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>author</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Author</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>author_numbered</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Author Numbered</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>author_percentage</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Author Percentage</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>creator</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Creator</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>editor</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Editor</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>translator</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Translator</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>publisher</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Publisher</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>commissioner</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Commissioner</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>group_authors</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Group Authors</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>reviewer</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Reviewer</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>illustrator</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Illustrator</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>guest_editor</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Guest Editor</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_cerif_person_organisation_roles</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+    <cfClass>
+      <cfClassId>affiliation</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Affiliation</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_cerif_person_person_roles</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+    <cfClass>
+      <cfClassId>mentor</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Mentor</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>supervisor</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Supervisor</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_cerif_publication_publication_roles</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+    <cfClass>
+      <cfClassId>derivation</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Derivation</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>successor</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Successor</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>part</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Part</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_person_alternateids_hesa</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_person_alternateids_wos</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_person_alternateids_scopus</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_publication_alternateids_wos</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_publication_alternateids_scopus</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+  </cfClassScheme>
+  <cfClass>
+    <cfClassId>1205.4425</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">1205.4425</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>3f071b47-864a-49d8-bf70-007ff2f198f2</cfResPublId>
+    <cfClassId>1205.4425</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>4b0a8240-5f98-4b83-8b4c-da89edca20c1</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Bender</cfFamilyNames>
+      <cfFirstNames>CM</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>4b0a8240-5f98-4b83-8b4c-da89edca20c1</cfPersId>
+    <cfResPublId>3f071b47-864a-49d8-bf70-007ff2f198f2</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>cca5d406-e0c8-4b30-a509-ec44f4bfa260</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hook</cfFamilyNames>
+      <cfFirstNames>DW</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>cca5d406-e0c8-4b30-a509-ec44f4bfa260</cfPersId>
+    <cfResPublId>3f071b47-864a-49d8-bf70-007ff2f198f2</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfResPubl>
+    <cfResPublId>3f071b47-864a-49d8-bf70-007ff2f198f2</cfResPublId>
+    <cfResPublDate>2012-05-20</cfResPublDate>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Universal spectral behavior of $x^2(ix)^ε$ potentials</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">The PT-symmetric Hamiltonian $H=p^2+x^2(ix)^\epsilon$ ($\epsilon$ real)
+exhibits a phase transition at $\epsilon=0$. When $\epsilon\geq0$, the
+eigenvalues are all real, positive, discrete, and grow as $\epsilon$ increases.
+However, when $\epsilon&lt;0$ there are only a finite number of real eigenvalues.
+As $\epsilon$ approaches -1 from above, the number of real eigenvalues
+decreases to one, and this eigenvalue becomes infinite at $\epsilon=-1$. In
+this paper it is shown that these qualitative spectral behaviors are generic
+and that they are exhibited by the eigenvalues of the general class of
+Hamiltonians $H^{(2n)}=p^{2n}+x^2(ix)^\epsilon$ ($\epsilon$ real, n=1, 2, 3,
+...). The complex classical behaviors of these Hamiltonians are also examined.</cfAbstr>
+    <cfBiblNote cfLangCode="en_GB" cfTrans="o">8 pages, 7 figures</cfBiblNote>
+    <cfResPubl_Class>
+      <cfClassId>journal</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfEAddr>
+    <cfEAddrId>977b6f0a-e8c2-4c02-b188-b54fa24cc068</cfEAddrId>
+    <cfURI>daniel@symplectic.co.uk</cfURI>
+  </cfEAddr>
+  <cfPers>
+    <cfPersId>04a4bedd-32f3-4faf-a0a9-19a44edacb8d</cfPersId>
+    <cfPers_EAddr>
+      <cfEAddrId>977b6f0a-e8c2-4c02-b188-b54fa24cc068</cfEAddrId>
+      <cfClassId>email</cfClassId>
+      <cfClassSchemeId>class_scheme_eaddress_types</cfClassSchemeId>
+    </cfPers_EAddr>
+    <cfPers_Class>
+      <cfClassId>hr</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hook</cfFamilyNames>
+      <cfFirstNames>Daniel</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>04a4bedd-32f3-4faf-a0a9-19a44edacb8d</cfPersId>
+    <cfResPublId>3f071b47-864a-49d8-bf70-007ff2f198f2</cfResPublId>
+    <cfClassId>author</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>1011.0121</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">1011.0121</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>26478de9-da25-4497-bc83-f8daa0378afb</cfResPublId>
+    <cfClassId>1011.0121</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>a538b8f9-5904-457d-8f79-b8f5a103de4b</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Bender</cfFamilyNames>
+      <cfFirstNames>CM</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>a538b8f9-5904-457d-8f79-b8f5a103de4b</cfPersId>
+    <cfResPublId>26478de9-da25-4497-bc83-f8daa0378afb</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>d7013ce8-66bf-47db-8f00-3d6d035cbc6b</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hook</cfFamilyNames>
+      <cfFirstNames>DW</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>d7013ce8-66bf-47db-8f00-3d6d035cbc6b</cfPersId>
+    <cfResPublId>26478de9-da25-4497-bc83-f8daa0378afb</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfResPubl>
+    <cfResPublId>26478de9-da25-4497-bc83-f8daa0378afb</cfResPublId>
+    <cfResPublDate>2010-10-31</cfResPublDate>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Quantum tunneling as a classical anomaly</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">Classical mechanics is a singular theory in that real-energy classical
+particles can never enter classically forbidden regions. However, if one
+regulates classical mechanics by allowing the energy E of a particle to be
+complex, the particle exhibits quantum-like behavior: Complex-energy classical
+particles can travel between classically allowed regions separated by potential
+barriers. When Im(E) -&gt; 0, the classical tunneling probabilities persist.
+Hence, one can interpret quantum tunneling as an anomaly. A numerical
+comparison of complex classical tunneling probabilities with quantum tunneling
+probabilities leads to the conjecture that as ReE increases, complex classical
+tunneling probabilities approach the corresponding quantum probabilities. Thus,
+this work attempts to generalize the Bohr correspondence principle from
+classically allowed to classically forbidden regions.</cfAbstr>
+    <cfBiblNote cfLangCode="en_GB" cfTrans="o">12 pages, 7 figures</cfBiblNote>
+    <cfResPubl_Class>
+      <cfClassId>journal</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfPers_ResPubl>
+    <cfPersId>04a4bedd-32f3-4faf-a0a9-19a44edacb8d</cfPersId>
+    <cfResPublId>26478de9-da25-4497-bc83-f8daa0378afb</cfResPublId>
+    <cfClassId>author</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>1203.6590</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">1203.6590</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>b352b2de-5648-465f-8c35-9a6fb2223b60</cfResPublId>
+    <cfClassId>1203.6590</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>44771929-7826-4b08-a9ad-d0989059515d</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Bender</cfFamilyNames>
+      <cfFirstNames>CM</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>44771929-7826-4b08-a9ad-d0989059515d</cfPersId>
+    <cfResPublId>b352b2de-5648-465f-8c35-9a6fb2223b60</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>daa56e82-aeda-466e-aa80-3c2bb873f9ce</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hook</cfFamilyNames>
+      <cfFirstNames>DW</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>daa56e82-aeda-466e-aa80-3c2bb873f9ce</cfPersId>
+    <cfResPublId>b352b2de-5648-465f-8c35-9a6fb2223b60</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>f4cbb0db-7baa-4e91-91ac-bbdb20d9d9af</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Klevansky</cfFamilyNames>
+      <cfFirstNames>SP</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>f4cbb0db-7baa-4e91-91ac-bbdb20d9d9af</cfPersId>
+    <cfResPublId>b352b2de-5648-465f-8c35-9a6fb2223b60</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfResPubl>
+    <cfResPublId>b352b2de-5648-465f-8c35-9a6fb2223b60</cfResPublId>
+    <cfResPublDate>2012-03-29</cfResPublDate>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Negative-energy PT-symmetric Hamiltonians</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">The non-Hermitian PT-symmetric quantum-mechanical Hamiltonian
+$H=p^2+x^2(ix)^\epsilon$ has real, positive, and discrete eigenvalues for all
+$\epsilon\geq 0$. These eigenvalues are analytic continuations of the
+harmonic-oscillator eigenvalues $E_n=2n+1$ (n=0, 1, 2, 3, ...) at $\epsilon=0$.
+However, the harmonic oscillator also has negative eigenvalues $E_n=-2n-1$
+(n=0, 1, 2, 3, ...), and one may ask whether it is equally possible to continue
+analytically from these eigenvalues. It is shown in this paper that for
+appropriate PT-symmetric boundary conditions the Hamiltonian
+$H=p^2+x^2(ix)^\epsilon$ also has real and {\it negative} discrete eigenvalues.
+The negative eigenvalues fall into classes labeled by the integer N (N=1, 2, 3,
+...). For the Nth class of eigenvalues, $\epsilon$ lies in the range
+$(4N-6)/3&lt;\epsilon&lt;4N-2$. At the low and high ends of this range, the
+eigenvalues are all infinite. At the special intermediate value $\epsilon=2N-2$
+the eigenvalues are the negatives of those of the conventional Hermitian
+Hamiltonian $H=p^2+x^{2N}$. However, when $\epsilon\neq 2N-2$, there are
+infinitely many complex eigenvalues. Thus, while the positive-spectrum sector
+of the Hamiltonian $H=p^2+x^2(ix)^\epsilon$ has an unbroken PT symmetry (the
+eigenvalues are all real), the negative-spectrum sector of
+$H=p^2+x^2(ix)^\epsilon$ has a broken PT symmetry (only some of the eigenvalues
+are real).</cfAbstr>
+    <cfBiblNote cfLangCode="en_GB" cfTrans="o">12 pages, 8 figures</cfBiblNote>
+    <cfResPubl_Class>
+      <cfClassId>journal</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfPers_ResPubl>
+    <cfPersId>04a4bedd-32f3-4faf-a0a9-19a44edacb8d</cfPersId>
+    <cfResPublId>b352b2de-5648-465f-8c35-9a6fb2223b60</cfResPublId>
+    <cfClassId>author</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>0912.4659</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">0912.4659</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>957a8c66-1016-49e2-b2aa-fe77617c03cd</cfResPublId>
+    <cfClassId>0912.4659</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>2010b07e-f74a-4fb4-90c1-d03cf003e866</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Bender</cfFamilyNames>
+      <cfFirstNames>CM</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>2010b07e-f74a-4fb4-90c1-d03cf003e866</cfPersId>
+    <cfResPublId>957a8c66-1016-49e2-b2aa-fe77617c03cd</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>9abb3536-4a54-4501-a470-eb7e3ec5b0e8</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hook</cfFamilyNames>
+      <cfFirstNames>DW</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>9abb3536-4a54-4501-a470-eb7e3ec5b0e8</cfPersId>
+    <cfResPublId>957a8c66-1016-49e2-b2aa-fe77617c03cd</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>7012252d-65af-4a85-9420-6d8c2f4896b3</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Meisinger</cfFamilyNames>
+      <cfFirstNames>PN</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>7012252d-65af-4a85-9420-6d8c2f4896b3</cfPersId>
+    <cfResPublId>957a8c66-1016-49e2-b2aa-fe77617c03cd</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>d6f4692a-ae2b-4472-b87f-e062ae0ffef5</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Wang</cfFamilyNames>
+      <cfFirstNames>Q - H</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>d6f4692a-ae2b-4472-b87f-e062ae0ffef5</cfPersId>
+    <cfResPublId>957a8c66-1016-49e2-b2aa-fe77617c03cd</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>4</cfFraction>
+  </cfPers_ResPubl>
+  <cfResPubl>
+    <cfResPublId>957a8c66-1016-49e2-b2aa-fe77617c03cd</cfResPublId>
+    <cfResPublDate>2009-12-23</cfResPublDate>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Probability Density in the Complex Plane</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">The correspondence principle asserts that quantum mechanics resembles
+classical mechanics in the high-quantum-number limit. In the past few years
+many papers have been published on the extension of both quantum mechanics and
+classical mechanics into the complex domain. However, the question of whether
+complex quantum mechanics resembles complex classical mechanics at high energy
+has not yet been studied. This paper introduces the concept of a local quantum
+probability density $\rho(z)$ in the complex plane. It is shown that there
+exist infinitely many complex contours $C$ of infinite length on which $\rho(z)
+dz$ is real and positive. Furthermore, the probability integral $\int_C\rho(z)
+dz$ is finite. Demonstrating the existence of such contours is the essential
+element in establishing the correspondence between complex quantum and
+classical mechanics. The mathematics needed to analyze these contours is subtle
+and involves the use of asymptotics beyond all orders.</cfAbstr>
+    <cfBiblNote cfLangCode="en_GB" cfTrans="o">38 pages, 17figures</cfBiblNote>
+    <cfResPubl_Class>
+      <cfClassId>journal</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfPers_ResPubl>
+    <cfPersId>04a4bedd-32f3-4faf-a0a9-19a44edacb8d</cfPersId>
+    <cfResPublId>957a8c66-1016-49e2-b2aa-fe77617c03cd</cfResPublId>
+    <cfClassId>author</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>1001.1548</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">1001.1548</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>02913e0e-ea8c-441b-8d62-444f28fc2187</cfResPublId>
+    <cfClassId>1001.1548</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>b4b31f21-641b-440f-8368-e59263199531</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Bender</cfFamilyNames>
+      <cfFirstNames>CM</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>b4b31f21-641b-440f-8368-e59263199531</cfPersId>
+    <cfResPublId>02913e0e-ea8c-441b-8d62-444f28fc2187</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>f91103da-81fe-4320-a5b6-6d9b1750e405</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hook</cfFamilyNames>
+      <cfFirstNames>DW</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>f91103da-81fe-4320-a5b6-6d9b1750e405</cfPersId>
+    <cfResPublId>02913e0e-ea8c-441b-8d62-444f28fc2187</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>7518dd15-0a48-4d11-be2c-373568568658</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Kooner</cfFamilyNames>
+      <cfFirstNames>KS</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>7518dd15-0a48-4d11-be2c-373568568658</cfPersId>
+    <cfResPublId>02913e0e-ea8c-441b-8d62-444f28fc2187</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>10.1088/1751-8113/43/16/165201</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">10.1088/1751-8113/43/16/165201</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>02913e0e-ea8c-441b-8d62-444f28fc2187</cfResPublId>
+    <cfClassId>10.1088/1751-8113/43/16/165201</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfResPubl>
+    <cfResPublId>02913e0e-ea8c-441b-8d62-444f28fc2187</cfResPublId>
+    <cfResPublDate>2010-01-10</cfResPublDate>
+    <cfSeries>J.Phys.A43:165201,2010</cfSeries>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Classical Particle in a Complex Elliptic Potential</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">This paper reports a numerical study of complex classical trajectories of a
+particle in an elliptic potential. This study of doubly-periodic potentials is
+a natural sequel to earlier work on complex classical trajectories in
+trigonometric potentials. For elliptic potentials there is a two-dimensional
+array of identical cells in the complex plane, and each cell contains a pair of
+turning points. The particle can travel both horizontally and vertically as it
+visits these cells, and sometimes the particle is captured temporarily by a
+pair of turning points. If the particle's energy lies in a conduction band, the
+particle drifts through the lattice of cells and is never captured by the same
+pair of turning points more than once. However, if the energy of the particle
+is not in a conduction band, the particle can return to previously visited
+cells.</cfAbstr>
+    <cfBiblNote cfLangCode="en_GB" cfTrans="o">12 pages, 7 figures</cfBiblNote>
+    <cfResPubl_Class>
+      <cfClassId>journal</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfPers_ResPubl>
+    <cfPersId>04a4bedd-32f3-4faf-a0a9-19a44edacb8d</cfPersId>
+    <cfResPublId>02913e0e-ea8c-441b-8d62-444f28fc2187</cfResPublId>
+    <cfClassId>author</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>1001.0131</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">1001.0131</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>f3f20cd6-df6c-4377-a673-cd711912bfa3</cfResPublId>
+    <cfClassId>1001.0131</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>f1eca4d9-d802-454b-ace4-ddbec050fc20</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Bender</cfFamilyNames>
+      <cfFirstNames>CM</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>f1eca4d9-d802-454b-ace4-ddbec050fc20</cfPersId>
+    <cfResPublId>f3f20cd6-df6c-4377-a673-cd711912bfa3</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>bfd76932-85c1-4930-837e-ef7cdb8b5829</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hook</cfFamilyNames>
+      <cfFirstNames>DW</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>bfd76932-85c1-4930-837e-ef7cdb8b5829</cfPersId>
+    <cfResPublId>f3f20cd6-df6c-4377-a673-cd711912bfa3</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>b1ba9798-4784-4c99-9580-886a763d6077</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Kooner</cfFamilyNames>
+      <cfFirstNames>K</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>b1ba9798-4784-4c99-9580-886a763d6077</cfPersId>
+    <cfResPublId>f3f20cd6-df6c-4377-a673-cd711912bfa3</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfResPubl>
+    <cfResPublId>f3f20cd6-df6c-4377-a673-cd711912bfa3</cfResPublId>
+    <cfResPublDate>2009-12-31</cfResPublDate>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Complex Elliptic Pendulum</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">This paper briefly summarizes previous work on complex classical mechanics
+and its relation to quantum mechanics. It then introduces a previously
+unstudied area of research involving the complex particle trajectories
+associated with elliptic potentials.</cfAbstr>
+    <cfBiblNote cfLangCode="en_GB" cfTrans="o">15 pages, 14 figures</cfBiblNote>
+    <cfResPubl_Class>
+      <cfClassId>journal</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfPers_ResPubl>
+    <cfPersId>04a4bedd-32f3-4faf-a0a9-19a44edacb8d</cfPersId>
+    <cfResPublId>f3f20cd6-df6c-4377-a673-cd711912bfa3</cfResPublId>
+    <cfClassId>author</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>0912.2069</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">0912.2069</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>41295a3e-433b-4725-9190-49bb6e5520d6</cfResPublId>
+    <cfClassId>0912.2069</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>084a3658-79db-4e33-8fb8-72b1d89f069f</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Bender</cfFamilyNames>
+      <cfFirstNames>CM</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>084a3658-79db-4e33-8fb8-72b1d89f069f</cfPersId>
+    <cfResPublId>41295a3e-433b-4725-9190-49bb6e5520d6</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>c4abfaaa-d313-4e24-88cc-df41332f5859</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hook</cfFamilyNames>
+      <cfFirstNames>DW</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>c4abfaaa-d313-4e24-88cc-df41332f5859</cfPersId>
+    <cfResPublId>41295a3e-433b-4725-9190-49bb6e5520d6</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>827fccf5-2868-42e4-ac2d-ccb8d201e472</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Meisinger</cfFamilyNames>
+      <cfFirstNames>PN</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>827fccf5-2868-42e4-ac2d-ccb8d201e472</cfPersId>
+    <cfResPublId>41295a3e-433b-4725-9190-49bb6e5520d6</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>2c80da81-c09b-4df3-b4de-dd960061894d</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Wang</cfFamilyNames>
+      <cfFirstNames>Q - H</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>2c80da81-c09b-4df3-b4de-dd960061894d</cfPersId>
+    <cfResPublId>41295a3e-433b-4725-9190-49bb6e5520d6</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>4</cfFraction>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>10.1103/PhysRevLett.104.061601</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">10.1103/PhysRevLett.104.061601</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>41295a3e-433b-4725-9190-49bb6e5520d6</cfResPublId>
+    <cfClassId>10.1103/PhysRevLett.104.061601</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfResPubl>
+    <cfResPublId>41295a3e-433b-4725-9190-49bb6e5520d6</cfResPublId>
+    <cfResPublDate>2009-12-10</cfResPublDate>
+    <cfSeries>Phys.Rev.Lett.104:061601,2010</cfSeries>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Complex Correspondence Principle</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">Quantum mechanics and classical mechanics are two very different theories,
+but the correspondence principle states that quantum particles behave
+classically in the limit of high quantum number. In recent years much research
+has been done on extending both quantum mechanics and classical mechanics into
+the complex domain. This letter shows that these complex extensions continue to
+exhibit a correspondence, and that this correspondence becomes more pronounced
+in the complex domain. The association between complex quantum mechanics and
+complex classical mechanics is subtle and demonstrating this relationship
+prequires the use of asymptotics beyond all orders.</cfAbstr>
+    <cfBiblNote cfLangCode="en_GB" cfTrans="o">4 pages, 6 figures</cfBiblNote>
+    <cfResPubl_Class>
+      <cfClassId>journal</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfPers_ResPubl>
+    <cfPersId>04a4bedd-32f3-4faf-a0a9-19a44edacb8d</cfPersId>
+    <cfResPublId>41295a3e-433b-4725-9190-49bb6e5520d6</cfResPublId>
+    <cfClassId>author</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>0809.1975</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">0809.1975</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>c497c4ed-2d01-4173-8767-4371c2b2ae51</cfResPublId>
+    <cfClassId>0809.1975</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>d3819878-810c-4bd0-ad1a-5a463a43332c</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Bender</cfFamilyNames>
+      <cfFirstNames>CM</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>d3819878-810c-4bd0-ad1a-5a463a43332c</cfPersId>
+    <cfResPublId>c497c4ed-2d01-4173-8767-4371c2b2ae51</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>bad59c81-58cf-4f2d-b413-321c76dc0317</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Feinberg</cfFamilyNames>
+      <cfFirstNames>J</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>bad59c81-58cf-4f2d-b413-321c76dc0317</cfPersId>
+    <cfResPublId>c497c4ed-2d01-4173-8767-4371c2b2ae51</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>38ffa5dc-3307-405b-8677-ee4e039f9777</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hook</cfFamilyNames>
+      <cfFirstNames>DW</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>38ffa5dc-3307-405b-8677-ee4e039f9777</cfPersId>
+    <cfResPublId>c497c4ed-2d01-4173-8767-4371c2b2ae51</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>bdb987b2-1478-4003-90fa-9e1e573f2ee0</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Weir</cfFamilyNames>
+      <cfFirstNames>DJ</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>bdb987b2-1478-4003-90fa-9e1e573f2ee0</cfPersId>
+    <cfResPublId>c497c4ed-2d01-4173-8767-4371c2b2ae51</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>4</cfFraction>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>10.1007/s12043-009-0099-3</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">10.1007/s12043-009-0099-3</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>c497c4ed-2d01-4173-8767-4371c2b2ae51</cfResPublId>
+    <cfClassId>10.1007/s12043-009-0099-3</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfResPubl>
+    <cfResPublId>c497c4ed-2d01-4173-8767-4371c2b2ae51</cfResPublId>
+    <cfResPublDate>2008-09-11</cfResPublDate>
+    <cfSeries>Pramana 73:453-470,2009</cfSeries>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Chaotic systems in complex phase space</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">This paper examines numerically the complex classical trajectories of the
+kicked rotor and the double pendulum. Both of these systems exhibit a
+transition to chaos, and this feature is studied in complex phase space.
+Additionally, it is shown that the short-time and long-time behaviors of these
+two PT-symmetric dynamical models in complex phase space exhibit strong
+qualitative similarities.</cfAbstr>
+    <cfBiblNote cfLangCode="en_GB" cfTrans="o">22 page, 16 figures</cfBiblNote>
+    <cfResPubl_Class>
+      <cfClassId>journal</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfPers_ResPubl>
+    <cfPersId>04a4bedd-32f3-4faf-a0a9-19a44edacb8d</cfPersId>
+    <cfResPublId>c497c4ed-2d01-4173-8767-4371c2b2ae51</cfResPublId>
+    <cfClassId>author</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>0809.1166</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">0809.1166</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>3a46da6b-657d-4495-9283-f1650b6ded1e</cfResPublId>
+    <cfClassId>0809.1166</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>5a54abc0-f17a-49ae-ae5f-6485fc68fe1b</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Brody</cfFamilyNames>
+      <cfFirstNames>DC</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>5a54abc0-f17a-49ae-ae5f-6485fc68fe1b</cfPersId>
+    <cfResPublId>3a46da6b-657d-4495-9283-f1650b6ded1e</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>43f330b1-4c8b-453b-8b91-979fea471fd2</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hook</cfFamilyNames>
+      <cfFirstNames>DW</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>43f330b1-4c8b-453b-8b91-979fea471fd2</cfPersId>
+    <cfResPublId>3a46da6b-657d-4495-9283-f1650b6ded1e</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>10.1088/1751-8113/42/2/023001</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">10.1088/1751-8113/42/2/023001</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>3a46da6b-657d-4495-9283-f1650b6ded1e</cfResPublId>
+    <cfClassId>10.1088/1751-8113/42/2/023001</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfResPubl>
+    <cfResPublId>3a46da6b-657d-4495-9283-f1650b6ded1e</cfResPublId>
+    <cfResPublDate>2008-09-06</cfResPublDate>
+    <cfSeries>J.Phys.A42:023001,2008</cfSeries>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Information geometry in vapour-liquid equilibrium</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">Using the square-root map p--&gt;\sqrt{p} a probability density function p can
+be represented as a point of the unit sphere S in the Hilbert space of
+square-integrable functions. If the density function depends smoothly on a set
+of parameters, the image of the map forms a Riemannian submanifold M in S. The
+metric on M induced by the ambient spherical geometry of S is the Fisher
+information matrix. Statistical properties of the system modelled by a
+parametric density function p can then be expressed in terms of information
+geometry. An elementary introduction to information geometry is presented,
+followed by a precise geometric characterisation of the family of Gaussian
+density functions. When the parametric density function describes the
+equilibrium state of a physical system, certain physical characteristics can be
+identified with geometric features of the associated information manifold M.
+Applying this idea, the properties of vapour-liquid phase transitions are
+elucidated in geometrical terms. For an ideal gas, phase transitions are absent
+and the geometry of M is flat. In this case, the solutions to the geodesic
+equations yield the adiabatic equations of state. For a van der Waals gas, the
+associated geometry of M is highly nontrivial. The scalar curvature of M
+diverges along the spinodal boundary which envelopes the unphysical region in
+the phase diagram. The curvature is thus closely related to the stability of
+the system.</cfAbstr>
+    <cfBiblNote cfLangCode="en_GB" cfTrans="o">A short survey article. 38 Pages, 7 Figures</cfBiblNote>
+    <cfResPubl_Class>
+      <cfClassId>journal</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfPers_ResPubl>
+    <cfPersId>04a4bedd-32f3-4faf-a0a9-19a44edacb8d</cfPersId>
+    <cfResPublId>3a46da6b-657d-4495-9283-f1650b6ded1e</cfResPublId>
+    <cfClassId>author</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>0807.0424</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">0807.0424</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>0c21ba48-2db3-4e71-a8d5-728c62468bae</cfResPublId>
+    <cfClassId>0807.0424</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>7a0d3a2d-2a71-4b33-9a57-43606bb2bdb4</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Bender</cfFamilyNames>
+      <cfFirstNames>CM</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>7a0d3a2d-2a71-4b33-9a57-43606bb2bdb4</cfPersId>
+    <cfResPublId>0c21ba48-2db3-4e71-a8d5-728c62468bae</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>b4772432-bf87-44e0-bf67-83f8e766f474</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hook</cfFamilyNames>
+      <cfFirstNames>DW</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>b4772432-bf87-44e0-bf67-83f8e766f474</cfPersId>
+    <cfResPublId>0c21ba48-2db3-4e71-a8d5-728c62468bae</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>efca59d8-9628-42b9-ae9d-d62d0d36cc51</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Mead</cfFamilyNames>
+      <cfFirstNames>LR</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>efca59d8-9628-42b9-ae9d-d62d0d36cc51</cfPersId>
+    <cfResPublId>0c21ba48-2db3-4e71-a8d5-728c62468bae</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>10.1088/1751-8113/41/39/392005</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">10.1088/1751-8113/41/39/392005</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>0c21ba48-2db3-4e71-a8d5-728c62468bae</cfResPublId>
+    <cfClassId>10.1088/1751-8113/41/39/392005</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfResPubl>
+    <cfResPublId>0c21ba48-2db3-4e71-a8d5-728c62468bae</cfResPublId>
+    <cfResPublDate>2008-07-02</cfResPublDate>
+    <cfSeries>J.Phys.A41:392005,2008</cfSeries>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Conjecture on the analyticity of PT-symmetric potentials and the reality
+  of their spectra</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">The spectrum of the Hermitian Hamiltonian $H=p^2+V(x)$ is real and discrete
+if the potential $V(x)\to\infty$ as $x\to\pm\infty$. However, if $V(x)$ is
+complex and PT-symmetric, it is conjectured that, except in rare special cases,
+$V(x)$ must be analytic in order to have a real spectrum. This conjecture is
+demonstrated by using the potential $V(x)=(ix)^a|x|^b$, where $a,b$ are real.</cfAbstr>
+    <cfBiblNote cfLangCode="en_GB" cfTrans="o">8 Pages, 2 figures</cfBiblNote>
+    <cfResPubl_Class>
+      <cfClassId>journal</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfPers_ResPubl>
+    <cfPersId>04a4bedd-32f3-4faf-a0a9-19a44edacb8d</cfPersId>
+    <cfResPublId>0c21ba48-2db3-4e71-a8d5-728c62468bae</cfResPublId>
+    <cfClassId>author</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>0802.2910</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">0802.2910</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>eb93df87-e029-4053-88ed-98fefe7d1b49</cfResPublId>
+    <cfClassId>0802.2910</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>2c841b3f-c016-4d46-b2ee-74552c57a989</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Bender</cfFamilyNames>
+      <cfFirstNames>CM</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>2c841b3f-c016-4d46-b2ee-74552c57a989</cfPersId>
+    <cfResPublId>eb93df87-e029-4053-88ed-98fefe7d1b49</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>a76e22d7-170e-4c1a-a285-8679a1c2f998</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hook</cfFamilyNames>
+      <cfFirstNames>DW</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>a76e22d7-170e-4c1a-a285-8679a1c2f998</cfPersId>
+    <cfResPublId>eb93df87-e029-4053-88ed-98fefe7d1b49</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>10.1088/1751-8113/41/24/244005</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">10.1088/1751-8113/41/24/244005</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>eb93df87-e029-4053-88ed-98fefe7d1b49</cfResPublId>
+    <cfClassId>10.1088/1751-8113/41/24/244005</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfResPubl>
+    <cfResPublId>eb93df87-e029-4053-88ed-98fefe7d1b49</cfResPublId>
+    <cfResPublDate>2008-02-20</cfResPublDate>
+    <cfSeries>J.Phys.A41:244005,2008</cfSeries>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Exact Isospectral Pairs of PT-Symmetric Hamiltonians</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">A technique for constructing an infinite tower of pairs of PT-symmetric
+Hamiltonians, $\hat{H}_n$ and $\hat{K}_n$ (n=2,3,4,...), that have exactly the
+same eigenvalues is described. The eigenvalue problem for the first Hamiltonian
+$\hat{H}_n$ of the pair must be posed in the complex domain, so its
+eigenfunctions satisfy a complex differential equation and fulfill homogeneous
+boundary conditions in Stokes' wedges in the complex plane. The eigenfunctions
+of the second Hamiltonian $\hat{K}_n$ of the pair obey a real differential
+equation and satisfy boundary conditions on the real axis. This equivalence
+constitutes a proof that the eigenvalues of both Hamiltonians are real.
+Although the eigenvalue differential equation associated with $\hat{K}_n$ is
+real, the Hamiltonian $\hat{K}_n$ exhibits quantum anomalies (terms
+proportional to powers of $\hbar$). These anomalies are remnants of the complex
+nature of the equivalent Hamiltonian $\hat{H}_n$. In the classical limit in
+which the anomaly terms in $\hat{K}_n$ are discarded, the pair of Hamiltonians
+$H_{n,classical}$ and $K_{n,classical}$ have closed classical orbits whose
+periods are identical.</cfAbstr>
+    <cfBiblNote cfLangCode="en_GB" cfTrans="o">18 pages, 12 figures</cfBiblNote>
+    <cfResPubl_Class>
+      <cfClassId>journal</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfPers_ResPubl>
+    <cfPersId>04a4bedd-32f3-4faf-a0a9-19a44edacb8d</cfPersId>
+    <cfResPublId>eb93df87-e029-4053-88ed-98fefe7d1b49</cfResPublId>
+    <cfClassId>author</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>0804.4169</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">0804.4169</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>056b55cd-8c60-4b61-8da3-f7b88ad6faa0</cfResPublId>
+    <cfClassId>0804.4169</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>d61dbb52-47be-48cc-bd32-05285cee548f</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Bender</cfFamilyNames>
+      <cfFirstNames>CM</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>d61dbb52-47be-48cc-bd32-05285cee548f</cfPersId>
+    <cfResPublId>056b55cd-8c60-4b61-8da3-f7b88ad6faa0</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>df9ba75a-2d8c-4a6a-ba69-972a2c51348c</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Brody</cfFamilyNames>
+      <cfFirstNames>DC</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>df9ba75a-2d8c-4a6a-ba69-972a2c51348c</cfPersId>
+    <cfResPublId>056b55cd-8c60-4b61-8da3-f7b88ad6faa0</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>1ffab0b8-2a9c-4730-9a6d-dc25368caf1c</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hook</cfFamilyNames>
+      <cfFirstNames>DW</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>1ffab0b8-2a9c-4730-9a6d-dc25368caf1c</cfPersId>
+    <cfResPublId>056b55cd-8c60-4b61-8da3-f7b88ad6faa0</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>10.1088/1751-8113/41/35/352003</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">10.1088/1751-8113/41/35/352003</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>056b55cd-8c60-4b61-8da3-f7b88ad6faa0</cfResPublId>
+    <cfClassId>10.1088/1751-8113/41/35/352003</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfResPubl>
+    <cfResPublId>056b55cd-8c60-4b61-8da3-f7b88ad6faa0</cfResPublId>
+    <cfResPublDate>2008-04-25</cfResPublDate>
+    <cfSeries>J.Phys.A41:352003,2008</cfSeries>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Quantum effects in classical systems having complex energy</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">On the basis of extensive numerical studies it is argued that there are
+strong analogies between the probabilistic behavior of quantum systems defined
+by Hermitian Hamiltonians and the deterministic behavior of classical
+mechanical systems extended into the complex domain. Three models are examined:
+the quartic double-well potential $V(x)=x^4-5x^2$, the cubic potential
+$V(x)=frac{1}{2}x^2-gx^3$, and the periodic potential $V(x)=-\cos x$. For the
+quartic potential a wave packet that is initially localized in one side of the
+double-well can tunnel to the other side. Complex solutions to the classical
+equations of motion exhibit a remarkably analogous behavior. Furthermore,
+classical solutions come in two varieties, which resemble the even-parity and
+odd-parity quantum-mechanical bound states. For the cubic potential, a quantum
+wave packet that is initially in the quadratic portion of the potential near
+the origin will tunnel through the barrier and give rise to a probability
+current that flows out to infinity. The complex solutions to the corresponding
+classical equations of motion exhibit strongly analogous behavior. For the
+periodic potential a quantum particle whose energy lies between -1 and 1 can
+tunnel repeatedly between adjacent classically allowed regions and thus execute
+a localized random walk as it hops from region to region. Furthermore, if the
+energy of the quantum particle lies in a conduction band, then the particle
+delocalizes and drifts freely through the periodic potential. A classical
+particle having complex energy executes a qualitatively analogous local random
+walk, and there exists a narrow energy band for which the classical particle
+becomes delocalized and moves freely through the potential.</cfAbstr>
+    <cfBiblNote cfLangCode="en_GB" cfTrans="o">16 pages, 12 figures</cfBiblNote>
+    <cfResPubl_Class>
+      <cfClassId>journal</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfPers_ResPubl>
+    <cfPersId>04a4bedd-32f3-4faf-a0a9-19a44edacb8d</cfPersId>
+    <cfResPublId>056b55cd-8c60-4b61-8da3-f7b88ad6faa0</cfResPublId>
+    <cfClassId>author</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>0705.3893</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">0705.3893</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>64261f85-d2af-44ed-94e1-5a77fb67d644</cfResPublId>
+    <cfClassId>0705.3893</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>60e6d544-4cd3-482f-a3c3-5f884fedd18c</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Bender</cfFamilyNames>
+      <cfFirstNames>CM</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>60e6d544-4cd3-482f-a3c3-5f884fedd18c</cfPersId>
+    <cfResPublId>64261f85-d2af-44ed-94e1-5a77fb67d644</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>82ef74cc-3423-4b96-82d2-bac417cd8489</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Holm</cfFamilyNames>
+      <cfFirstNames>DD</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>82ef74cc-3423-4b96-82d2-bac417cd8489</cfPersId>
+    <cfResPublId>64261f85-d2af-44ed-94e1-5a77fb67d644</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>d422ce95-d2a0-482b-aa32-a052ef531ad1</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hook</cfFamilyNames>
+      <cfFirstNames>DW</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>d422ce95-d2a0-482b-aa32-a052ef531ad1</cfPersId>
+    <cfResPublId>64261f85-d2af-44ed-94e1-5a77fb67d644</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>10.1088/1751-8113/40/32/F02</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">10.1088/1751-8113/40/32/F02</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>64261f85-d2af-44ed-94e1-5a77fb67d644</cfResPublId>
+    <cfClassId>10.1088/1751-8113/40/32/F02</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfResPubl>
+    <cfResPublId>64261f85-d2af-44ed-94e1-5a77fb67d644</cfResPublId>
+    <cfResPublDate>2007-05-26</cfResPublDate>
+    <cfSeries>J.Phys.A40:F793-F804,2007</cfSeries>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Complexified Dynamical Systems</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">Many dynamical systems, such as the Lotka-Volterra predator-prey model and
+the Euler equations for the free rotation of a rigid body, are PT symmetric.
+The standard and well-known real solutions to such dynamical systems constitute
+an infinitessimal subclass of the full set of complex solutions. This paper
+examines a subset of the complex solutions that contains the real solutions,
+namely, those having PT symmetry. The condition of PT symmetry selects out
+complex solutions that are periodic.</cfAbstr>
+    <cfBiblNote cfLangCode="en_GB" cfTrans="o">13 pages, 12 figures, to appear in Fast Track Communications, Journal
+  of Physics A: Mathematical and Theoretical</cfBiblNote>
+    <cfResPubl_Class>
+      <cfClassId>journal</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfPers_ResPubl>
+    <cfPersId>04a4bedd-32f3-4faf-a0a9-19a44edacb8d</cfPersId>
+    <cfResPublId>64261f85-d2af-44ed-94e1-5a77fb67d644</cfResPublId>
+    <cfClassId>author</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>quant-ph/0702009</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">quant-ph/0702009</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>6edb3670-5356-4e4e-85dc-9cf02805cc87</cfResPublId>
+    <cfClassId>quant-ph/0702009</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>22cadc4a-8eb2-4873-97dd-d6c91c7fabcd</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Brody</cfFamilyNames>
+      <cfFirstNames>DC</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>22cadc4a-8eb2-4873-97dd-d6c91c7fabcd</cfPersId>
+    <cfResPublId>6edb3670-5356-4e4e-85dc-9cf02805cc87</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>f7c57281-dd76-4e4c-92e2-214713953266</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hook</cfFamilyNames>
+      <cfFirstNames>DW</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>f7c57281-dd76-4e4c-92e2-214713953266</cfPersId>
+    <cfResPublId>6edb3670-5356-4e4e-85dc-9cf02805cc87</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>bf26c753-cea8-444e-a459-0fece984a30f</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hughston</cfFamilyNames>
+      <cfFirstNames>LP</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>bf26c753-cea8-444e-a459-0fece984a30f</cfPersId>
+    <cfResPublId>6edb3670-5356-4e4e-85dc-9cf02805cc87</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>10.1088/1751-8113/40/26/F01</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">10.1088/1751-8113/40/26/F01</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>6edb3670-5356-4e4e-85dc-9cf02805cc87</cfResPublId>
+    <cfClassId>10.1088/1751-8113/40/26/F01</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfResPubl>
+    <cfResPublId>6edb3670-5356-4e4e-85dc-9cf02805cc87</cfResPublId>
+    <cfResPublDate>2007-02-01</cfResPublDate>
+    <cfSeries>J.Phys.A40:F503-F510,2007</cfSeries>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Unitarity, ergodicity, and quantum thermodynamics</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">This paper is concerned with the ergodic subspaces of the state spaces of
+isolated quantum systems. We prove a new ergodic theorem for closed quantum
+systems which shows that the equilibrium state of the system takes the form of
+a grand canonical density matrix involving a complete commuting set of
+observables including the Hamiltonian. The result obtained, which is derived
+for a generic finite-dimensional quantum system, shows that the equilibrium
+state arising from unitary evolution is always expressible in the canonical
+form, without the consideration of a system-bath decomposition.</cfAbstr>
+    <cfBiblNote cfLangCode="en_GB" cfTrans="o">8 pages</cfBiblNote>
+    <cfResPubl_Class>
+      <cfClassId>journal</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfPers_ResPubl>
+    <cfPersId>04a4bedd-32f3-4faf-a0a9-19a44edacb8d</cfPersId>
+    <cfResPublId>6edb3670-5356-4e4e-85dc-9cf02805cc87</cfResPublId>
+    <cfClassId>author</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>quant-ph/0612120</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">quant-ph/0612120</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>d05d77c6-bd68-43ee-9d4f-b813d60d260b</cfResPublId>
+    <cfClassId>quant-ph/0612120</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>6a324109-63d3-4a43-a610-90ad1517ea83</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Brody</cfFamilyNames>
+      <cfFirstNames>DC</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>6a324109-63d3-4a43-a610-90ad1517ea83</cfPersId>
+    <cfResPublId>d05d77c6-bd68-43ee-9d4f-b813d60d260b</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>c52c4373-80cc-43cd-abbc-52dd9e8a4d04</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hook</cfFamilyNames>
+      <cfFirstNames>DW</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>c52c4373-80cc-43cd-abbc-52dd9e8a4d04</cfPersId>
+    <cfResPublId>d05d77c6-bd68-43ee-9d4f-b813d60d260b</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>49130b4d-91b0-47f6-88bf-16f3060b9068</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hughston</cfFamilyNames>
+      <cfFirstNames>LP</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>49130b4d-91b0-47f6-88bf-16f3060b9068</cfPersId>
+    <cfResPublId>d05d77c6-bd68-43ee-9d4f-b813d60d260b</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>10.1088/1742-6596/67/1/012025</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">10.1088/1742-6596/67/1/012025</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>d05d77c6-bd68-43ee-9d4f-b813d60d260b</cfResPublId>
+    <cfClassId>10.1088/1742-6596/67/1/012025</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfResPubl>
+    <cfResPublId>d05d77c6-bd68-43ee-9d4f-b813d60d260b</cfResPublId>
+    <cfResPublDate>2006-12-14</cfResPublDate>
+    <cfSeries>Journal of Physics: Conf. Ser. 67 (2007) 012025</cfSeries>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">On quantum microcanonical equilibrium</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">A quantum microcanonical postulate is proposed as a basis for the equilibrium
+properties of small quantum systems. Expressions for the corresponding density
+of states are derived, and are used to establish the existence of phase
+transitions for finite quantum systems. A grand microcanonical ensemble is
+introduced, which can be used to obtain new rigorous results in quantum
+statistical mechanics.</cfAbstr>
+    <cfBiblNote cfLangCode="en_GB" cfTrans="o">6 pages, 3 figures. To appear in DICE 2006 conference proceedings</cfBiblNote>
+    <cfResPubl_Class>
+      <cfClassId>journal</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfPers_ResPubl>
+    <cfPersId>04a4bedd-32f3-4faf-a0a9-19a44edacb8d</cfPersId>
+    <cfResPublId>d05d77c6-bd68-43ee-9d4f-b813d60d260b</cfResPublId>
+    <cfClassId>author</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>math-ph/0609068</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">math-ph/0609068</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>440ecebf-ea9e-486a-87b7-b61abcad2d41</cfResPublId>
+    <cfClassId>math-ph/0609068</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>6f0cc5f1-04c1-4c6a-ad53-26d92c77bab0</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Bender</cfFamilyNames>
+      <cfFirstNames>CM</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>6f0cc5f1-04c1-4c6a-ad53-26d92c77bab0</cfPersId>
+    <cfResPublId>440ecebf-ea9e-486a-87b7-b61abcad2d41</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>b407e5ed-9a97-492f-962d-d5a4fbca7f04</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Holm</cfFamilyNames>
+      <cfFirstNames>DD</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>b407e5ed-9a97-492f-962d-d5a4fbca7f04</cfPersId>
+    <cfResPublId>440ecebf-ea9e-486a-87b7-b61abcad2d41</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>65eb0b12-93bb-4f5e-a25c-399c861594bf</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hook</cfFamilyNames>
+      <cfFirstNames>DW</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>65eb0b12-93bb-4f5e-a25c-399c861594bf</cfPersId>
+    <cfResPublId>440ecebf-ea9e-486a-87b7-b61abcad2d41</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>10.1088/1751-8113/40/3/F01</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">10.1088/1751-8113/40/3/F01</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>440ecebf-ea9e-486a-87b7-b61abcad2d41</cfResPublId>
+    <cfClassId>10.1088/1751-8113/40/3/F01</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfResPubl>
+    <cfResPublId>440ecebf-ea9e-486a-87b7-b61abcad2d41</cfResPublId>
+    <cfResPublDate>2006-09-25</cfResPublDate>
+    <cfSeries>J.Phys.A40:F81-F90,2007</cfSeries>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Complex Trajectories of a Simple Pendulum</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">The motion of a classical pendulum in a gravitational field of strength g is
+explored. The complex trajectories as well as the real ones are determined. If
+g is taken to be imaginary, the Hamiltonian that describes the pendulum becomes
+PT-symmetric. The classical motion for this PT-symmetric Hamiltonian is
+examined in detail. The complex motion of this pendulum in the presence of an
+external periodic forcing term is also studied.</cfAbstr>
+    <cfBiblNote cfLangCode="en_GB" cfTrans="o">11 pages, 12 figures</cfBiblNote>
+    <cfResPubl_Class>
+      <cfClassId>journal</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfPers_ResPubl>
+    <cfPersId>04a4bedd-32f3-4faf-a0a9-19a44edacb8d</cfPersId>
+    <cfResPublId>440ecebf-ea9e-486a-87b7-b61abcad2d41</cfResPublId>
+    <cfClassId>author</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>quant-ph/0601109</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">quant-ph/0601109</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>1e046ed1-018c-48a4-941b-6f762a943754</cfResPublId>
+    <cfClassId>quant-ph/0601109</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>aeffa81a-c5ba-4d85-9ffe-92712355791d</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Brody</cfFamilyNames>
+      <cfFirstNames>DC</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>aeffa81a-c5ba-4d85-9ffe-92712355791d</cfPersId>
+    <cfResPublId>1e046ed1-018c-48a4-941b-6f762a943754</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>b052e433-590b-4c07-a606-458e35afb961</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hook</cfFamilyNames>
+      <cfFirstNames>DW</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>b052e433-590b-4c07-a606-458e35afb961</cfPersId>
+    <cfResPublId>1e046ed1-018c-48a4-941b-6f762a943754</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>10.1088/0305-4470/39/11/L02</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">10.1088/0305-4470/39/11/L02</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>1e046ed1-018c-48a4-941b-6f762a943754</cfResPublId>
+    <cfClassId>10.1088/0305-4470/39/11/L02</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfResPubl>
+    <cfResPublId>1e046ed1-018c-48a4-941b-6f762a943754</cfResPublId>
+    <cfResPublDate>2006-01-17</cfResPublDate>
+    <cfSeries>Journal of Physics A39, L167-L170 (2006)</cfSeries>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">On optimum Hamiltonians for state transformations</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">For a prescribed pair of quantum states |psi_I&gt; and |psi_F&gt; we establish an
+elementary derivation of the optimum Hamiltonian, under constraints on its
+eigenvalues, that generates the unitary transformation |psi_I&gt; --&gt; |psi_F&gt; in
+the shortest duration. The derivation is geometric in character and does not
+rely on variational calculus.</cfAbstr>
+    <cfBiblNote cfLangCode="en_GB" cfTrans="o">5 pages</cfBiblNote>
+    <cfResPubl_Class>
+      <cfClassId>journal</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfPers_ResPubl>
+    <cfPersId>04a4bedd-32f3-4faf-a0a9-19a44edacb8d</cfPersId>
+    <cfResPublId>1e046ed1-018c-48a4-941b-6f762a943754</cfResPublId>
+    <cfClassId>author</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>quant-ph/0511162</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">quant-ph/0511162</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>c1cf080b-d8f0-44f8-9cd4-c22080172ba5</cfResPublId>
+    <cfClassId>quant-ph/0511162</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>e3af8cfe-fb82-4570-ae9c-b7f3543e7260</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Brody</cfFamilyNames>
+      <cfFirstNames>DC</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>e3af8cfe-fb82-4570-ae9c-b7f3543e7260</cfPersId>
+    <cfResPublId>c1cf080b-d8f0-44f8-9cd4-c22080172ba5</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>599557cd-8290-4b37-bcdd-2c6d4343e74f</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hook</cfFamilyNames>
+      <cfFirstNames>DW</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>599557cd-8290-4b37-bcdd-2c6d4343e74f</cfPersId>
+    <cfResPublId>c1cf080b-d8f0-44f8-9cd4-c22080172ba5</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>d54e10cb-bcdf-491d-9b49-158ecbba8138</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hughston</cfFamilyNames>
+      <cfFirstNames>LP</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>d54e10cb-bcdf-491d-9b49-158ecbba8138</cfPersId>
+    <cfResPublId>c1cf080b-d8f0-44f8-9cd4-c22080172ba5</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>10.1098/rspa.2007.1865</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">10.1098/rspa.2007.1865</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>c1cf080b-d8f0-44f8-9cd4-c22080172ba5</cfResPublId>
+    <cfClassId>10.1098/rspa.2007.1865</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfResPubl>
+    <cfResPublId>c1cf080b-d8f0-44f8-9cd4-c22080172ba5</cfResPublId>
+    <cfResPublDate>2005-11-16</cfResPublDate>
+    <cfSeries>Proc. R. Soc. A (2007) 463, 2021--2030</cfSeries>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Quantum phase transitions without thermodynamic limits</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">A new microcanonical equilibrium state is introduced for quantum systems with
+finite-dimensional state spaces. Equilibrium is characterised by a uniform
+distribution on a level surface of the expectation value of the Hamiltonian.
+The distinguishing feature of the proposed equilibrium state is that the
+corresponding density of states is a continuous function of the energy, and
+hence thermodynamic functions are well defined for finite quantum systems. The
+density of states, however, is not in general an analytic function. It is
+demonstrated that generic quantum systems therefore exhibit second-order
+(continuous) phase transitions at finite temperatures.</cfAbstr>
+    <cfBiblNote cfLangCode="en_GB" cfTrans="o">4 Pages, further references added</cfBiblNote>
+    <cfResPubl_Class>
+      <cfClassId>journal</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfPers_ResPubl>
+    <cfPersId>04a4bedd-32f3-4faf-a0a9-19a44edacb8d</cfPersId>
+    <cfResPublId>c1cf080b-d8f0-44f8-9cd4-c22080172ba5</cfResPublId>
+    <cfClassId>author</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>quant-ph/0508004</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">quant-ph/0508004</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>9c536158-2729-4dc9-a6f8-dc3155c578e1</cfResPublId>
+    <cfClassId>quant-ph/0508004</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>c8ae519b-3c7f-40de-a291-402ea9a96f4e</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Bender</cfFamilyNames>
+      <cfFirstNames>CM</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>c8ae519b-3c7f-40de-a291-402ea9a96f4e</cfPersId>
+    <cfResPublId>9c536158-2729-4dc9-a6f8-dc3155c578e1</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>1ce994be-84bb-4639-ba48-f4ce103b194e</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Brody</cfFamilyNames>
+      <cfFirstNames>DC</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>1ce994be-84bb-4639-ba48-f4ce103b194e</cfPersId>
+    <cfResPublId>9c536158-2729-4dc9-a6f8-dc3155c578e1</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>024d5734-dc41-4188-9ca0-6eb777a5d26b</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hook</cfFamilyNames>
+      <cfFirstNames>DW</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>024d5734-dc41-4188-9ca0-6eb777a5d26b</cfPersId>
+    <cfResPublId>9c536158-2729-4dc9-a6f8-dc3155c578e1</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>10.1088/0305-4470/38/38/L01</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">10.1088/0305-4470/38/38/L01</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>9c536158-2729-4dc9-a6f8-dc3155c578e1</cfResPublId>
+    <cfClassId>10.1088/0305-4470/38/38/L01</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfResPubl>
+    <cfResPublId>9c536158-2729-4dc9-a6f8-dc3155c578e1</cfResPublId>
+    <cfResPublDate>2005-07-31</cfResPublDate>
+    <cfSeries>Journal of Physics A38, L607-L613 (2005)</cfSeries>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Solvable model of quantum microcanonical states</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">This letter examines the consequences of a recently proposed modification of
+the postulate of equal {\it a priori} probability in quantum statistical
+mechanics. This modification, called the {\it quantum microcanonical postulate}
+(QMP), asserts that for a system in microcanonical equilibrium all pure quantum
+states having the same energy expectation value are realised with equal
+probability. A simple model of a quantum system that obeys the QMP and that has
+a nondegenerate spectrum with equally spaced energy eigenvalues is studied.
+This model admits a closed-form expression for the density of states in terms
+of the energy eigenvalues. It is shown that in the limit as the number of
+energy levels approaches infinity, the expression for the density of states
+converges to a $\delta$ function centred at the intermediate value $(E_{\rm
+max}+E_{\rm min})/ 2$ of the energy. Determining this limit requires an
+elaborate asymptotic study of an infinite sum whose terms alternate in sign.</cfAbstr>
+    <cfBiblNote cfLangCode="en_GB" cfTrans="o">8 pages, 1 figure</cfBiblNote>
+    <cfResPubl_Class>
+      <cfClassId>journal</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfPers_ResPubl>
+    <cfPersId>04a4bedd-32f3-4faf-a0a9-19a44edacb8d</cfPersId>
+    <cfResPublId>9c536158-2729-4dc9-a6f8-dc3155c578e1</cfResPublId>
+    <cfClassId>author</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>quant-ph/0506163</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">quant-ph/0506163</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>2b0fec42-bf60-40e5-a028-ae331ca74627</cfResPublId>
+    <cfClassId>quant-ph/0506163</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_arxiv</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>8b3bff82-a309-4a46-847a-3c8d9db8ca70</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Brody</cfFamilyNames>
+      <cfFirstNames>DC</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>8b3bff82-a309-4a46-847a-3c8d9db8ca70</cfPersId>
+    <cfResPublId>2b0fec42-bf60-40e5-a028-ae331ca74627</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>aaa229c8-10ca-457e-a4ec-8788c8b93d09</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hook</cfFamilyNames>
+      <cfFirstNames>DW</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>aaa229c8-10ca-457e-a4ec-8788c8b93d09</cfPersId>
+    <cfResPublId>2b0fec42-bf60-40e5-a028-ae331ca74627</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>016551b6-7fe0-4342-9ddc-8a787758fa67</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Hughston</cfFamilyNames>
+      <cfFirstNames>LP</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>016551b6-7fe0-4342-9ddc-8a787758fa67</cfPersId>
+    <cfResPublId>2b0fec42-bf60-40e5-a028-ae331ca74627</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfResPubl>
+    <cfResPublId>2b0fec42-bf60-40e5-a028-ae331ca74627</cfResPublId>
+    <cfResPublDate>2005-06-20</cfResPublDate>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Microcanonical distributions for quantum systems</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">The standard assumption for the equilibrium microcanonical state in quantum
+mechanics, that the system must be in one of the energy eigenstates, is
+weakened so as to allow superpositions of states. The weakened form of the
+microcanonical postulate thus asserts that all quantum states giving rise to
+the same energy expectation value must be realised with equal probability. The
+consequences that follow from this assertion are investigated. In particular, a
+closed-form expression for the density of states associated with any system
+having a nondegenerate energy spectrum is obtained. The result is applied to a
+variety of examples, for which the behaviour of the state density, as well as
+the relation between energy and temperature, are determined. Numerical studies
+indicate that the density of states converges to a distribution when the number
+of energy levels approaches infinity.</cfAbstr>
+    <cfBiblNote cfLangCode="en_GB" cfTrans="o">16 pages, 8 figures</cfBiblNote>
+    <cfResPubl_Class>
+      <cfClassId>journal</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfPers_ResPubl>
+    <cfPersId>04a4bedd-32f3-4faf-a0a9-19a44edacb8d</cfPersId>
+    <cfResPublId>2b0fec42-bf60-40e5-a028-ae331ca74627</cfResPublId>
+    <cfClassId>author</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+  </cfPers_ResPubl>
+</CERIF>
