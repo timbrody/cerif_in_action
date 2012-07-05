@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns="urn:xmlns:org:eurocris:cerif-1.4-0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.4-0 http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd"
+    release="1.4" date="2012-02-29" sourceDatabase="CiA">
+	<!--example publication-->
+	<cfResPubl>
+		<cfResPublId>fb4d234a-6b66-49c8-bad4-abde033fbbf6</cfResPublId>		
+	</cfResPubl>
+	<!--example project-->
+	<cfProj>
+		<cfProjId>b85afe74-e036-411c-b3c6-bbb79bc7b01a</cfProjId>
+		<!--link between project and fund-->
+		<cfProj_Fund>
+			<cfFundId>b85afe74-e036-411c-b3c6-bbb79bc7b01a</cfFundId>
+		</cfProj_Fund>
+	</cfProj>
+	<!--example fund-->
+	<cfFund>
+		<cfFundId>b85afe74-e036-411c-b3c6-bbb79bc7b01a</cfFundId>		
+		<!--grant reference-->
+		<cfAcro>TST-000-00-0005</cfAcro>		
+	</cfFund>
+	<!--link between publication and project-->
+	<cfProj_ResPubl>
+			<cfProjId>b85afe74-e036-411c-b3c6-bbb79bc7b01a</cfProjId>
+			<cfResPublId>fb4d234a-6b66-49c8-bad4-abde033fbbf6</cfResPublId>			
+	</cfProj_ResPubl>
+</CERIF>
