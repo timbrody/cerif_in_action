@@ -1,0 +1,2638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CERIF xmlns="urn:xmlns:org:eurocris:cerif-1.4-0" date="2012-07-12" release="1.4" sourceDatabase="Symplectic Elements at Lilliput Institute">
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_personname_personal_titles</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+    <cfClass>
+      <cfClassId>mr</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Mr</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>mrs</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Mrs</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>miss</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Miss</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>ms</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Ms</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>dr</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Dr</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>prof</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Professor</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>rev</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Reverend</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_personname_post_nominals</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+    <cfClass>
+      <cfClassId>mlitt</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">MLitt</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>msc</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">MSc</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>bsc</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">BSc</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>ma</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Ma</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>mphil</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">MPhil</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>mres</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">MRes</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>phd</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">PhD</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>meng</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">MEng</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>mphys</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">MPhys</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>mmath</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">MMath</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>beng</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">BEng</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>ba</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">BA</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>pgdip</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">PGDip</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    <cfURI>http://www.symplectic.co.uk</cfURI>
+    <cfClass>
+      <cfClassId>bib</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Bibliographic</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>hr</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Human Resources</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+    <cfClass>
+      <cfClassId>book</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Book</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>book_review</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Book Review</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>book_chapter_abstract</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Book Chapter Abstract</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>inbook</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Inbook</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>anthology</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Anthology</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>monograph</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Monograph</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>reference_book</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Reference Book</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>textbook</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Textbook</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>encyclopedia</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Encyclopedia</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>manual</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Manual</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>other_book</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Other Book</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>journal</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Journal</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>journal_article</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Journal Article</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>journal_article_abstract</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Journal Article Abstract</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>journal_article_review</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Journal Article Review</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>conference_proceedings</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Conference Proceedings</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>conference_proceedings_article</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Conference Proceedings Article</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>letter</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Letter</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>letter_to_editor</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Letter to Editor</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>phd_thesis</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">PhD Thesis</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>short_communication</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Short Communication</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>poster</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Poster</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>presentation</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Presentation</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>news_clipping</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Newsclipping</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>commentary</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Commentary</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>annotation</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Annotation</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>critical_edition</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Critical Edition</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>technical_report</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Technical Report</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>consultancy_report</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Consultancy Report</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>technical_standard</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Technical Standard</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>working_paper</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Working Paper</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_publication_state</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+    <cfClass>
+      <cfClassId>in_preparation</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">In Preparation</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>in_press</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">In Press</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>published</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Published</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>unpublished</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Unpublished</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_publication_peer_reviewed</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+    <cfClass>
+      <cfClassId>yes</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Yes</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>no</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">No</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>unknown</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Unknown</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_eaddress_types</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+    <cfClass>
+      <cfClassId>email</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Email Address</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>fax</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Fax</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>phone</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Phone</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>skype</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Skype Address</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>twitter</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Twitter ID</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>facebook</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Facebook ID</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>linkedin</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">LinkedIn ID</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+    <cfClass>
+      <cfClassId>contributor</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Contributor</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>author</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Author</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>author_numbered</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Author Numbered</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>author_percentage</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Author Percentage</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>creator</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Creator</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>editor</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Editor</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>translator</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Translator</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>publisher</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Publisher</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>commissioner</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Commissioner</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>group_authors</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Group Authors</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>reviewer</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Reviewer</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>illustrator</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Illustrator</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>guest_editor</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Guest Editor</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_cerif_person_organisation_roles</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+    <cfClass>
+      <cfClassId>affiliation</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Affiliation</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_cerif_person_person_roles</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+    <cfClass>
+      <cfClassId>mentor</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Mentor</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>supervisor</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Supervisor</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_cerif_publication_publication_roles</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+    <cfClass>
+      <cfClassId>derivation</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Derivation</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>successor</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Successor</cfTerm>
+    </cfClass>
+    <cfClass>
+      <cfClassId>part</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Part</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_person_alternateids_hesa</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_person_alternateids_wos</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_person_alternateids_scopus</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_publication_alternateids_wos</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_publication_alternateids_scopus</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_cerif_project_funding_roles </cfClassSchemeId>
+    <cfURI>http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd</cfURI>
+    <cfClass>
+      <cfClassId>funding_programme</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Funding Programme</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+  <cfClassScheme>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+    <cfURI>http://www.symplectic.co.uk</cfURI>
+    <cfClass>
+      <cfClassId>funder</cfClassId>
+      <cfTerm cfLangCode="en_GB" cfTrans="o">Funder</cfTerm>
+    </cfClass>
+  </cfClassScheme>
+  <cfFund>
+    <cfFundId>RES-000-22-0016</cfFundId>
+  </cfFund>
+  <cfProj>
+    <cfProjId>RES-000-22-0016proj93e41be3-8c2f-49cc-936e-80ffe1ff0055</cfProjId>
+    <cfProj_Fund>
+      <cfProjId>RES-000-22-0016proj93e41be3-8c2f-49cc-936e-80ffe1ff0055</cfProjId>
+      <cfFundId>RES-000-22-0016</cfFundId>
+      <cfClassId>funding_programme</cfClassId>
+      <cfClassSchemeId>class_scheme_cerif_project_funding_roles </cfClassSchemeId>
+    </cfProj_Fund>
+  </cfProj>
+  <cfFund>
+    <cfFundId>RES-000-22-0028</cfFundId>
+  </cfFund>
+  <cfProj>
+    <cfProjId>RES-000-22-0028proj85002cfa-3824-4c0a-aa7a-ce62a71a587b</cfProjId>
+    <cfProj_Fund>
+      <cfProjId>RES-000-22-0028proj85002cfa-3824-4c0a-aa7a-ce62a71a587b</cfProjId>
+      <cfFundId>RES-000-22-0028</cfFundId>
+      <cfClassId>funding_programme</cfClassId>
+      <cfClassSchemeId>class_scheme_cerif_project_funding_roles </cfClassSchemeId>
+    </cfProj_Fund>
+  </cfProj>
+  <cfClass>
+    <cfClassId>20992441</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">20992441</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>e14401c3-7327-4c61-b817-ceaab5d44655</cfResPublId>
+    <cfClassId>20992441</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>981464e8-8cf5-4666-b3d9-27f980391e7d</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>DARWIN</cfFamilyNames>
+      <cfFirstNames>C</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>981464e8-8cf5-4666-b3d9-27f980391e7d</cfPersId>
+    <cfResPublId>e14401c3-7327-4c61-b817-ceaab5d44655</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfResPubl>
+    <cfResPublId>e14401c3-7327-4c61-b817-ceaab5d44655</cfResPublId>
+    <cfResPublDate>1946-07-09</cfResPublDate>
+    <cfVol>186</cfVol>
+    <cfSeries>Proc R Soc Med</cfSeries>
+    <cfStartPage>149</cfStartPage>
+    <cfEndPage>152</cfEndPage>
+    <cfISSN>0035-9157</cfISSN>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">A discussion on units and standards.</cfTitle>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">WEIGHTS AND MEASURES</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Weights and Measures</cfKeyw>
+    <cfResPubl_Class>
+      <cfClassId>journal_article</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0028proj85002cfa-3824-4c0a-aa7a-ce62a71a587b</cfProjId>
+    <cfResPublId>e14401c3-7327-4c61-b817-ceaab5d44655</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+  <cfClass>
+    <cfClassId>22668680</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">22668680</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>a8f22140-48bb-4414-a237-ea4cce92d6cc</cfResPublId>
+    <cfClassId>22668680</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>9e02ee78-961a-4483-b647-4c6c1df74c92</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Howells</cfFamilyNames>
+      <cfFirstNames>A</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>9e02ee78-961a-4483-b647-4c6c1df74c92</cfPersId>
+    <cfResPublId>a8f22140-48bb-4414-a237-ea4cce92d6cc</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>d03e35ad-1ca9-4719-81b2-bf6ea41eb3ba</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Morris</cfFamilyNames>
+      <cfFirstNames>R</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>d03e35ad-1ca9-4719-81b2-bf6ea41eb3ba</cfPersId>
+    <cfResPublId>a8f22140-48bb-4414-a237-ea4cce92d6cc</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>14173b11-8eab-44b3-abca-6f60dad003ca</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Darwin</cfFamilyNames>
+      <cfFirstNames>C</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>14173b11-8eab-44b3-abca-6f60dad003ca</cfPersId>
+    <cfResPublId>a8f22140-48bb-4414-a237-ea4cce92d6cc</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>10.1310/tsr1903-256</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">10.1310/tsr1903-256</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>a8f22140-48bb-4414-a237-ea4cce92d6cc</cfResPublId>
+    <cfClassId>10.1310/tsr1903-256</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfResPubl>
+    <cfResPublId>a8f22140-48bb-4414-a237-ea4cce92d6cc</cfResPublId>
+    <cfResPublDate>2012-05-01</cfResPublDate>
+    <cfVol>19</cfVol>
+    <cfSeries>Top Stroke Rehabil</cfSeries>
+    <cfStartPage>256</cfStartPage>
+    <cfEndPage>267</cfEndPage>
+    <cfISSN>1074-9357</cfISSN>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">A questionnaire to assess carers' experience of stroke rehabilitation.</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">To establish the validity and reliability of a questionnaire measuring the experience of informal carers of patients with stroke through acute and rehabilitation hospital treatment.</cfAbstr>
+    <cfResPubl_Class>
+      <cfClassId>journal_article</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0028proj85002cfa-3824-4c0a-aa7a-ce62a71a587b</cfProjId>
+    <cfResPublId>a8f22140-48bb-4414-a237-ea4cce92d6cc</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+  <cfClass>
+    <cfClassId>3172845</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">3172845</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>66576575-756f-4048-88c2-e8dba3b28316</cfResPublId>
+    <cfClassId>3172845</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>9752eb4d-f994-4c9d-b5cb-d19dc7d899c4</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Cartwright</cfFamilyNames>
+      <cfFirstNames>RA</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>9752eb4d-f994-4c9d-b5cb-d19dc7d899c4</cfPersId>
+    <cfResPublId>66576575-756f-4048-88c2-e8dba3b28316</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>e5c78c1d-e134-4869-a3d6-ca7cd0b70010</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Darwin</cfFamilyNames>
+      <cfFirstNames>C</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>e5c78c1d-e134-4869-a3d6-ca7cd0b70010</cfPersId>
+    <cfResPublId>66576575-756f-4048-88c2-e8dba3b28316</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>4eee7afb-dbe2-419f-a454-f8b7e9d7b734</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>McKinney</cfFamilyNames>
+      <cfFirstNames>PA</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>4eee7afb-dbe2-419f-a454-f8b7e9d7b734</cfPersId>
+    <cfResPublId>66576575-756f-4048-88c2-e8dba3b28316</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>9d739cf9-aacc-4424-bb1b-befdbefcc2ad</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Roberts</cfFamilyNames>
+      <cfFirstNames>B</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>9d739cf9-aacc-4424-bb1b-befdbefcc2ad</cfPersId>
+    <cfResPublId>66576575-756f-4048-88c2-e8dba3b28316</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>4</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>777164a5-9307-4423-9ab3-5d029e5a5085</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Richards</cfFamilyNames>
+      <cfFirstNames>ID</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>777164a5-9307-4423-9ab3-5d029e5a5085</cfPersId>
+    <cfResPublId>66576575-756f-4048-88c2-e8dba3b28316</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>5</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>9064a1a3-b5c8-481f-900a-c0e4aaad7bed</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Bird</cfFamilyNames>
+      <cfFirstNames>CC</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>9064a1a3-b5c8-481f-900a-c0e4aaad7bed</cfPersId>
+    <cfResPublId>66576575-756f-4048-88c2-e8dba3b28316</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>6</cfFraction>
+  </cfPers_ResPubl>
+  <cfResPubl>
+    <cfResPublId>66576575-756f-4048-88c2-e8dba3b28316</cfResPublId>
+    <cfResPublDate>1988-10-01</cfResPublDate>
+    <cfVol>2</cfVol>
+    <cfSeries>Leukemia</cfSeries>
+    <cfStartPage>687</cfStartPage>
+    <cfEndPage>690</cfEndPage>
+    <cfISSN>0887-6924</cfISSN>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Acute myeloid leukemia in adults: a case-control study in Yorkshire.</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">This paper reports the results of a case-control analysis of 161 cases of acute myeloid leukemia and 310 matched hospital controls. The patients were interviewed between 1982 and 1986. The study shows a weak association for cases with previous malignant disease. Furnace workers show excess risks. Urticaria and vertigo are in excess, as well as some aspects of family medical histories, including multiple sclerosis and cases of leukemia/lymphoma in blood relations.</cfAbstr>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Adult</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Age Factors</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Humans</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Leukemia, Myeloid, Acute</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Risk Factors</cfKeyw>
+    <cfResPubl_Class>
+      <cfClassId>journal_article</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0028proj85002cfa-3824-4c0a-aa7a-ce62a71a587b</cfProjId>
+    <cfResPublId>66576575-756f-4048-88c2-e8dba3b28316</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+  <cfClass>
+    <cfClassId>17324732</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">17324732</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>39ad5b7e-8350-4506-84ef-6c3774af4c9f</cfResPublId>
+    <cfClassId>17324732</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>66e196ff-e44d-4918-85ec-b9fcfbb3c3e4</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Palmas</cfFamilyNames>
+      <cfFirstNames>W</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>66e196ff-e44d-4918-85ec-b9fcfbb3c3e4</cfPersId>
+    <cfResPublId>39ad5b7e-8350-4506-84ef-6c3774af4c9f</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>5a139b87-d8fb-46af-ad3b-3c0054c3b575</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Ma</cfFamilyNames>
+      <cfFirstNames>S</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>5a139b87-d8fb-46af-ad3b-3c0054c3b575</cfPersId>
+    <cfResPublId>39ad5b7e-8350-4506-84ef-6c3774af4c9f</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>0d8a46e6-d34e-4fc8-9d8d-ef32a8886525</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Psaty</cfFamilyNames>
+      <cfFirstNames>B</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>0d8a46e6-d34e-4fc8-9d8d-ef32a8886525</cfPersId>
+    <cfResPublId>39ad5b7e-8350-4506-84ef-6c3774af4c9f</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>3594f24c-257f-4364-81d6-ce549663245a</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Goff</cfFamilyNames>
+      <cfFirstNames>DC</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>3594f24c-257f-4364-81d6-ce549663245a</cfPersId>
+    <cfResPublId>39ad5b7e-8350-4506-84ef-6c3774af4c9f</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>4</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>e4cb6ef7-392e-44e4-8da9-9955e5adcd62</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Darwin</cfFamilyNames>
+      <cfFirstNames>C</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>e4cb6ef7-392e-44e4-8da9-9955e5adcd62</cfPersId>
+    <cfResPublId>39ad5b7e-8350-4506-84ef-6c3774af4c9f</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>5</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>50de5cb6-6187-4781-8b94-b440eab32702</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Barr</cfFamilyNames>
+      <cfFirstNames>RG</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>50de5cb6-6187-4781-8b94-b440eab32702</cfPersId>
+    <cfResPublId>39ad5b7e-8350-4506-84ef-6c3774af4c9f</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>6</cfFraction>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>10.1016/j.amjhyper.2006.08.006</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">10.1016/j.amjhyper.2006.08.006</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>39ad5b7e-8350-4506-84ef-6c3774af4c9f</cfResPublId>
+    <cfClassId>10.1016/j.amjhyper.2006.08.006</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfResPubl>
+    <cfResPublId>39ad5b7e-8350-4506-84ef-6c3774af4c9f</cfResPublId>
+    <cfResPublDate>2007-03-01</cfResPublDate>
+    <cfVol>20</cfVol>
+    <cfSeries>Am J Hypertens</cfSeries>
+    <cfStartPage>233</cfStartPage>
+    <cfEndPage>241</cfEndPage>
+    <cfISSN>0895-7061</cfISSN>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Antihypertensive medications and C-reactive protein in the multi-ethnic study of atherosclerosis.</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">The effects of different antihypertensive medication classes on C-reactive protein (CRP) levels are still not well characterized, and might be of relevance to treatment choices.</cfAbstr>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Adrenergic beta-Antagonists</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Aged</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Aged, 80 and over</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Angiotensin II Type 1 Receptor Blockers</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Angiotensin-Converting Enzyme Inhibitors</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Antihypertensive Agents</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Atherosclerosis</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">C-Reactive Protein</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Calcium Channel Blockers</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Cohort Studies</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Cross-Sectional Studies</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Diuretics</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Female</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Humans</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Hypertension</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Male</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Middle Aged</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Odds Ratio</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Risk Factors</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">United States</cfKeyw>
+    <cfResPubl_Class>
+      <cfClassId>journal_article</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0028proj85002cfa-3824-4c0a-aa7a-ce62a71a587b</cfProjId>
+    <cfResPublId>39ad5b7e-8350-4506-84ef-6c3774af4c9f</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+  <cfClass>
+    <cfClassId>20974513</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">20974513</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>11cdcfdd-7f99-462a-811d-b7da7b9c0d20</cfResPublId>
+    <cfClassId>20974513</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>e7c25cf2-cac2-4fbc-b974-cb558591a6b4</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Yu</cfFamilyNames>
+      <cfFirstNames>Z</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>e7c25cf2-cac2-4fbc-b974-cb558591a6b4</cfPersId>
+    <cfResPublId>11cdcfdd-7f99-462a-811d-b7da7b9c0d20</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>ef3264f1-6ddc-48b6-b9ba-fa83f31ea13d</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Schneck</cfFamilyNames>
+      <cfFirstNames>M</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>ef3264f1-6ddc-48b6-b9ba-fa83f31ea13d</cfPersId>
+    <cfResPublId>11cdcfdd-7f99-462a-811d-b7da7b9c0d20</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>0b6f963c-a776-4686-bbf0-891ad1b69676</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Jacobs</cfFamilyNames>
+      <cfFirstNames>DR</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>0b6f963c-a776-4686-bbf0-891ad1b69676</cfPersId>
+    <cfResPublId>11cdcfdd-7f99-462a-811d-b7da7b9c0d20</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>0ca437a0-f33f-4c3a-97ad-173368ba3ba8</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Liu</cfFamilyNames>
+      <cfFirstNames>K</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>0ca437a0-f33f-4c3a-97ad-173368ba3ba8</cfPersId>
+    <cfResPublId>11cdcfdd-7f99-462a-811d-b7da7b9c0d20</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>4</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>12220a70-db7f-4f5b-8a3c-299d4811c95d</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Allison</cfFamilyNames>
+      <cfFirstNames>M</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>12220a70-db7f-4f5b-8a3c-299d4811c95d</cfPersId>
+    <cfResPublId>11cdcfdd-7f99-462a-811d-b7da7b9c0d20</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>5</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>8efab013-54d8-4122-a1a7-78576a03f03d</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>O'Leary</cfFamilyNames>
+      <cfFirstNames>D</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>8efab013-54d8-4122-a1a7-78576a03f03d</cfPersId>
+    <cfResPublId>11cdcfdd-7f99-462a-811d-b7da7b9c0d20</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>6</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>05cf55be-be10-4a03-88f5-b8821ee16c46</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Durazo</cfFamilyNames>
+      <cfFirstNames>R</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>05cf55be-be10-4a03-88f5-b8821ee16c46</cfPersId>
+    <cfResPublId>11cdcfdd-7f99-462a-811d-b7da7b9c0d20</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>7</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>f85bb48c-529b-46e6-87eb-01b3f55c5533</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Darwin</cfFamilyNames>
+      <cfFirstNames>C</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>f85bb48c-529b-46e6-87eb-01b3f55c5533</cfPersId>
+    <cfResPublId>11cdcfdd-7f99-462a-811d-b7da7b9c0d20</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>8</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>67d1bea0-c536-49ac-af04-496265e66d07</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Kramer</cfFamilyNames>
+      <cfFirstNames>H</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>67d1bea0-c536-49ac-af04-496265e66d07</cfPersId>
+    <cfResPublId>11cdcfdd-7f99-462a-811d-b7da7b9c0d20</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>9</cfFraction>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>10.1053/j.ajkd.2010.08.014</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">10.1053/j.ajkd.2010.08.014</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>11cdcfdd-7f99-462a-811d-b7da7b9c0d20</cfResPublId>
+    <cfClassId>10.1053/j.ajkd.2010.08.014</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfResPubl>
+    <cfResPublId>11cdcfdd-7f99-462a-811d-b7da7b9c0d20</cfResPublId>
+    <cfResPublDate>2011-01-01</cfResPublDate>
+    <cfVol>57</cfVol>
+    <cfSeries>Am J Kidney Dis</cfSeries>
+    <cfStartPage>62</cfStartPage>
+    <cfEndPage>70</cfEndPage>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Association of carotid intima-media thickness with progression of urine albumin-creatinine ratios in The Multi-Ethnic Study of Atherosclerosis (MESA).</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">The association between measures of subclinical cardiovascular disease and progression of urine albumin-creatinine ratios (UACRs) over time is uncertain.</cfAbstr>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Aged</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Aged, 80 and over</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Albuminuria</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Atherosclerosis</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Carotid Arteries</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Carotid Artery Diseases</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Creatinine</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Disease Progression</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Female</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Humans</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Male</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Middle Aged</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Tunica Intima</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Tunica Media</cfKeyw>
+    <cfResPubl_Class>
+      <cfClassId>journal_article</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0028proj85002cfa-3824-4c0a-aa7a-ce62a71a587b</cfProjId>
+    <cfResPublId>11cdcfdd-7f99-462a-811d-b7da7b9c0d20</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+  <cfClass>
+    <cfClassId>20995521</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">20995521</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>42968adf-3a95-4fbf-b10c-daa5959e9098</cfResPublId>
+    <cfClassId>20995521</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>3329fb47-e94e-405d-83b5-cf0b2f59ea37</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>DARWIN</cfFamilyNames>
+      <cfFirstNames>C</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>3329fb47-e94e-405d-83b5-cf0b2f59ea37</cfPersId>
+    <cfResPublId>42968adf-3a95-4fbf-b10c-daa5959e9098</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfResPubl>
+    <cfResPublId>42968adf-3a95-4fbf-b10c-daa5959e9098</cfResPublId>
+    <cfResPublDate>1946-07-01</cfResPublDate>
+    <cfVol>34</cfVol>
+    <cfSeries>Sci Prog</cfSeries>
+    <cfStartPage>449</cfStartPage>
+    <cfEndPage>465</cfEndPage>
+    <cfISSN>0036-8504</cfISSN>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Atomic energy.</cfTitle>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">ATOMIC ENERGY</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Nuclear Energy</cfKeyw>
+    <cfResPubl_Class>
+      <cfClassId>journal_article</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0028proj85002cfa-3824-4c0a-aa7a-ce62a71a587b</cfProjId>
+    <cfResPublId>42968adf-3a95-4fbf-b10c-daa5959e9098</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+  <cfClass>
+    <cfClassId>13814165</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">13814165</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>9482e5d9-d03a-4c19-b0d3-be8b65fbd04a</cfResPublId>
+    <cfClassId>13814165</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>355179ab-9d7a-47c9-b5c5-c9b04a0902f0</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>DARWIN</cfFamilyNames>
+      <cfFirstNames>C</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>355179ab-9d7a-47c9-b5c5-c9b04a0902f0</cfPersId>
+    <cfResPublId>9482e5d9-d03a-4c19-b0d3-be8b65fbd04a</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfResPubl>
+    <cfResPublId>9482e5d9-d03a-4c19-b0d3-be8b65fbd04a</cfResPublId>
+    <cfResPublDate>1960-01-01</cfResPublDate>
+    <cfVol>3</cfVol>
+    <cfSeries>Perspect Biol Med</cfSeries>
+    <cfStartPage>252</cfStartPage>
+    <cfEndPage>263</cfEndPage>
+    <cfISSN>0031-5982</cfISSN>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Can man control his numbers?</cfTitle>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">POPULATION</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">REPRODUCTION</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Population</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Reproduction</cfKeyw>
+    <cfResPubl_Class>
+      <cfClassId>journal_article</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0028proj85002cfa-3824-4c0a-aa7a-ce62a71a587b</cfProjId>
+    <cfResPublId>9482e5d9-d03a-4c19-b0d3-be8b65fbd04a</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+  <cfClass>
+    <cfClassId>17030111</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">17030111</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>e137810b-50f1-42f9-8e59-2a8ba60835c3</cfResPublId>
+    <cfClassId>17030111</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>36f59fe1-38ed-412e-a820-c7beebd3838a</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Watari</cfFamilyNames>
+      <cfFirstNames>K</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>36f59fe1-38ed-412e-a820-c7beebd3838a</cfPersId>
+    <cfResPublId>e137810b-50f1-42f9-8e59-2a8ba60835c3</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>9fbc4d39-5999-4727-b5fb-6e348db8ad50</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Letamendi</cfFamilyNames>
+      <cfFirstNames>A</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>9fbc4d39-5999-4727-b5fb-6e348db8ad50</cfPersId>
+    <cfResPublId>e137810b-50f1-42f9-8e59-2a8ba60835c3</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>8ff97dc4-2904-463a-87b1-69c2dcecee11</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Elderkin-Thompson</cfFamilyNames>
+      <cfFirstNames>V</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>8ff97dc4-2904-463a-87b1-69c2dcecee11</cfPersId>
+    <cfResPublId>e137810b-50f1-42f9-8e59-2a8ba60835c3</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>f3e137b4-c1c1-4172-9e52-19f6d85a42e1</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Haroon</cfFamilyNames>
+      <cfFirstNames>E</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>f3e137b4-c1c1-4172-9e52-19f6d85a42e1</cfPersId>
+    <cfResPublId>e137810b-50f1-42f9-8e59-2a8ba60835c3</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>4</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>2b4d2b5b-d84a-43c8-8b77-aa065c2636e8</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Miller</cfFamilyNames>
+      <cfFirstNames>J</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>2b4d2b5b-d84a-43c8-8b77-aa065c2636e8</cfPersId>
+    <cfResPublId>e137810b-50f1-42f9-8e59-2a8ba60835c3</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>5</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>36c5ac9e-c867-490b-8f6d-b9e020eeead0</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Darwin</cfFamilyNames>
+      <cfFirstNames>C</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>36c5ac9e-c867-490b-8f6d-b9e020eeead0</cfPersId>
+    <cfResPublId>e137810b-50f1-42f9-8e59-2a8ba60835c3</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>6</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>33dd5027-2003-41a9-841a-d0d9a44a5dba</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Kumar</cfFamilyNames>
+      <cfFirstNames>A</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>33dd5027-2003-41a9-841a-d0d9a44a5dba</cfPersId>
+    <cfResPublId>e137810b-50f1-42f9-8e59-2a8ba60835c3</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>7</cfFraction>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>10.1016/j.acn.2006.06.014</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">10.1016/j.acn.2006.06.014</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>e137810b-50f1-42f9-8e59-2a8ba60835c3</cfResPublId>
+    <cfClassId>10.1016/j.acn.2006.06.014</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfResPubl>
+    <cfResPublId>e137810b-50f1-42f9-8e59-2a8ba60835c3</cfResPublId>
+    <cfResPublDate>2006-12-01</cfResPublDate>
+    <cfVol>21</cfVol>
+    <cfSeries>Arch Clin Neuropsychol</cfSeries>
+    <cfStartPage>787</cfStartPage>
+    <cfEndPage>796</cfEndPage>
+    <cfISSN>0887-6177</cfISSN>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Cognitive function in adults with type 2 diabetes and major depression.</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">The aim of this study was to identify characteristics of neuropsychological functioning among type 2 diabetic adults with and without major depression. Twenty type 2 diabetics with major depression, 20 non-depressed type 2 diabetics and 34 controls without diabetes or depression were compared. A mixed effects repeated measures analysis of covariance indicated significant differences in overall cognitive functioning between diagnostic groups, specifically depressed diabetics demonstrated greater cognitive dysfunction than controls. Further comparisons indicated that depressed diabetics performed significantly worse than non-depressed diabetics in attention/information processing speed. Relative to controls, depressed diabetics performed significantly worse in attention/information processing speed and executive functioning, while there was a trend for non-depressed diabetics to perform worse in executive functioning. These findings suggest that depression negatively impacts cognitive performance among adults with type 2 diabetes, which may have implications for neural circuitry underlying cognitive and mood changes in diabetic patients.</cfAbstr>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Adult</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Aged</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Case-Control Studies</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Cognition</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Depressive Disorder, Major</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Diabetes Mellitus, Type 2</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Female</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Humans</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Male</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Memory</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Middle Aged</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Motor Skills</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Neuropsychological Tests</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Severity of Illness Index</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Space Perception</cfKeyw>
+    <cfResPubl_Class>
+      <cfClassId>journal_article</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0028proj85002cfa-3824-4c0a-aa7a-ce62a71a587b</cfProjId>
+    <cfResPublId>e137810b-50f1-42f9-8e59-2a8ba60835c3</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+  <cfClass>
+    <cfClassId>21260651</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">21260651</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>0335fd03-d720-4782-9969-1c177f7c54df</cfResPublId>
+    <cfClassId>21260651</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>760143b2-3074-427d-b0ba-a6d3d9059ba7</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Darwin</cfFamilyNames>
+      <cfFirstNames>C</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>760143b2-3074-427d-b0ba-a6d3d9059ba7</cfPersId>
+    <cfResPublId>0335fd03-d720-4782-9969-1c177f7c54df</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfResPubl>
+    <cfResPublId>0335fd03-d720-4782-9969-1c177f7c54df</cfResPublId>
+    <cfResPublDate>1953-10-01</cfResPublDate>
+    <cfVol>45</cfVol>
+    <cfSeries>Eugen Rev</cfSeries>
+    <cfStartPage>161</cfStartPage>
+    <cfEndPage>164</cfEndPage>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Comments on general Osborn's address.</cfTitle>
+    <cfBiblNote cfLangCode="en_GB" cfTrans="o">PMCID: PMC2973543</cfBiblNote>
+    <cfResPubl_Class>
+      <cfClassId>journal_article</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0028proj85002cfa-3824-4c0a-aa7a-ce62a71a587b</cfProjId>
+    <cfResPublId>0335fd03-d720-4782-9969-1c177f7c54df</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+  <cfClass>
+    <cfClassId>15925742</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">15925742</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>e0659f6c-4f82-47b6-b924-7b755a051f3a</cfResPublId>
+    <cfClassId>15925742</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>1fe707c3-1158-4ef5-81a1-be36d54cf12d</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Guo</cfFamilyNames>
+      <cfFirstNames>X</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>1fe707c3-1158-4ef5-81a1-be36d54cf12d</cfPersId>
+    <cfResPublId>e0659f6c-4f82-47b6-b924-7b755a051f3a</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>8fe76832-76ee-4489-b700-660ad4ce8c60</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Cui</cfFamilyNames>
+      <cfFirstNames>J</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>8fe76832-76ee-4489-b700-660ad4ce8c60</cfPersId>
+    <cfResPublId>e0659f6c-4f82-47b6-b924-7b755a051f3a</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>a114cf9b-400c-4cc5-94a4-5afea1593d37</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Wagenknecht</cfFamilyNames>
+      <cfFirstNames>LE</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>a114cf9b-400c-4cc5-94a4-5afea1593d37</cfPersId>
+    <cfResPublId>e0659f6c-4f82-47b6-b924-7b755a051f3a</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>1e1614f6-42bf-4b4f-86c1-e0c81d9c1fea</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Norris</cfFamilyNames>
+      <cfFirstNames>JM</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>1e1614f6-42bf-4b4f-86c1-e0c81d9c1fea</cfPersId>
+    <cfResPublId>e0659f6c-4f82-47b6-b924-7b755a051f3a</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>4</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>2ae59bc8-d4ab-4300-82c6-d2b3e923b0e9</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Haffner</cfFamilyNames>
+      <cfFirstNames>SM</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>2ae59bc8-d4ab-4300-82c6-d2b3e923b0e9</cfPersId>
+    <cfResPublId>e0659f6c-4f82-47b6-b924-7b755a051f3a</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>5</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>0f849b35-1459-48ed-bdec-5f26ccd5bf98</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Darwin</cfFamilyNames>
+      <cfFirstNames>C</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>0f849b35-1459-48ed-bdec-5f26ccd5bf98</cfPersId>
+    <cfResPublId>e0659f6c-4f82-47b6-b924-7b755a051f3a</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>6</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>0c6712f8-469c-4fa2-bbd5-8719c8ae2ffe</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Jinagouda</cfFamilyNames>
+      <cfFirstNames>S</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>0c6712f8-469c-4fa2-bbd5-8719c8ae2ffe</cfPersId>
+    <cfResPublId>e0659f6c-4f82-47b6-b924-7b755a051f3a</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>7</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>6dd48e43-f1d2-4680-b866-b57fb01751eb</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Rotter</cfFamilyNames>
+      <cfFirstNames>JI</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>6dd48e43-f1d2-4680-b866-b57fb01751eb</cfPersId>
+    <cfResPublId>e0659f6c-4f82-47b6-b924-7b755a051f3a</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>8</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>bdf99bde-294b-4cc1-9fdc-db5c20181d18</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Saad</cfFamilyNames>
+      <cfFirstNames>MF</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>bdf99bde-294b-4cc1-9fdc-db5c20181d18</cfPersId>
+    <cfResPublId>e0659f6c-4f82-47b6-b924-7b755a051f3a</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>9</cfFraction>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>10.1016/j.amjhyper.2005.01.022</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">10.1016/j.amjhyper.2005.01.022</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>e0659f6c-4f82-47b6-b924-7b755a051f3a</cfResPublId>
+    <cfClassId>10.1016/j.amjhyper.2005.01.022</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfResPubl>
+    <cfResPublId>e0659f6c-4f82-47b6-b924-7b755a051f3a</cfResPublId>
+    <cfResPublDate>2005-06-01</cfResPublDate>
+    <cfVol>18</cfVol>
+    <cfSeries>Am J Hypertens</cfSeries>
+    <cfStartPage>823</cfStartPage>
+    <cfEndPage>827</cfEndPage>
+    <cfISSN>0895-7061</cfISSN>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Cosegregation of albuminuria and blood pressure: the Insulin Resistance Atherosclerosis (IRAS) family study.</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">Albuminuria was shown to be heritable and to share common genetic determinants with blood pressure (BP) in individuals of white ethnicity. Our aim in this study was to examine the familial aggregation of albuminuria and its phenotypic, genetic, and environmental correlations with BP in nondiabetic individuals of Hispanic (HA) and African American (AA) ethnicity.</cfAbstr>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Adult</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">African Americans</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Albumins</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Albuminuria</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Arteriosclerosis</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Blood Pressure</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Creatinine</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Family</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Female</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Genetic Predisposition to Disease</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Hispanic Americans</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Humans</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Hypertension</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Insulin Resistance</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Male</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Phenotype</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">United States</cfKeyw>
+    <cfResPubl_Class>
+      <cfClassId>journal_article</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0028proj85002cfa-3824-4c0a-aa7a-ce62a71a587b</cfProjId>
+    <cfResPublId>e0659f6c-4f82-47b6-b924-7b755a051f3a</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+  <cfClass>
+    <cfClassId>14780278</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">14780278</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>10551e03-2d94-46ec-87cb-7132c1be8998</cfResPublId>
+    <cfClassId>14780278</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>9311409a-c4f0-43ea-97f9-663bd122d300</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>DARWIN</cfFamilyNames>
+      <cfFirstNames>C</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>9311409a-c4f0-43ea-97f9-663bd122d300</cfPersId>
+    <cfResPublId>10551e03-2d94-46ec-87cb-7132c1be8998</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>baa56c7f-5761-4fa9-bcd9-2f8e0c877571</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>HODGKIN</cfFamilyNames>
+      <cfFirstNames>DC</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>baa56c7f-5761-4fa9-bcd9-2f8e0c877571</cfPersId>
+    <cfResPublId>10551e03-2d94-46ec-87cb-7132c1be8998</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfResPubl>
+    <cfResPublId>10551e03-2d94-46ec-87cb-7132c1be8998</cfResPublId>
+    <cfResPublDate>1950-11-11</cfResPublDate>
+    <cfVol>166</cfVol>
+    <cfSeries>Nature</cfSeries>
+    <cfStartPage>827</cfStartPage>
+    <cfEndPage>828</cfEndPage>
+    <cfISSN>0028-0836</cfISSN>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Crystal structure of the dimer of parabromonitrosobenzene.</cfTitle>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">NITROSO COMPOUNDS</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Nitroso Compounds</cfKeyw>
+    <cfResPubl_Class>
+      <cfClassId>journal_article</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0028proj85002cfa-3824-4c0a-aa7a-ce62a71a587b</cfProjId>
+    <cfResPublId>10551e03-2d94-46ec-87cb-7132c1be8998</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+  <cfClass>
+    <cfClassId>repec:col:000090:008767</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_repec</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">repec:col:000090:008767</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>55f145e8-4881-4cad-8db2-d5efe4d96470</cfResPublId>
+    <cfClassId>repec:col:000090:008767</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_repec</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfEAddr>
+    <cfEAddrId>39d59f18-919e-4a8b-965f-39f7c049a65e</cfEAddrId>
+    <cfURI>cortes.darwin@gmail.com</cfURI>
+  </cfEAddr>
+  <cfPers>
+    <cfPersId>0dddb983-81fe-4a66-961b-e55cb853f558</cfPersId>
+    <cfPers_EAddr>
+      <cfEAddrId>39d59f18-919e-4a8b-965f-39f7c049a65e</cfEAddrId>
+      <cfClassId>email</cfClassId>
+      <cfClassSchemeId>class_scheme_eaddress_types</cfClassSchemeId>
+    </cfPers_EAddr>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Darwin</cfFamilyNames>
+      <cfFirstNames>Cortes</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>0dddb983-81fe-4a66-961b-e55cb853f558</cfPersId>
+    <cfResPublId>55f145e8-4881-4cad-8db2-d5efe4d96470</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfEAddr>
+    <cfEAddrId>0482d691-bc0a-4be1-9fe3-a67d2a6f3c69</cfEAddrId>
+    <cfURI>jorpppp@gmail.com</cfURI>
+  </cfEAddr>
+  <cfPers>
+    <cfPersId>99cb9ff7-fa4e-436a-a58e-89993aab06b1</cfPersId>
+    <cfPers_EAddr>
+      <cfEAddrId>0482d691-bc0a-4be1-9fe3-a67d2a6f3c69</cfEAddrId>
+      <cfClassId>email</cfClassId>
+      <cfClassSchemeId>class_scheme_eaddress_types</cfClassSchemeId>
+    </cfPers_EAddr>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Jorge</cfFamilyNames>
+      <cfFirstNames>Perez</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>99cb9ff7-fa4e-436a-a58e-89993aab06b1</cfPersId>
+    <cfResPublId>55f145e8-4881-4cad-8db2-d5efe4d96470</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfResPubl>
+    <cfResPublId>55f145e8-4881-4cad-8db2-d5efe4d96470</cfResPublId>
+    <cfResPublDate>2010-01-01</cfResPublDate>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">El Consumo de los Hogares Colombianos, 2006-2007: Estimación de Sistemas de Demanda</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">Utilizando datos a nivel de hogares de la Encuesta de Ingresos y Gastos  2006-2007, estimamos cuatro diferentes especificaciones de sistemas  de demanda para Colombia, a saber, el sistema lineal de gastos (les),  el sistema lineal de gastos extendido (eles), el sistema cuasi ideal de  demanda (aids) y el sistema cuasi ideal de demanda cuadrático (qaids).  También calculamos valores de elasticidades gasto, ingreso y precio   para diferentes grupos de bienes. Encontramos que la elasticidad  gasto de los alimentos se ha mantenido estable a través del tiempo,  entre 0,71 y 0,77 para el conjunto de hogares urbanos. Sin embargo,  al comparar hogares de diferentes quintiles de ingreso, encontramos  que esta elasticidad varía entre 0,58 y 0,85. Este hallazgo debe tenerse  en cuenta en el diseño de la política pública. Por su parte, bienes como  la salud, la educación y el transporte han dejado de ser bienes de lujo  y ahora son bienes necesarios o bienes de elasticidad gasto unitaria,  dependiendo del sistema que se use para estimarla. La reducción en  las elasticidades gasto de estos bienes refleja las políticas que se han  llevado a cabo en el país en las últimas décadas.</cfAbstr>
+    <cfResPubl_Class>
+      <cfClassId>journal_article</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0028proj85002cfa-3824-4c0a-aa7a-ce62a71a587b</cfProjId>
+    <cfResPublId>55f145e8-4881-4cad-8db2-d5efe4d96470</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+  <cfClass>
+    <cfClassId>15334367</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">15334367</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>224c3989-c29e-4592-a401-e56ebc933c14</cfResPublId>
+    <cfClassId>15334367</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>c1b78654-4609-450c-85ac-d270c18b45db</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Dhillon</cfFamilyNames>
+      <cfFirstNames>KS</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>c1b78654-4609-450c-85ac-d270c18b45db</cfPersId>
+    <cfResPublId>224c3989-c29e-4592-a401-e56ebc933c14</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>1b6ac2fa-5e16-4d7a-88c3-869ce625ded7</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Cohan</cfFamilyNames>
+      <cfFirstNames>P</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>1b6ac2fa-5e16-4d7a-88c3-869ce625ded7</cfPersId>
+    <cfResPublId>224c3989-c29e-4592-a401-e56ebc933c14</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>938c08a3-2ba6-40bd-9799-731a7a3b129c</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Darwin</cfFamilyNames>
+      <cfFirstNames>C</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>938c08a3-2ba6-40bd-9799-731a7a3b129c</cfPersId>
+    <cfResPublId>224c3989-c29e-4592-a401-e56ebc933c14</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>d322196a-81cc-432f-b2ed-451d85d1f58f</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Van Herle</cfFamilyNames>
+      <cfFirstNames>A</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>d322196a-81cc-432f-b2ed-451d85d1f58f</cfPersId>
+    <cfResPublId>224c3989-c29e-4592-a401-e56ebc933c14</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>4</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>16811804-fceb-4a1b-a906-791371dd5f41</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Chopra</cfFamilyNames>
+      <cfFirstNames>IJ</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>16811804-fceb-4a1b-a906-791371dd5f41</cfPersId>
+    <cfResPublId>224c3989-c29e-4592-a401-e56ebc933c14</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>5</cfFraction>
+  </cfPers_ResPubl>
+  <cfResPubl>
+    <cfResPublId>224c3989-c29e-4592-a401-e56ebc933c14</cfResPublId>
+    <cfResPublDate>2004-09-01</cfResPublDate>
+    <cfVol>53</cfVol>
+    <cfSeries>Metabolism</cfSeries>
+    <cfStartPage>1101</cfStartPage>
+    <cfEndPage>1106</cfEndPage>
+    <cfISSN>0026-0495</cfISSN>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Elevated serum parathyroid hormone concentration in eucalcemic patients after parathyroidectomy for primary hyperparathyroidism and its relationship to vitamin D profile.</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">Elevation of serum parathyroid hormone (PTH) level in eucalcemic patients after parathyroidectomy for primary hyperparathyroidism has been described in up to 40% of patients, but little is known about its etiology or clinical significance. To better understand the cause of this phenomenon, we studied 49 patients without renal dysfunction or osteomalacia who underwent parathyroidectomy for primary hyperparathyroidism. Patients were categorized into 2 groups based on their serum PTH and calcium levels after parathyroidectomy: (1) elevated PTH with eucalcemia (n = 21), (2) normal PTH with eucalcemia (n = 28). Elevation of serum PTH with eucalcemia after parathyroidectomy occurred in 43% of patients. Patients in group 1 had significantly higher preoperative and postoperative mean serum PTH levels and significantly lower postoperative serum levels of 1,25(OH)(2)D(3), 1,25(OH)(2)D(3)/25(OH)D(3) ratio, and 1,25(OH)(2)D(3)/PTH ratio compared with patients in group 2. Serum PTH in group 1 patients normalized as early as 3 months, but remained elevated in some patients for more than 4 years, and was not associated with development of recurrent hypercalcemia. Normalization of serum PTH in group 1 patients was associated with significant increase in 1,25(OH)(2)D(3) and 1,25(OH)(2)D(3)/PTH ratio. Our data suggest that elevation of serum PTH in eucalcemic patients after parathyroidectomy is a frequently reversible state of resistance of the kidneys to PTH-mediated 1-alpha hydroxylation of 25(OH)D(3) and does not signify subsequent recurrence of hyperparathyroidism.</cfAbstr>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Bone Density</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Calcifediol</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Calcium</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Female</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Follow-Up Studies</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Humans</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Hyperparathyroidism</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Male</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Middle Aged</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Parathyroid Hormone</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Parathyroidectomy</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Recurrence</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Retrospective Studies</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Vitamin D</cfKeyw>
+    <cfResPubl_Class>
+      <cfClassId>journal_article</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0028proj85002cfa-3824-4c0a-aa7a-ce62a71a587b</cfProjId>
+    <cfResPublId>224c3989-c29e-4592-a401-e56ebc933c14</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+  <cfFund>
+    <cfFundId>RES-000-22-0004</cfFundId>
+  </cfFund>
+  <cfProj>
+    <cfProjId>RES-000-22-0004proj6158a170-352c-4292-9f5a-dec218098978</cfProjId>
+    <cfProj_Fund>
+      <cfProjId>RES-000-22-0004proj6158a170-352c-4292-9f5a-dec218098978</cfProjId>
+      <cfFundId>RES-000-22-0004</cfFundId>
+      <cfClassId>funding_programme</cfClassId>
+      <cfClassSchemeId>class_scheme_cerif_project_funding_roles </cfClassSchemeId>
+    </cfProj_Fund>
+  </cfProj>
+  <cfClass>
+    <cfClassId>16366207</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">16366207</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>fb2a4363-c9d6-4d3d-a135-ae0a9d042e38</cfResPublId>
+    <cfClassId>16366207</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>93723f8d-3a37-4d8a-8098-f6212bb151a1</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Darwin</cfFamilyNames>
+      <cfFirstNames>C</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>93723f8d-3a37-4d8a-8098-f6212bb151a1</cfPersId>
+    <cfResPublId>fb2a4363-c9d6-4d3d-a135-ae0a9d042e38</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>f04630cf-705e-4745-92cb-0ba352bfaa5a</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Nickol</cfFamilyNames>
+      <cfFirstNames>A</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>f04630cf-705e-4745-92cb-0ba352bfaa5a</cfPersId>
+    <cfResPublId>fb2a4363-c9d6-4d3d-a135-ae0a9d042e38</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>c13c5da0-46fb-4306-aaf8-8104ed28d83c</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>White</cfFamilyNames>
+      <cfFirstNames>M</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>c13c5da0-46fb-4306-aaf8-8104ed28d83c</cfPersId>
+    <cfResPublId>fb2a4363-c9d6-4d3d-a135-ae0a9d042e38</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfResPubl>
+    <cfResPublId>fb2a4363-c9d6-4d3d-a135-ae0a9d042e38</cfResPublId>
+    <cfResPublDate>2005-01-01</cfResPublDate>
+    <cfVol>16</cfVol>
+    <cfSeries>Wilderness Environ Med</cfSeries>
+    <cfStartPage>233</cfStartPage>
+    <cfEndPage>234</cfEndPage>
+    <cfISSN>1080-6032</cfISSN>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Pacemakers and avalanche transceivers: a cautionary tale.</cfTitle>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Disasters</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Humans</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Pacemaker, Artificial</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Radio</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Rescue Work</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Snow</cfKeyw>
+    <cfResPubl_Class>
+      <cfClassId>journal_article</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0004proj6158a170-352c-4292-9f5a-dec218098978</cfProjId>
+    <cfResPublId>fb2a4363-c9d6-4d3d-a135-ae0a9d042e38</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+  <cfClass>
+    <cfClassId>19097871</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">19097871</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>4646afcc-b296-423a-ab78-b48b625e7dfd</cfResPublId>
+    <cfClassId>19097871</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>ef881827-65f9-44f5-9730-dba9be3fcf96</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Haroon</cfFamilyNames>
+      <cfFirstNames>E</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>ef881827-65f9-44f5-9730-dba9be3fcf96</cfPersId>
+    <cfResPublId>4646afcc-b296-423a-ab78-b48b625e7dfd</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>f4cf37c4-28ef-4165-82e3-15f20aed5e50</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Watari</cfFamilyNames>
+      <cfFirstNames>K</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>f4cf37c4-28ef-4165-82e3-15f20aed5e50</cfPersId>
+    <cfResPublId>4646afcc-b296-423a-ab78-b48b625e7dfd</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>f8723652-b427-4abe-a0ad-853dc97881cf</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Thomas</cfFamilyNames>
+      <cfFirstNames>A</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>f8723652-b427-4abe-a0ad-853dc97881cf</cfPersId>
+    <cfResPublId>4646afcc-b296-423a-ab78-b48b625e7dfd</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>5aee41ab-fa23-4e64-8d17-7a5ce0cfba43</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Ajilore</cfFamilyNames>
+      <cfFirstNames>O</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>5aee41ab-fa23-4e64-8d17-7a5ce0cfba43</cfPersId>
+    <cfResPublId>4646afcc-b296-423a-ab78-b48b625e7dfd</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>4</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>d0d32e0e-beb4-40bf-aeaf-82e647d52a46</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Mintz</cfFamilyNames>
+      <cfFirstNames>J</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>d0d32e0e-beb4-40bf-aeaf-82e647d52a46</cfPersId>
+    <cfResPublId>4646afcc-b296-423a-ab78-b48b625e7dfd</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>5</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>26ba57cf-155d-4f48-9e45-ca701c50b281</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Elderkin-Thompson</cfFamilyNames>
+      <cfFirstNames>V</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>26ba57cf-155d-4f48-9e45-ca701c50b281</cfPersId>
+    <cfResPublId>4646afcc-b296-423a-ab78-b48b625e7dfd</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>6</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>332a10bd-fc44-430e-836e-d0e5f7b2aec5</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Darwin</cfFamilyNames>
+      <cfFirstNames>C</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>332a10bd-fc44-430e-836e-d0e5f7b2aec5</cfPersId>
+    <cfResPublId>4646afcc-b296-423a-ab78-b48b625e7dfd</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>7</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>8a41cbeb-7932-4b27-8058-cb1b5806cdb2</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Kumaran</cfFamilyNames>
+      <cfFirstNames>S</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>8a41cbeb-7932-4b27-8058-cb1b5806cdb2</cfPersId>
+    <cfResPublId>4646afcc-b296-423a-ab78-b48b625e7dfd</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>8</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>7c70114d-d24c-45e5-9b57-f91c0f901810</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Kumar</cfFamilyNames>
+      <cfFirstNames>A</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>7c70114d-d24c-45e5-9b57-f91c0f901810</cfPersId>
+    <cfResPublId>4646afcc-b296-423a-ab78-b48b625e7dfd</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>9</cfFraction>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>10.1016/j.pscychresns.2008.03.006</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">10.1016/j.pscychresns.2008.03.006</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>4646afcc-b296-423a-ab78-b48b625e7dfd</cfResPublId>
+    <cfClassId>10.1016/j.pscychresns.2008.03.006</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfResPubl>
+    <cfResPublId>4646afcc-b296-423a-ab78-b48b625e7dfd</cfResPublId>
+    <cfResPublDate>2009-01-30</cfResPublDate>
+    <cfVol>171</cfVol>
+    <cfSeries>Psychiatry Res</cfSeries>
+    <cfStartPage>10</cfStartPage>
+    <cfEndPage>19</cfEndPage>
+    <cfISSN>0165-1781</cfISSN>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">Prefrontal myo-inositol concentration and visuospatial functioning among diabetic depressed patients.</cfTitle>
+    <cfAbstr cfLangCode="en_GB" cfTrans="o">Patients with diabetes mellitus are reported to be at higher risk for developing neuropsychiatric disorders such as dementia and depression. Myo-inositol (mI), a neuronal/glial metabolite associated with multiple functions in the brain, has been shown to be increased in cognitive disorders, depression and diabetes. This study examined whether elevations in dorsolateral (DL) mI of diabetic patients with depression were associated with visuospatial deficits. Diabetic and depressed patients (n=18) were matched with patients with diabetes but without depression (n=20) and control subjects (n=19). Subjects were scored on both the recall and recognition tasks of the Rey-Osterreith Complex Figure (ROCF). Proton magnetic spectroscopy spectra from bilateral prefrontal white matter voxels were used to obtain concentrations of mI. Controls showed negative correlations between mI in right DL white matter and recall and recognition subtests. No correlation was observed for depressed diabetic patients. Correlations for diabetic controls fell midway between the comparison and depressed diabetic groups. The expected pattern of association between mI and visuospatial impairment in the right DL prefrontal region was seen among healthy controls. Progressive weakening of this association across both diabetic groups might be related to progressive changes in neural activity that underlies visuospatial function.</cfAbstr>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Aged</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Cognition Disorders</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Depressive Disorder, Major</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Diabetes Mellitus, Type 2</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Female</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Humans</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Inositol</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Magnetic Resonance Spectroscopy</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Male</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Mental Recall</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Middle Aged</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Neuropsychological Tests</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Prefrontal Cortex</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Recognition (Psychology)</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Space Perception</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Visual Perception</cfKeyw>
+    <cfResPubl_Class>
+      <cfClassId>journal_article</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0004proj6158a170-352c-4292-9f5a-dec218098978</cfProjId>
+    <cfResPublId>4646afcc-b296-423a-ab78-b48b625e7dfd</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+  <cfClass>
+    <cfClassId>17738132</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">17738132</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>76892270-44ea-4e60-be49-aed59524da91</cfResPublId>
+    <cfClassId>17738132</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>4405f5d1-9dcc-4e94-a8b4-96872ca5842d</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Darwin</cfFamilyNames>
+      <cfFirstNames>C</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>4405f5d1-9dcc-4e94-a8b4-96872ca5842d</cfPersId>
+    <cfResPublId>76892270-44ea-4e60-be49-aed59524da91</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfClass>
+    <cfClassId>10.1126/science.10.240.156</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">10.1126/science.10.240.156</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>76892270-44ea-4e60-be49-aed59524da91</cfResPublId>
+    <cfClassId>10.1126/science.10.240.156</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_doi</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfResPubl>
+    <cfResPublId>76892270-44ea-4e60-be49-aed59524da91</cfResPublId>
+    <cfResPublDate>1899-08-04</cfResPublDate>
+    <cfVol>10</cfVol>
+    <cfSeries>Science</cfSeries>
+    <cfStartPage>156</cfStartPage>
+    <cfISSN>0036-8075</cfISSN>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">PROPOSED INSCRIPTION FOR THE STATUE OF DARWIN.</cfTitle>
+    <cfResPubl_Class>
+      <cfClassId>journal_article</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0004proj6158a170-352c-4292-9f5a-dec218098978</cfProjId>
+    <cfResPublId>76892270-44ea-4e60-be49-aed59524da91</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+  <cfFund>
+    <cfFundId>RES-000-22-0037</cfFundId>
+  </cfFund>
+  <cfProj>
+    <cfProjId>RES-000-22-0037projb2f6ae0a-da22-4f70-bd0c-f6f1bc69238d</cfProjId>
+    <cfProj_Fund>
+      <cfProjId>RES-000-22-0037projb2f6ae0a-da22-4f70-bd0c-f6f1bc69238d</cfProjId>
+      <cfFundId>RES-000-22-0037</cfFundId>
+      <cfClassId>funding_programme</cfClassId>
+      <cfClassSchemeId>class_scheme_cerif_project_funding_roles </cfClassSchemeId>
+    </cfProj_Fund>
+  </cfProj>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0037projb2f6ae0a-da22-4f70-bd0c-f6f1bc69238d</cfProjId>
+    <cfResPublId>66576575-756f-4048-88c2-e8dba3b28316</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0037projb2f6ae0a-da22-4f70-bd0c-f6f1bc69238d</cfProjId>
+    <cfResPublId>39ad5b7e-8350-4506-84ef-6c3774af4c9f</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0037projb2f6ae0a-da22-4f70-bd0c-f6f1bc69238d</cfProjId>
+    <cfResPublId>11cdcfdd-7f99-462a-811d-b7da7b9c0d20</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0037projb2f6ae0a-da22-4f70-bd0c-f6f1bc69238d</cfProjId>
+    <cfResPublId>42968adf-3a95-4fbf-b10c-daa5959e9098</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0037projb2f6ae0a-da22-4f70-bd0c-f6f1bc69238d</cfProjId>
+    <cfResPublId>9482e5d9-d03a-4c19-b0d3-be8b65fbd04a</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0037projb2f6ae0a-da22-4f70-bd0c-f6f1bc69238d</cfProjId>
+    <cfResPublId>e137810b-50f1-42f9-8e59-2a8ba60835c3</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0037projb2f6ae0a-da22-4f70-bd0c-f6f1bc69238d</cfProjId>
+    <cfResPublId>0335fd03-d720-4782-9969-1c177f7c54df</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+  <cfFund>
+    <cfFundId>RES-000-22-0037</cfFundId>
+  </cfFund>
+  <cfProj>
+    <cfProjId>RES-000-22-0037proj7ee94e31-dbc3-4ac6-adbc-f99ff81d33b6</cfProjId>
+    <cfProj_Fund>
+      <cfProjId>RES-000-22-0037proj7ee94e31-dbc3-4ac6-adbc-f99ff81d33b6</cfProjId>
+      <cfFundId>RES-000-22-0037</cfFundId>
+      <cfClassId>funding_programme</cfClassId>
+      <cfClassSchemeId>class_scheme_cerif_project_funding_roles </cfClassSchemeId>
+    </cfProj_Fund>
+  </cfProj>
+  <cfClass>
+    <cfClassId>4792141</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">4792141</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>a2a86b84-a26c-4631-aa74-30f55c2cc6ed</cfResPublId>
+    <cfClassId>4792141</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>175452e3-f58c-4e9c-ac83-05c50fe9ccc1</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Darwin</cfFamilyNames>
+      <cfFirstNames>C</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>175452e3-f58c-4e9c-ac83-05c50fe9ccc1</cfPersId>
+    <cfResPublId>a2a86b84-a26c-4631-aa74-30f55c2cc6ed</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>356fef28-8818-4c23-a325-5bf686d5489d</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Remeslo</cfFamilyNames>
+      <cfFirstNames>VN</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>356fef28-8818-4c23-a325-5bf686d5489d</cfPersId>
+    <cfResPublId>a2a86b84-a26c-4631-aa74-30f55c2cc6ed</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>ef71073d-f10e-4b98-842f-09484d356987</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Glushchenko</cfFamilyNames>
+      <cfFirstNames>IE</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>ef71073d-f10e-4b98-842f-09484d356987</cfPersId>
+    <cfResPublId>a2a86b84-a26c-4631-aa74-30f55c2cc6ed</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>4f434844-d714-4032-9eb3-db8ead90a659</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Platonov</cfFamilyNames>
+      <cfFirstNames>GV</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>4f434844-d714-4032-9eb3-db8ead90a659</cfPersId>
+    <cfResPublId>a2a86b84-a26c-4631-aa74-30f55c2cc6ed</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>4</cfFraction>
+  </cfPers_ResPubl>
+  <cfResPubl>
+    <cfResPublId>a2a86b84-a26c-4631-aa74-30f55c2cc6ed</cfResPublId>
+    <cfResPublDate>1973-01-01</cfResPublDate>
+    <cfVol>110</cfVol>
+    <cfSeries>Nauchnye Doki Vyss Shkoly Biol Nauki</cfSeries>
+    <cfStartPage>108</cfStartPage>
+    <cfEndPage>118</cfEndPage>
+    <cfISSN>0470-4606</cfISSN>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">[Some aspects of the problem of hereditary variations].</cfTitle>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Animal Nutritional Physiological Phenomena</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Animals</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Genetic Variation</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Genetics</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Genetics, Population</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Hybridization, Genetic</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Molecular Biology</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Mutation</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Probability</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Radiation Effects</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Selection, Genetic</cfKeyw>
+    <cfResPubl_Class>
+      <cfClassId>journal_article</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0037proj7ee94e31-dbc3-4ac6-adbc-f99ff81d33b6</cfProjId>
+    <cfResPublId>a2a86b84-a26c-4631-aa74-30f55c2cc6ed</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+  <cfClass>
+    <cfClassId>4721627</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+    <cfTerm cfLangCode="en_GB" cfTrans="o">4721627</cfTerm>
+  </cfClass>
+  <cfResPubl_Class>
+    <cfResPublId>6f254a6c-41a8-459a-8e05-a88f16cfbf2f</cfResPublId>
+    <cfClassId>4721627</cfClassId>
+    <cfClassSchemeId>class_scheme_publication_alternateids_pubmed</cfClassSchemeId>
+  </cfResPubl_Class>
+  <cfPers>
+    <cfPersId>8fae1063-93c6-463c-9130-022922c48e44</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Darwin</cfFamilyNames>
+      <cfFirstNames>C</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>8fae1063-93c6-463c-9130-022922c48e44</cfPersId>
+    <cfResPublId>6f254a6c-41a8-459a-8e05-a88f16cfbf2f</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>1</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>7efbcd2c-f770-404f-a11f-135f9f3b11bd</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Remeslo</cfFamilyNames>
+      <cfFirstNames>VN</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>7efbcd2c-f770-404f-a11f-135f9f3b11bd</cfPersId>
+    <cfResPublId>6f254a6c-41a8-459a-8e05-a88f16cfbf2f</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>2</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>d5fc32d7-2322-465e-b924-5ab263f70195</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Glushchenko</cfFamilyNames>
+      <cfFirstNames>IE</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>d5fc32d7-2322-465e-b924-5ab263f70195</cfPersId>
+    <cfResPublId>6f254a6c-41a8-459a-8e05-a88f16cfbf2f</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>3</cfFraction>
+  </cfPers_ResPubl>
+  <cfPers>
+    <cfPersId>3ffc0043-a81c-469d-9a60-6f2e572ae609</cfPersId>
+    <cfPers_Class>
+      <cfClassId>bib</cfClassId>
+      <cfClassSchemeId>class_scheme_symplectic_person_classification_types</cfClassSchemeId>
+    </cfPers_Class>
+    <cfPersName>
+      <cfFamilyNames>Platonov</cfFamilyNames>
+      <cfFirstNames>GV</cfFirstNames>
+    </cfPersName>
+  </cfPers>
+  <cfPers_ResPubl>
+    <cfPersId>3ffc0043-a81c-469d-9a60-6f2e572ae609</cfPersId>
+    <cfResPublId>6f254a6c-41a8-459a-8e05-a88f16cfbf2f</cfResPublId>
+    <cfClassId>author_numbered</cfClassId>
+    <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
+    <cfFraction>4</cfFraction>
+  </cfPers_ResPubl>
+  <cfResPubl>
+    <cfResPublId>6f254a6c-41a8-459a-8e05-a88f16cfbf2f</cfResPublId>
+    <cfResPublDate>1973-01-01</cfResPublDate>
+    <cfVol>110</cfVol>
+    <cfSeries>Nauchnye Doki Vyss Shkoly Biol Nauki</cfSeries>
+    <cfStartPage>108</cfStartPage>
+    <cfEndPage>118</cfEndPage>
+    <cfISSN>0470-4606</cfISSN>
+    <cfTitle cfLangCode="en_GB" cfTrans="o">[Some aspects of the problem of hereditary variations].</cfTitle>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Animal Nutritional Physiological Phenomena</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Animals</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Genetic Variation</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Genetics</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Genetics, Population</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Hybridization, Genetic</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Molecular Biology</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Mutation</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Probability</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Radiation Effects</cfKeyw>
+    <cfKeyw cfLangCode="en_GB" cfTrans="o">Selection, Genetic</cfKeyw>
+    <cfResPubl_Class>
+      <cfClassId>journal_article</cfClassId>
+      <cfClassSchemeId>class_scheme_publication_types</cfClassSchemeId>
+    </cfResPubl_Class>
+  </cfResPubl>
+  <cfProj_ResPubl>
+    <cfProjId>RES-000-22-0037proj7ee94e31-dbc3-4ac6-adbc-f99ff81d33b6</cfProjId>
+    <cfResPublId>6f254a6c-41a8-459a-8e05-a88f16cfbf2f</cfResPublId>
+    <cfClassId>funder</cfClassId>
+    <cfClassSchemeId>class_scheme_symplectic_project_publication_roles</cfClassSchemeId>
+  </cfProj_ResPubl>
+</CERIF>
