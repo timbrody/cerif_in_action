@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<CERIF xmlns='urn:xmlns:org:eurocris:cerif-1.4-0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' date='2012-08-30' release='1.4' xsi:schemaLocation='urn:xmlns:org:eurocris:cerif-1.4-0 http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd' sourceDatabase='http://eprints.gla.ac.uk'>
+<CERIF xmlns='urn:xmlns:org:eurocris:cerif-1.4-0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' date='2012-09-18' release='1.4' xsi:schemaLocation='urn:xmlns:org:eurocris:cerif-1.4-0 http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.4/CERIF_1.4_0.xsd' sourceDatabase='http://eprints.gla.ac.uk'>
   <cfPers>
     <cfPersId>d7f7e754-8a4f-50b1-8ad4-2eef6143ad6c</cfPersId>
     <cfPersName>
@@ -540,7 +540,7 @@
       <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
     </cfPers_ResPubl>
     <cfProj_ResPubl>
-      <cjProjId>41310e8c-95ab-5d92-ad15-96e36f0e268d</cjProjId>
+      <cfProjId>41310e8c-95ab-5d92-ad15-96e36f0e268d</cfProjId>
     </cfProj_ResPubl>
     <cfPers_ResPubl>
       <cfPersId>6b54bae7-4bf1-5124-af24-33143ef64460</cfPersId>
@@ -907,7 +907,7 @@
       <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
     </cfPers_ResPubl>
     <cfProj_ResPubl>
-      <cjProjId>c509ac95-a853-5e20-9353-6a696afaa7ca</cjProjId>
+      <cfProjId>c509ac95-a853-5e20-9353-6a696afaa7ca</cfProjId>
     </cfProj_ResPubl>
     <cfPers_ResPubl>
       <cfPersId>7653d431-2c9d-5656-936f-3bb2de556f17</cfPersId>
@@ -1043,7 +1043,7 @@
       <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
     </cfPers_ResPubl>
     <cfProj_ResPubl>
-      <cjProjId>9346635d-a51a-598b-977e-f687e7a2f6ee</cjProjId>
+      <cfProjId>9346635d-a51a-598b-977e-f687e7a2f6ee</cfProjId>
     </cfProj_ResPubl>
     <cfPers_ResPubl>
       <cfPersId>4c9c2ad7-fc6b-5e5d-bfb2-cb30cb414d67</cfPersId>
@@ -1767,7 +1767,7 @@
       <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
     </cfPers_ResPubl>
     <cfProj_ResPubl>
-      <cjProjId>f2f88e45-1ed3-5adc-8da8-0666d230873f</cjProjId>
+      <cfProjId>f2f88e45-1ed3-5adc-8da8-0666d230873f</cfProjId>
     </cfProj_ResPubl>
     <cfPers_ResPubl>
       <cfPersId>d7f7e754-8a4f-50b1-8ad4-2eef6143ad6c</cfPersId>
@@ -5547,7 +5547,7 @@
       <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
     </cfPers_ResPubl>
     <cfProj_ResPubl>
-      <cjProjId>bed95f59-606e-57a6-b569-1eaba6ccb3d9</cjProjId>
+      <cfProjId>bed95f59-606e-57a6-b569-1eaba6ccb3d9</cfProjId>
     </cfProj_ResPubl>
     <cfPers_ResPubl>
       <cfPersId>0998e971-7fef-5ad5-89b4-92e403357242</cfPersId>
@@ -6224,7 +6224,7 @@
       <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
     </cfPers_ResPubl>
     <cfProj_ResPubl>
-      <cjProjId>bb4579f5-dc40-5079-ada6-4edc16baa47c</cjProjId>
+      <cfProjId>bb4579f5-dc40-5079-ada6-4edc16baa47c</cfProjId>
     </cfProj_ResPubl>
     <cfPers_ResPubl>
       <cfPersId>e6551fc4-faeb-5790-8c13-35b79483f35d</cfPersId>
@@ -6391,7 +6391,7 @@
       <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
     </cfPers_ResPubl>
     <cfProj_ResPubl>
-      <cjProjId>05d35faf-f68b-5187-a494-d8893c6ff737</cjProjId>
+      <cfProjId>05d35faf-f68b-5187-a494-d8893c6ff737</cfProjId>
     </cfProj_ResPubl>
     <cfPers_ResPubl>
       <cfPersId>17697fb8-197b-546a-8456-170733762faf</cfPersId>
@@ -7401,7 +7401,7 @@
       <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
     </cfPers_ResPubl>
     <cfProj_ResPubl>
-      <cjProjId>83b0229c-b130-5aed-b5ad-9d314760e533</cjProjId>
+      <cfProjId>83b0229c-b130-5aed-b5ad-9d314760e533</cfProjId>
     </cfProj_ResPubl>
     <cfPers_ResPubl>
       <cfPersId>a782f8d0-b8cc-55c5-83dc-4b9051d0c724</cfPersId>
@@ -8101,7 +8101,7 @@
       <cfClassSchemeId>class_scheme_person_publication_roles</cfClassSchemeId>
     </cfPers_ResPubl>
     <cfProj_ResPubl>
-      <cjProjId>5a0c6004-d60a-56a3-9971-5401b3439dfc</cjProjId>
+      <cfProjId>5a0c6004-d60a-56a3-9971-5401b3439dfc</cfProjId>
     </cfProj_ResPubl>
     <cfPers_ResPubl>
       <cfPersId>8e0e34de-854b-540e-8ec2-16defbbcdef2</cfPersId>
